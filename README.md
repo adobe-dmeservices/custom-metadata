@@ -17,6 +17,6 @@ Other features include a read-only entries, section dividers, a built-in form ed
 
 Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.html
 
-## For Enterprise customers who cannot use the Marketplace to deploy Marketplace extensions, [we have made it available in the Releases](https://github.com/adobe-dmeservices/custom-metadata/releases/tag/1.0.0).
+## For Enterprise customers who cannot use the Marketplace to deploy Marketplace extensions, [we have made it available as a Release](https://github.com/adobe-dmeservices/custom-metadata/releases/tag/1.0.0).
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
