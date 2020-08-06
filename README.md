@@ -15,8 +15,24 @@ Form fields include:
 
 Other features include a read-only entries, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
 
+Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more details.
+
 Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.html
 
-## For Enterprise customers who cannot use the Marketplace to deploy Marketplace extensions, [we have made it available as a Release](https://github.com/adobe-dmeservices/custom-metadata/releases/tag/1.0.0).
+***For Enterprise customers who cannot use the Marketplace to deploy Marketplace extensions, we have made it available as a Release. See the Releases link to get the latest version.***
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
+
+## Changes for version 1.1.0
+
+### Added
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more about these new features*
+* Field Dependencies for all field types
+* Filtering based on another field value in Dropdowns and Multi-Dropdowns
+* Auto Group Selection in Multi-Dropdown
+* Natural Language Date parsing for Date Field
+* Multiple Values resolution workflow and menu for Bulk Selection Mode
+
+### Fixed
+* Several bugs
+* Updated the About screen
