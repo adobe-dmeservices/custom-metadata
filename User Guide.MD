@@ -67,8 +67,6 @@ Universally, metadata is described a set of data that gives information about ot
 
 4.	Accept the License Agreement by clicking **Accept and Continue**.
 
-![Accepting Custom Metadata Panel](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Accepting%20Custom%20Metadata%20Panel.jpg)
-
 5.	Creative Cloud will install the extension on your computer in a few moments. You will need to relaunch Bridge to see the extension.
 
 Using Exchange ensures that you always have the latest version of the Custom Metadata Panel installed. However, some Enterprise customers may need to download the extension outside of Exchange for managed deployment. See [Troubleshooting](#Troubleshooting-Common-Issues) below for further guidance.
