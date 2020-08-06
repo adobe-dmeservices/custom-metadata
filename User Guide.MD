@@ -8,7 +8,7 @@
 - [Installing Adobe Bridge](#Installing-Adobe-Bridge)
 - [Adding the Custom Metadata Extension for Adobe Bridge](#Adding-the-Custom-Metadata-Extension-for-Adobe-Bridge)
 - [Accessing Bridge after Adding Extensions](#Accessing-Bridge-after-Adding-Extensions)
-- [Troubleshooting Common Issues](#Troubleshooting-Common-Issues)
+- [Troubleshooting Common Issues](#Troubleshooting-Common-Installation-Issues)
 - [Using Bridge with the Custom Metadata Panel](#Using-Bridge-with-the-Custom-Metadata-Panel)
 - [Managing Metadata](#Managing-Metadata)
 	* [Metadata Presets](#Metadata-Presets)
@@ -84,7 +84,7 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 
 ![Extensions Options](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Extension%20Options.jpg)
 
-### **Troubleshooting Common Issues**
+### **Troubleshooting Common Installation Issues**
 1.	If you have already installed the extension but the Custom Metadata Panel options are not available, please **quit Adobe Bridge** and then navigate to https://exchange.adobe.com/creativecloud.details.103752.custom-metadata-panel-for-bridge.html and click **Download / Install another way**. 
 
 ![Troubleshooting_ Step 1](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Troubleshooting_%20Step%201.jpg)
@@ -142,15 +142,15 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 	-	**Text (single- and multi- value)**
 		-	Text fields allow users to enter freeform text.
 	-	**Date**
-		-	Date fields include a date and time picker. Users can enter date and time as freeform text as well. The form will attempt to conform the freeform text to a date formatted value. If it needs to adjust the formatting, it will highlight the value in a red border, alerting the user that it has made a formatting change. When the user submits the change, the form will include a warning indicator that it has changed the formatting. The next time you view the file, the formatting will be correct.
-	-	**Dropdown  (single- and multi- value)**
+		-	Date fields include a date and time picker. Users can enter date and time as freeform text as well. The form will attempt to conform the freeform text to a date formatted value. Users can use relative terms such as "yesterday" and "three weeks from now," as well as "2 days ago" and "45 min from now." If the field needs to adjust the formatting, it will highlight the value in a red border, alerting the user that it has made a formatting change. When the user submits the change, the form will include a warning indicator that it has changed the formatting. The next time you view the file, the formatting will be correct.
+	-	**Dropdown  (single- and multi-value)**
 		-	Dropdown fields have a defined set of values. Users choose values from a dropdown menu. The form allows you to include friendly text as well as the specific value, so that users can more easily locate choices. Dropdown fields allow users to type in the field, which will reduce the choices to matching values. Users can navigate the dropdown with their arrow keys, and then hit **Enter** or **Return** when they arrive at their choice.
 	-	**Constrained value fields (Tags)**
 		-	Tags are similar to text fields, however their values are constrained to specific values. Users can type in the field and all matching predefined values will appear below the field, similar to a dropdown. Users can see all available tags by typing and deleting everything in the field. Users can apply multiple tags to a file.
 	-	**AEM Tags**
 		-	AEM Tags is a special kind of tag. Adobe Experience Manager (AEM) includes a hierarchical tagging architecture for assets, and this form mirrors its functionality. Admins must configure it using specially formatted JSON that is available to them in their AEM instance. Users can navigate the hierarchy of tags and select one or more tags. Users can also type to filter available tags. Once applied, these tags will appear in the Tags field of the Metadata Detail page for the asset, once the asset is ingested into AEM.
 
-3.	You can now edit the values in the form. As you make changes, the form will highlight those changes with green borders or green checkmarks. When you are satisfied with the changes that you have made to the file's metadata, click **Save**. If you have made changes and then are dissatisfied with these changes, then you can click revert. This changes the metadata back to the previous save state.
+3.	You can now edit the values in the form. As you make changes, the form will highlight those changes with green borders or green checkmarks. When you are satisfied with the changes that you have made to the file's metadata, click **Save Changes**. If you have made changes and then are dissatisfied with these changes, then you can click **Revert**. This changes the metadata back to the previous save state.
 	- ***Important Note:** If you click outside of the metadata panel before saving, then the metadata will revert to the previous saved state.*
 
 4.	To validate changes or to view the entire XMP metadata record for a file, you can right click on an image and choose **File Info…**. You can also select the file and choose **File>File Info…** or use the keyboard shortcut **cmd/ctrl - i**.
@@ -160,7 +160,7 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 ### **Metadata Presets**
 1.	The Custom Metadata panel includes the ability to store a file's metadata as a **Metadata Preset** and apply it to other files. This is a handy tool if you have specific values you need to apply to a large set of assets. This capability is similar to Bridge's built-in Metadata Templates, which are found in the Tools menu. A key difference is that the Presets in the Custom Metadata Panel can include metadata that Bridge's Templates cannot see, as they are governed by the File Info panel.
 
-	When you create a Metadata Preset, all of the fields with values in the current View will be added to the preset. You can then apply those values to other assets.
+	When you create a Metadata Preset, all of the fields with values in the current View will be added to the Preset. No other metadata will be included in the Preset. You can then apply those values to other assets.
 
 2.	To create a Metadata Preset, select an asset, then type a name for the Preset in the Metadata Preset field at the bottom of the panel. Once finished, click the **+** button to add your Preset to the list. You may need to scroll up to see the Presets, as they are at the very bottom of the window.
 
@@ -200,7 +200,7 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 	
 	You can use File Info to confirm that your metadata changes have been applied to the file. Click on **Raw Data** to view the raw XMP metadata as XML.
 
-	![Raw Data](Raw%20Data.jpg)
+	![Raw Data](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Raw%20Data.jpg)
 
 ### **Using the View Editor**
 
@@ -408,7 +408,7 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 	-	In the example below, the entry for Keywords is highlighted. Keywords uses the property called `subject` in the namespace whose prefix is `dc`.
 	-	It is common to add metadata to a file and then view the resulting formatting in File Info. Record the Namespace URI, Prefix and property for use in your View.
 
-	![Raw Data_ Specifics](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Reading%20Metadata%20from%20File%20Info.png)
+	![Raw Data Specifics](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Reading%20Metadata%20from%20File%20Info.png)
 
 #### **Assigning Dependencies**
 
@@ -417,9 +417,9 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 	-	Once you are finished, just click out and you should see the Dependencies show up as a placeholder in the Dependencies field (as seen in the second image below).
 	-	You can remove Dependencies by selecting the field again from the dropdown menu.
 
-	![Assinging Dependencies](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Assigning%20Dependencies.jpg)
+	![Assigning Dependencies](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Assigning%20Dependencies.jpg)
 
-	![After Assinging Dependencies](Images_CEP_%20Adobe%20Bridge%20User%20Guide/After%20Assigning%20Dependencies.jpg)
+	![After Assigning Dependencies](Images_CEP_%20Adobe%20Bridge%20User%20Guide/After%20Assigning%20Dependencies.jpg)
 
 2.	Once you set Dependencies for a field, that field will be disabled until its parent field has a value. When a field is disabled, it will appear to be greyed out and will look similar to the image below. 
 
