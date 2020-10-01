@@ -27,5 +27,5 @@ Attach raw XMP metadata (if applicable).
 
 **Environment**
 * OS type and version:
-* Extension version 
+* Extension version:
 * Any other relevant info:
