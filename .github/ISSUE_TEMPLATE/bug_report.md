@@ -25,6 +25,9 @@ If applicable, add screenshots to help explain your problem.
 **XMP Metadata**
 Attach raw XMP metadata (if applicable).
 
+**Metadata View JSON**
+Export and attach your Metadata View JSON (if applicable).
+
 **Environment**
 * OS type and version:
 * Extension version:
