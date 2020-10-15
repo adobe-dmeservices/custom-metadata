@@ -19,7 +19,9 @@ Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/
 
 Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.html
 
-***For Enterprise customers who cannot use the Marketplace to deploy Marketplace extensions, we have made it available as a Release. See the Releases link to get the latest version.***
+***Enterprise Admins can now include this and other extensions when they create Managed Packages in the Admin Console. [Read the Help Documentation here.](https://helpx.adobe.com/enterprise/using/create-nul-packages.ug.html#Managedpackages)*** Search for Custom Metadata Panel during step 7 to include it and other Extensions in your Managed Package.
+
+***For Enterprise customers who cannot create Managed Packages to deploy Marketplace extensions, we have made it available as a Release. See the Releases link to get the latest version.***
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
