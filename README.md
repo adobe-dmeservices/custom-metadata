@@ -25,6 +25,25 @@ Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
+## Changes for version 1.2.0
+
+### Added
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more about these new features*
+* Support for Seq and Bag arrays in Tag, Multi-Text and Multi-Dropdown fields
+* Ability to reorder Multi-Text items
+* Ability to edit Multi-Text items
+* Improved UI for adding Multi-Text items
+* New Pending change dialog
+* Improved UI for showing which fields will change when user saves changes
+
+### Fixed
+* Several bugs
+* Removed Configurator from the Window>Extensions menu
+* Fixed Tag deletion issue in Multi-Dropdown
+* Added validation when saving and exporting View templates
+* Help text in Configurator window better reflects the items being edited
+
+
 ## Changes for version 1.1.0
 
 ### Added
