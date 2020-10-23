@@ -166,7 +166,7 @@ Using Exchange ensures that you always have the latest version of the Custom Met
 
 3.	To apply a Metadata Preset, select one or more assets and choose a Preset from the Metadata Preset Dropdown at the bottom of the panel. The fields that will change or get new metadata values will turn green. The Metadata Preset tool will override existing metadata in files, so check to ensure that you are not replacing important information. For safety, these new values will not be applied until you click **Save Changes**. 
 
-	![Apply a Metadata Preset](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Apply_a_Preset.png)
+	![Apply a Metadata Preset](Images_CEP_%20Adobe%20Bridge%20User%20Guide/Apply_a_preset.png)
 
 ### **Managing Conflicting Metadata Values**
 1. A common task for asset managers is to merge metadata across many assets. The Custom Metadata Panel provides a way to merge metadata in specific fields. When you select two or more files, the Panel will alert you if there are multiple values for any given field in the selection. You can then choose one of the files' values for that field to replace all of values across the selection, or you can merge all of the values across the selection.
