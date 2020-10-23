@@ -35,7 +35,6 @@ See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 * Improved UI for adding Multi-Text items
 * New Pending change dialog
 * Improved UI for showing which fields will change when user saves changes
-* 
 
 ### Fixed
 * Several bugs
