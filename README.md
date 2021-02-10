@@ -1,7 +1,7 @@
 # Custom Metadata Panel
 ## Focus your attention on critical metadata in this configurable form. Mix and match standard and custom metadata fields to show the properties critical to your business.
 
-The Custom Metadata Panel for Bridge provides Enterprises and individuals with a way to focus their attention on critical metadata in one panel.
+The Custom Metadata Panel provides Enterprises and individuals with a way to focus their attention on critical metadata in one panel.
 
 The panel is completely customizable and helps end users and DAM managers tune their metadata view for maximum accuracy and efficiency. With 7 form field types and metadata presets, it expands the metadata capabilities of Bridge without using XML or special coding.
 Form fields include:
