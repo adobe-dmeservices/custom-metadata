@@ -1,4 +1,4 @@
-# Custom Metadata Panel for Bridge
+# Custom Metadata Panel
 ## Focus your attention on critical metadata in this configurable form. Mix and match standard and custom metadata fields to show the properties critical to your business.
 
 The Custom Metadata Panel for Bridge provides Enterprises and individuals with a way to focus their attention on critical metadata in one panel.
@@ -25,10 +25,22 @@ Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
-## Changes for version 1.2.0
+## Changes for version 1.3.0
 
 ### Added
 *[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more about these new features*
+* Changed name to Custom Metadata Panel
+* Added support for Photoshop and Illustrator
+* Added multi-line text fields
+* Allow special characters in Configurator
+* Squashed some UI bugs
+
+### Fixed
+* Several bugs
+
+## Changes for version 1.2.0
+
+### Added
 * Support for Seq and Bag arrays in Tag, Multi-Text and Multi-Dropdown fields
 * Ability to reorder Multi-Text items
 * Ability to edit Multi-Text items
