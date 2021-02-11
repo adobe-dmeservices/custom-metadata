@@ -15,7 +15,7 @@ Form fields include:
 
 Other features include a read-only entries, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
 
-Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more details.
+Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more details.
 
 Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.html
 
@@ -25,8 +25,7 @@ Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
-Special thanks to Martin Gersbach for creating a repository of useful config files for common metadata namespaces and properties.
-https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets
+Special thanks to Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
 ## Changes for version 1.3.0
 
