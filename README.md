@@ -27,10 +27,28 @@ See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
 Special thanks to Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for version 1.4.0
+
+### Added
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more about these new features*
+* Changed name from *Custom Metadata* from *Custom Metadata Panel*
+* Added support for Language Alternative properties
+  * Ability to set AltLang value type for Text Fields
+  * Added Configurator Option for Alternative Language
+  * Updated Default View to contain AltLang Examples
+* Added a link to documentation in the Flyout menu
+* Added support for self-entered values for Multiple Dropdown and Tags
+* Squashed some UI bugs
+
+### Fixed
+* Inconsistent behavior when writing metadata to media files (Bridge specific)
+  * This is caused by a bug in Bridge. We have implemented a workaround while the Bridge team resolves the bug. 
+* Several bugs
+
 ## Changes for version 1.3.0
 
 ### Added
-*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more about these new features*
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more about these new features*
 * Changed name to Custom Metadata Panel
 * Added support for Photoshop and Illustrator
 * Added multi-line text fields
@@ -43,6 +61,7 @@ Special thanks to Martin Gersbach for creating a [repository of useful config fi
 ## Changes for version 1.2.0
 
 ### Added
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more about these new features*
 * Support for Seq and Bag arrays in Tag, Multi-Text and Multi-Dropdown fields
 * Ability to reorder Multi-Text items
 * Ability to edit Multi-Text items
@@ -61,7 +80,7 @@ Special thanks to Martin Gersbach for creating a [repository of useful config fi
 ## Changes for version 1.1.0
 
 ### Added
-*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/blob/master/User%20Guide.MD) for more about these new features*
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more about these new features*
 * Field Dependencies for all field types
 * Filtering based on another field value in Dropdowns and Multi-Dropdowns
 * Auto Group Selection in Multi-Dropdown
