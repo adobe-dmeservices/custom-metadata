@@ -1,5 +1,5 @@
 # **User Manual for Custom Metadata Panel for Bridge**
-
+###*NOTE: This content is no longer being maintained. Please refer to the [Wiki](https://github.com/adobe-dmeservices/custom-metadata/wiki) for current documentation*
 ## **Table of Contents**
 - [Overview](#Overview)
 	* [Adobe Bridge](#Adobe-Bridge)
