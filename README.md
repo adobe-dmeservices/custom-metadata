@@ -25,7 +25,7 @@ Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.
 
 See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
-Special thanks to Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
+Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
 ## Changes for version 1.4.0
 
