@@ -27,6 +27,22 @@ See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
 Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for version 1.5.0
+
+### Added
+*[See the User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more about these new features*
+* Added Tabbed Interface for Metadata Forms
+  * Support for independent tabs, each with its own view
+* New Settings panel with separate controls for
+  * Tab Manager
+  * View Editor
+  * Visibility of What's New screen
+* What's New screen
+  * Carousel with animations and text to highlight new features
+* Metadata Examples for new Forms
+  * Presets for popular Metadata schemas
+  * Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets). 
+
 ## Changes for version 1.4.0
 
 ### Added
