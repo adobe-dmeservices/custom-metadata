@@ -3,7 +3,7 @@
 
 The Custom Metadata Panel provides Enterprises and individuals with a way to focus their attention on critical metadata in one panel.
 
-The panel is completely customizable and helps end users and DAM managers tune their metadata view for maximum accuracy and efficiency. With 7 form field types and metadata presets, it expands the metadata capabilities of Bridge, Photoshop and Illustrator without using XML or special coding.
+The panel is completely customizable and helps end users and asset managers tune their metadata view for maximum accuracy and efficiency. With many form field types and metadata presets, it expands the metadata capabilities of Bridge, Photoshop, Illustrator and Premiere Pro without using XML or special coding.
 Form fields include:
 * Text
 * Multiple Text
@@ -11,6 +11,10 @@ Form fields include:
 * Dropdown
 * Multi-select Dropdown
 * Date Picker
+* Multi-date Picker
+* Checkbox and Checkbox Groups
+* Switch and Switch Group
+* Radio Buttons
 * AEM Tags (special case just for Adobe Experience Manager)
 
 Other features include a read-only entries, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
