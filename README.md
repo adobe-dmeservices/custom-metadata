@@ -32,14 +32,15 @@ See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
 ## Changes for version 1.7.0
-Added new field types:
-* Switches and Switch Groups
-* Radio Buttons
-* Checkboxes and Checkbox Groups
-* Subdivision Divider
-* Autocomplete for XMP Namespace and Prefix definitions
-* Duplicate field button in View Editor
-*  [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/Custom-Metadata-Panel-in-Premiere-Pro). 
+* Added new field types:
+  * Switches and Switch Groups
+  * Radio Buttons
+  * Checkboxes and Checkbox Groups
+  * Multiple Date fields
+  * Subdivision Divider
+* Added Autocomplete for XMP Namespace and Prefix definitions
+* Added **Duplicate field** button in View Editor
+* [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/Custom-Metadata-Panel-in-Premiere-Pro). 
 
 ### Fixed
 * A few bugs
