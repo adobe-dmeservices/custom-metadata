@@ -31,6 +31,19 @@ See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
 Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for version 1.7.0
+Added new field types:
+* Switches and Switch Groups
+* Radio Buttons
+* Checkboxes and Checkbox Groups
+* Subdivision Divider
+* Autocomplete for XMP Namespace and Prefix definitions
+* Duplicate field button in View Editor
+*  [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/Custom-Metadata-Panel-in-Premiere-Pro). 
+
+### Fixed
+* A few bugs
+
 ## Changes for version 1.6.0
 * Added support for Premiere Pro Clip metadata within Premiere Pro. Users can read and update Clip metadata and optionally sync those values to XMP properties. [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/Custom-Metadata-Panel-in-Premiere-Pro). 
 * Added a set of reference namespace definitions that you can access from the panel [or from our documentation](https://github.com/adobe-dmeservices/custom-metadata/wiki/Metadata-Definitions). These have been updated to include Premiere Pro specific metadata properties.
