@@ -7,6 +7,7 @@ The panel is completely customizable and helps end users and asset managers tune
 Form fields include:
 * Text
 * Multiple Text
+* Numbers
 * Tags (like Keywords)
 * Dropdown
 * Multi-select Dropdown
@@ -15,11 +16,12 @@ Form fields include:
 * Checkbox and Checkbox Groups
 * Switch and Switch Group
 * Radio Buttons
+* Structures
 * AEM Tags (special case just for Adobe Experience Manager)
 
 Other features include a read-only entries, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
 
-Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more details.
+Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more details. If you use the panel, [please tell us about your experience on our user survey](https://survey.adobe.com/jfe/form/SV_4JwTFJEqTZreWNw)!
 
 Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.html
 
@@ -31,6 +33,18 @@ See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
 
 Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for version 2.0.0
+* Added new field types:
+  * Numbers
+* Changed Multiline text to automatically expand when the text is longer than 3 lines
+* Added **Complex Structure** object support
+  * You can now create XMP Structures, which can contain other XMP properties as well as Structures
+  * The PLUS Metadata Example is a great reference for Structures
+* [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/). 
+
+### Fixed
+* A few bugs
+
 ## Changes for version 1.7.0
 * Added new field types:
   * Switches and Switch Groups
@@ -40,7 +54,7 @@ Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [reposit
   * Subdivision Divider
 * Added Autocomplete for XMP Namespace and Prefix definitions
 * Added **Duplicate field** button in View Editor
-* [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/Custom-Metadata-Panel-in-Premiere-Pro). 
+* [See the documentation for more details](https://github.com/adobe-dmeservices/custom-metadata/wiki/). 
 
 ### Fixed
 * A few bugs
