@@ -1,37 +1,80 @@
 # Custom Metadata Panel
-## Focus your attention on critical metadata in this configurable form. Mix and match standard and custom metadata fields to show the properties critical to your business.
+### Focus your attention on critical metadata in this configurable form. Mix and match standard and custom metadata fields to show the properties critical to your business.
 
 The Custom Metadata Panel provides Enterprises and individuals with a way to focus their attention on critical metadata in one panel.
 
-The panel is completely customizable and helps end users and asset managers tune their metadata view for maximum accuracy and efficiency. With many form field types and metadata presets, it expands the metadata capabilities of Bridge, Photoshop, Illustrator and Premiere Pro without using XML or special coding.
+The panel is completely customizable and helps end users and DAM managers tune their metadata view for maximum accuracy and efficiency. With many form field types and available metadata presets, it expands the metadata capabilities of Creative Cloud Desktop applications without using XML or special coding.
 Form fields include:
-* Text
-* Multiple Text
-* Numbers
+* Text and Multiple Text
+* Language Alternatives for Text Fields
+* Numbers and Multiple Numbers
 * Tags (like Keywords)
 * Dropdown
 * Multi-select Dropdown
-* Date Picker
-* Multi-date Picker
-* Checkbox and Checkbox Groups
+* Date and Multi-Date
+* Checkbox and Checkbox Group
 * Switch and Switch Group
 * Radio Buttons
-* Structures
+* URL and Multiple URL fields that link to external web sites
+* Complex structures
+* Hidden fields
 * AEM Tags (special case just for Adobe Experience Manager)
 
-Other features include a read-only entries, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
+Other features include a read-only entries, synced field values, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
 
-Read the [User Guide](https://github.com/adobe-dmeservices/custom-metadata/wiki) for more details. If you use the panel, [please tell us about your experience on our user survey](https://survey.adobe.com/jfe/form/SV_4JwTFJEqTZreWNw)!
+See the Table of Contents for help with using and configuring the panel.
 
-Exchange link to panel: https://exchange.adobe.com/creativecloud.details.103752.html
+Exchange link to panel: [https://exchange.adobe.com/creativecloud.details.103752.html](https://exchange.adobe.com/creativecloud.details.103752.html)
 
-***Enterprise Admins can now include this and other extensions when they create Managed Packages in the Admin Console. [Read the Help Documentation here.](https://helpx.adobe.com/enterprise/using/create-nul-packages.ug.html#Managedpackages)*** Search for Custom Metadata Panel during step 7 to include it and other Extensions in your Managed Package.
+***Enterprise Admins can include this and other extensions when they create Managed Packages in the Admin Console. [Read the Help Documentation here.](https://helpx.adobe.com/enterprise/using/create-nul-packages.ug.html#Managedpackages)*** Search for Custom Metadata Panel during step 7 to include it and other Extensions in your Managed Package.
 
-***For Enterprise customers who cannot create Managed Packages to deploy Marketplace extensions, we have made it available as a Release. See the Releases link to get the latest version.***
+***For Enterprise customers who cannot create Managed Packages to deploy Marketplace extensions, we have made it available as a Release. See the [Releases section of this repository](https://github.com/adobe-dmeservices/custom-metadata/releases) to get the latest version.***
 
-See a video tour at https://www.youtube.com/watch?v=_IoMGJiEHss
+See a video tour at [https://www.youtube.com/watch?v=_IoMGJiEHss](https://www.youtube.com/watch?v=_IoMGJiEHss)
 
-Special thanks to Martin Gersbach and Greg Reser of GLAM for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
+Special thanks to the following, who graciously created example Views that you can use when creating a new Tab:
+- IPTC, for their collaboration and amazingly helpful feedback. 
+- Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
+
+## Changes for Version 2.0.2
+This release addresses multiple user-reported issues and adds much-requested features. We are updating the public documentation and refreshing videos, but we have updated the in-app help text. Additionally, the What's New screen contains some helpful copy and short videos. While not comprehensive, here's a list of additions, improvements, and bug fixes.
+#### Field updates
+- Added URL and multi-URL form fields
+- Added Multi-Number form field
+- Added Hidden Fields
+- Added Custom Tooltips
+- Added Custom Placeholder Text
+- Added additional Time and Date formatting controls for Date and MultiDate fields
+- You can now Sync values between fields
+- Added Language Alternative support for Structures
+- Improved Language Alternative configuration
+- Improved Language Alternative display to include asset-defined langs
+- Fixed issue which prevented update to structure contents
+#### Additional Features
+- You can now  Copy and Paste properties between Views when editing Views
+- Added support for relative path names for Views in Settings.json
+- Added click to select JSON file
+- Added portability for Presets between Views
+- Improved feedback when there are no Fields to display
+- Moved Presets to the bottom of the Metadata View window so it's always visible
+- Added clickable link to Section and SubSection headers
+- Includes updated IPTC metadata starter Views (thanks, IPTC!!!)
+
+#### Bug fixes
+- Fixed field update issue when the image selection changed in Bridge
+- Fixed issue which prevented Presets from working with Structures
+- Added support for displaying Alt Langs with single values when the View expects an array
+- Fixed a bug in Dropdowns that prevented users from selection options when using labels in the option array
+- Fixed a longstanding bug in Tags which prevented the use of label-value objects
+- Squashed other bugs
+
+#### To do: 
+- Update in-app help documentation for new tools and features
+- Update public documentation
+- Create updated quick start and feature videos
+
+## Changes for Version 2.0.1
+* Added PLUS License Data Format example View
 
 ## Changes for version 2.0.0
 * Added new field types:
