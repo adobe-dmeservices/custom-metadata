@@ -30,7 +30,7 @@ Exchange link to panel: [https://exchange.adobe.com/creativecloud.details.103752
 
 ***For Enterprise customers who cannot create Managed Packages to deploy Marketplace extensions, we have made it available as a Release. See the [Releases section of this repository](https://github.com/adobe-dmeservices/custom-metadata/releases) to get the latest version.***
 
-See a video tour at [https://www.youtube.com/watch?v=_IoMGJiEHss](https://www.youtube.com/watch?v=_IoMGJiEHss)
+See a video tour at [https://youtu.be/48T_xxx_i6Y](https://youtu.be/48T_xxx_i6Y)
 
 Special thanks to the following, who graciously created example Views that you can use when creating a new Tab:
 - IPTC, for their collaboration and amazingly helpful feedback. 
