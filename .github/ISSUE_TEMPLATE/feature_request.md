@@ -10,7 +10,7 @@ assignees: ''
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-Link to any relevant bugs (e.g. "Relates to bug #xxx")
+Link to any relevant bugs (e.g. "Relates to Issue #xxx")
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
