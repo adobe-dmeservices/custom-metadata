@@ -33,8 +33,11 @@ Exchange link to panel: [https://exchange.adobe.com/creativecloud.details.103752
 See a video tour at [https://youtu.be/48T_xxx_i6Y](https://youtu.be/48T_xxx_i6Y)
 
 Special thanks to the following, who graciously created example Views that you can use when creating a new Tab:
-- IPTC, for their collaboration and amazingly helpful feedback. 
+- David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
+
+## Changes for Version 2.0.3
+Bug fixes.
 
 ## Changes for Version 2.0.2
 This release addresses multiple user-reported issues and adds much-requested features. We are updating the public documentation and refreshing videos, but we have updated the in-app help text. Additionally, the What's New screen contains some helpful copy and short videos. While not comprehensive, here's a list of additions, improvements, and bug fixes.
