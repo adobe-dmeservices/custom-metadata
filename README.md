@@ -36,6 +36,13 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for Version 2.0.4
+This fixes an issue where options were not filtering properly. 
+
+We also added the following new features:
+- You can now automatically set a field value on a filtered field when the options reduce to one value
+- Text fields will now automatically become multi-text when the existing value is an array
+
 ## Changes for Version 2.0.3
 Bug fixes.
 
