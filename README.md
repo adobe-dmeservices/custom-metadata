@@ -20,13 +20,13 @@ Form fields include:
 * Hidden fields
 * AEM Tags (special case just for Adobe Experience Manager)
 
-Other features include a read-only entries, synced field values, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest.
+Other features include a read-only entries, synced field values, section dividers, a built-in form editor, form definition file import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest. For full docuentation, please see our [user guide](https://github.com/adobe-dmeservices/custom-metadata/wiki).
 
 See the Table of Contents for help with using and configuring the panel.
 
 Exchange link to panel: [https://exchange.adobe.com/creativecloud.details.103752.html](https://exchange.adobe.com/creativecloud.details.103752.html)
 
-***Enterprise Admins can include this and other extensions when they create Managed Packages in the Admin Console. [Read the Help Documentation here.](https://helpx.adobe.com/enterprise/using/create-nul-packages.ug.html#Managedpackages)*** Search for Custom Metadata Panel during step 7 to include it and other Extensions in your Managed Package.
+***Enterprise Admins can include this and other extensions when they create Managed Packages in the Admin Console. [Read the Adobe Help Documentation here.](https://helpx.adobe.com/enterprise/using/create-nul-packages.ug.html#Managedpackages)*** Search for Custom Metadata Panel during step 7 to include it and other Extensions in your Managed Package.
 
 ***For Enterprise customers who cannot create Managed Packages to deploy Marketplace extensions, we have made it available as a Release. See the [Releases section of this repository](https://github.com/adobe-dmeservices/custom-metadata/releases) to get the latest version.***
 
