@@ -36,6 +36,20 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for Version 2.0.5
+### Introduces the Table Field and a new editing paradigm for Field Options
+This release introduces a new Field: Tables. Tables display correlated properties in a tabular format, with each column representing a property and each row representing a correlated value across all properties. 
+
+- Columns can be Text, Number or Dropdown Fields.
+- Rows can be reordered by the user
+- Tables can have row legends, for cases where the order of the items in each property corresponds to a specific kind of value. For instance, if item[0] represents the X coordinate of a position and item[1] represents the Y coordinate of a position, then you can have a legend for row 1 "X Coordinate" and a legend for row 2 "Y Coordinate"
+- You can limit the minimum and maximum number of rows in a Table's value
+- You can use Tables in Presets
+
+We also redesigned the Options editor to remove the JSON Field and replace it with a table-based form for easier editing.
+
+We also added IPTC and PLUS tabs to the first launch experience, and added a button to create new Tabs from the example Views. We also introduced a preset for the Astronomy Visualization Metadata Standard (AVM). We believe these will make it easier for users to get started with Custom Metadata.
+
 ## Changes for Version 2.0.4
 This fixes an issue where options were not filtering properly. 
 
