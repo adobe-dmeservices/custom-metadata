@@ -17,6 +17,8 @@ Form fields include:
 * Radio Buttons
 * URL and Multiple URL fields that link to external web sites
 * Complex structures
+* Tables
+* Calculation Fields
 * Hidden fields
 * AEM Tags (special case just for Adobe Experience Manager)
 
