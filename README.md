@@ -36,6 +36,31 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for 2.0.6
+### Introduces the Calculation Field
+[Watch a video for the 2.0.5 and 2.0.6 features](https://youtu.be/r3iqeYmCtTM)
+
+Calc fields allow you to combine values from other fields in your view. The field will be read only for the user, but it will change based on the values of the referenced fields. The result can be either a string or a number, and the result will be stored in the XMP.
+
+When calculating a number, it is a best practice to refer to Number fields, however if you need to use special values such as π or e, users can enter those directly.
+
+Enter your calculated value as text. You can reference other fields in your view by using the field's XMP prefix and property name in curly braces, separated by `:`. For example, if you have a field with the XMP property name `myField`with the prefix `myPrefix` and you want to add it to another field, you would enter `{myPrefix:myField}` in the calculation field to use it in a calculation.
+
+For example, assume you have a form that tracks pets with a custom namespace of prefix `pet`. If the user enters "dog" for the type of pet, and "dachsund" for the breed, then a calculated field with calculated value of "The {pet:petType} is a {pet:breed}." will be stored in XMP as "The dog is a dachsund."
+
+When calculating a number, it is a best practice to refer to Number fields in your calculated value. Operations include +, -, *, /, ^, !, ln, log, and root. You can use parentheses to ensure calculation precedence. You can use the following trigonometric functions: sin, cos, tan, asin, acos, atan, sinh, cosh, tanh, asinh, acosh, atanh. Constants include e, π or pi. You can use the Combination (C) and Permutation (P) operators, such as 2P2 => 12 and 4C2 => 6. You can also use Sigma or ∑ to calculate sums. for example Sigma(1,100,n) results 5050
+
+Users can use the constants π, pi, or e in calculations. Imaginary numbers are not supported.
+![calculation](https://github.com/user-attachments/assets/ffa362ed-83f7-4283-944d-c0b2243cd4bd)
+
+We also added a button on the Settings page to reset Custom Metadata to its default state. This will not remove presets, but it will remove any Tabs. The prior Settings file will be backed up in the Settings folder, which now can be revealed via the flyout menu. Additionally, Custom Metadata will warn you if you open the Settings panel when you have unsaved changes.
+
+This release also updates the AVM preset to version 1.1, which includes Tags for `Subject:Category`. It also updates the PLUS preset to include URL fields and to align shared fields with IPTC.
+
+This release also fixes the following bugs:
+- Tags do not render correctly in some circumstances
+- Presets may not apply to assets properly in some circumstances
+
 ## Changes for Version 2.0.5
 ### Introduces the Table Field and a new editing paradigm for Field Options
 This release introduces a new Field: Tables. Tables display correlated properties in a tabular format, with each column representing a property and each row representing a correlated value across all properties. 
