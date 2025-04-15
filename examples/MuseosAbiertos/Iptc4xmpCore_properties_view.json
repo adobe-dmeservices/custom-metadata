@@ -1,0 +1,5416 @@
+[
+  {
+    "id": "dividerIPTCcore",
+    "displayName": "IPTC Core Namespace",
+    "type": "Divider",
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiAdrExtadr",
+    "displayName": "Creator: Address",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrExtadr",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiAdrCity",
+    "displayName": "Creator: City",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrCity",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiAdrRegion",
+    "displayName": "Creator: State/Provice",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrRegion",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiAdrCtry",
+    "displayName": "Creator: Country",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrCtry",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiAdrPcode",
+    "displayName": "Creator: Postal Code",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrPcode",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiEmailWork",
+    "displayName": "Creator: Email address(es)",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiEmailWork",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiTelWork",
+    "displayName": "Creator: Phone number(s)",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiTelWork",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CiUrlWork",
+    "displayName": "Creator: Web URL(s)",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiUrlWork",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Scene",
+    "displayName": "IPTC Scene Code",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "Scene",
+    "type": "MultiDropdown",
+    "readOnly": false,
+    "dependencies": [],
+    "arrayType": "bag",
+    "options": [
+      {
+        "label": "headshot",
+        "value": "10100"
+      },
+      {
+        "label": "half-length",
+        "value": "10200"
+      },
+      {
+        "label": "full-length",
+        "value": "10300"
+      },
+      {
+        "label": "profile",
+        "value": "10400"
+      },
+      {
+        "label": "rear view",
+        "value": "10500"
+      },
+      {
+        "label": "single",
+        "value": "10600"
+      },
+      {
+        "label": "couple",
+        "value": "10700"
+      },
+      {
+        "label": "two",
+        "value": "10800"
+      },
+      {
+        "label": "group",
+        "value": "10900"
+      },
+      {
+        "label": "general view",
+        "value": "11000"
+      },
+      {
+        "label": "panoramic view",
+        "value": "11100"
+      },
+      {
+        "label": "under-water",
+        "value": "11200"
+      },
+      {
+        "label": "night scene",
+        "value": "11400"
+      },
+      {
+        "label": "satellite",
+        "value": "11500"
+      },
+      {
+        "label": "interior view",
+        "value": "11600"
+      },
+      {
+        "label": "close-up",
+        "value": "11800"
+      },
+      {
+        "label": "action",
+        "value": "11900"
+      },
+      {
+        "label": "performing",
+        "value": "12000"
+      },
+      {
+        "label": "symbolic",
+        "value": "12100"
+      },
+      {
+        "label": "off-beat",
+        "value": "12300"
+      },
+      {
+        "label": "movie scene",
+        "value": "12400"
+      }
+    ]
+  },
+  {
+    "id": "SubjectCode",
+    "displayName": "IPTC Subject Code",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "SubjectCode",
+    "type": "MultiDropdown",
+    "readOnly": false,
+    "dependencies": [],
+    "arrayType": "bag",
+    "options": [
+      {
+        "label": "arts, culture, entertainment and media",
+        "value": "1000000"
+      },
+      {
+        "label": "arts and entertainment",
+        "value": "20000002"
+      },
+      {
+        "label": "animation",
+        "value": "20000003"
+      },
+      {
+        "label": "art exhibition",
+        "value": "20001135"
+      },
+      {
+        "label": "cartoon",
+        "value": "20000004"
+      },
+      {
+        "label": "cinema",
+        "value": "20000005"
+      },
+      {
+        "label": "dance",
+        "value": "20000007"
+      },
+      {
+        "label": "ballet",
+        "value": "20000008"
+      },
+      {
+        "label": "modern dance",
+        "value": "20000009"
+      },
+      {
+        "label": "traditional dance",
+        "value": "20000010"
+      },
+      {
+        "label": "fashion",
+        "value": "20000011"
+      },
+      {
+        "label": "cosmetics",
+        "value": "20001248"
+      },
+      {
+        "label": "hairstyles",
+        "value": "20001249"
+      },
+      {
+        "label": "jewellery",
+        "value": "20000012"
+      },
+      {
+        "label": "festival",
+        "value": "20001181"
+      },
+      {
+        "label": "film festival",
+        "value": "20000006"
+      },
+      {
+        "label": "literature",
+        "value": "20000013"
+      },
+      {
+        "label": "drama (literature)",
+        "value": "20000014"
+      },
+      {
+        "label": "fiction",
+        "value": "20000015"
+      },
+      {
+        "label": "non-fiction",
+        "value": "20000016"
+      },
+      {
+        "label": "poetry",
+        "value": "20000017"
+      },
+      {
+        "label": "music",
+        "value": "20000018"
+      },
+      {
+        "label": "musical genre",
+        "value": "20000021"
+      },
+      {
+        "label": "children's music",
+        "value": "20001189"
+      },
+      {
+        "label": "classical music",
+        "value": "20000022"
+      },
+      {
+        "label": "country music",
+        "value": "20000023"
+      },
+      {
+        "label": "dance band music",
+        "value": "20001187"
+      },
+      {
+        "label": "electronic dance music",
+        "value": "20001188"
+      },
+      {
+        "label": "folk music",
+        "value": "20000024"
+      },
+      {
+        "label": "heavy metal",
+        "value": "20001186"
+      },
+      {
+        "label": "hip hop",
+        "value": "20001184"
+      },
+      {
+        "label": "jazz music",
+        "value": "20000025"
+      },
+      {
+        "label": "popular music",
+        "value": "20000026"
+      },
+      {
+        "label": "r&b",
+        "value": "20001185"
+      },
+      {
+        "label": "rock and roll music",
+        "value": "20000027"
+      },
+      {
+        "label": "musical instrument",
+        "value": "20000019"
+      },
+      {
+        "label": "musical performance",
+        "value": "20000020"
+      },
+      {
+        "label": "series",
+        "value": "20001179"
+      },
+      {
+        "label": "theatre",
+        "value": "20000029"
+      },
+      {
+        "label": "drama (theatre)",
+        "value": "20001180"
+      },
+      {
+        "label": "music theatre",
+        "value": "20000030"
+      },
+      {
+        "label": "cabaret",
+        "value": "20001191"
+      },
+      {
+        "label": "musical",
+        "value": "20001133"
+      },
+      {
+        "label": "opera",
+        "value": "20000028"
+      },
+      {
+        "label": "operetta",
+        "value": "20001134"
+      },
+      {
+        "label": "stand-up comedy",
+        "value": "20001190"
+      },
+      {
+        "label": "visual arts",
+        "value": "20000031"
+      },
+      {
+        "label": "architecture",
+        "value": "20000032"
+      },
+      {
+        "label": "design (visual arts)",
+        "value": "20000033"
+      },
+      {
+        "label": "drawing",
+        "value": "20000034"
+      },
+      {
+        "label": "forging",
+        "value": "20001205"
+      },
+      {
+        "label": "painting",
+        "value": "20000035"
+      },
+      {
+        "label": "photography",
+        "value": "20000036"
+      },
+      {
+        "label": "sculpture",
+        "value": "20000037"
+      },
+      {
+        "label": "textile arts",
+        "value": "20001203"
+      },
+      {
+        "label": "woodworking",
+        "value": "20001204"
+      },
+      {
+        "label": "culture",
+        "value": "20000038"
+      },
+      {
+        "label": "cultural development",
+        "value": "20000039"
+      },
+      {
+        "label": "customs and tradition",
+        "value": "20000040"
+      },
+      {
+        "label": "festive event (culture)",
+        "value": "20000041"
+      },
+      {
+        "label": "language",
+        "value": "20000042"
+      },
+      {
+        "label": "library and museum",
+        "value": "20000043"
+      },
+      {
+        "label": "monument and heritage site",
+        "value": "20000044"
+      },
+      {
+        "label": "mass media",
+        "value": "20000045"
+      },
+      {
+        "label": "news media",
+        "value": "20000046"
+      },
+      {
+        "label": "newspaper",
+        "value": "20000047"
+      },
+      {
+        "label": "online media",
+        "value": "20000048"
+      },
+      {
+        "label": "periodical",
+        "value": "20000049"
+      },
+      {
+        "label": "radio",
+        "value": "20000050"
+      },
+      {
+        "label": "social media",
+        "value": "20001182"
+      },
+      {
+        "label": "influencers",
+        "value": "20001192"
+      },
+      {
+        "label": "streaming service",
+        "value": "20001293"
+      },
+      {
+        "label": "television",
+        "value": "20000051"
+      },
+      {
+        "label": "conflict, war and peace",
+        "value": "16000000"
+      },
+      {
+        "label": "act of terror",
+        "value": "20000053"
+      },
+      {
+        "label": "act of bioterrorism",
+        "value": "20000054"
+      },
+      {
+        "label": "bombings",
+        "value": "20000055"
+      },
+      {
+        "label": "armed conflict",
+        "value": "20000056"
+      },
+      {
+        "label": "guerrilla activity",
+        "value": "20000057"
+      },
+      {
+        "label": "international military intervention",
+        "value": "20000058"
+      },
+      {
+        "label": "peacekeeping force",
+        "value": "20000059"
+      },
+      {
+        "label": "military occupation",
+        "value": "20000060"
+      },
+      {
+        "label": "missing in action",
+        "value": "20000061"
+      },
+      {
+        "label": "war",
+        "value": "20000062"
+      },
+      {
+        "label": "civil war",
+        "value": "20000063"
+      },
+      {
+        "label": "war crime action",
+        "value": "20000064"
+      },
+      {
+        "label": "civil unrest",
+        "value": "20000065"
+      },
+      {
+        "label": "demonstration",
+        "value": "20000066"
+      },
+      {
+        "label": "rebellion",
+        "value": "20000067"
+      },
+      {
+        "label": "revolution",
+        "value": "20000068"
+      },
+      {
+        "label": "riot",
+        "value": "20000069"
+      },
+      {
+        "label": "coup d'etat",
+        "value": "20000070"
+      },
+      {
+        "label": "massacre",
+        "value": "20000071"
+      },
+      {
+        "label": "genocide",
+        "value": "20000072"
+      },
+      {
+        "label": "peace process",
+        "value": "20000073"
+      },
+      {
+        "label": "peace envoy",
+        "value": "20000074"
+      },
+      {
+        "label": "peace plan",
+        "value": "20000075"
+      },
+      {
+        "label": "peace talks",
+        "value": "20000076"
+      },
+      {
+        "label": "post-war reconstruction",
+        "value": "20000077"
+      },
+      {
+        "label": "disarmament",
+        "value": "20000078"
+      },
+      {
+        "label": "ordnance clearance",
+        "value": "20000079"
+      },
+      {
+        "label": "prisoners of war",
+        "value": "20000080"
+      },
+      {
+        "label": "crime, law and justice",
+        "value": "2000000"
+      },
+      {
+        "label": "crime",
+        "value": "20000082"
+      },
+      {
+        "label": "arson",
+        "value": "20000083"
+      },
+      {
+        "label": "assault",
+        "value": "20000084"
+      },
+      {
+        "label": "sex crime",
+        "value": "20000085"
+      },
+      {
+        "label": "corporate crime",
+        "value": "20000087"
+      },
+      {
+        "label": "accounting crime",
+        "value": "20001194"
+      },
+      {
+        "label": "anti-trust crime",
+        "value": "20000088"
+      },
+      {
+        "label": "breach of contract",
+        "value": "20000089"
+      },
+      {
+        "label": "embezzlement",
+        "value": "20000090"
+      },
+      {
+        "label": "insider trading",
+        "value": "20000091"
+      },
+      {
+        "label": "restraint of trade",
+        "value": "20000092"
+      },
+      {
+        "label": "corruption",
+        "value": "20000093"
+      },
+      {
+        "label": "bribery",
+        "value": "20000094"
+      },
+      {
+        "label": "cyber crime",
+        "value": "20000086"
+      },
+      {
+        "label": "drug related crimes",
+        "value": "20000095"
+      },
+      {
+        "label": "drug trafficking",
+        "value": "20000096"
+      },
+      {
+        "label": "fraud",
+        "value": "20000097"
+      },
+      {
+        "label": "tax evasion",
+        "value": "20001195"
+      },
+      {
+        "label": "hijacking",
+        "value": "20000098"
+      },
+      {
+        "label": "homicide",
+        "value": "20000099"
+      },
+      {
+        "label": "human smuggling and trafficking",
+        "value": "20001283"
+      },
+      {
+        "label": "kidnapping",
+        "value": "20000100"
+      },
+      {
+        "label": "organised crime",
+        "value": "20000101"
+      },
+      {
+        "label": "gang activity",
+        "value": "20000102"
+      },
+      {
+        "label": "terrorism",
+        "value": "20000103"
+      },
+      {
+        "label": "theft",
+        "value": "20000104"
+      },
+      {
+        "label": "traffic crime",
+        "value": "20001196"
+      },
+      {
+        "label": "vandalism",
+        "value": "20001285"
+      },
+      {
+        "label": "war crime",
+        "value": "20000105"
+      },
+      {
+        "label": "judiciary",
+        "value": "20000106"
+      },
+      {
+        "label": "court",
+        "value": "20000107"
+      },
+      {
+        "label": "appeal (court)",
+        "value": "20000108"
+      },
+      {
+        "label": "court administration",
+        "value": "20000109"
+      },
+      {
+        "label": "judge",
+        "value": "20000110"
+      },
+      {
+        "label": "supreme and high court",
+        "value": "20001287"
+      },
+      {
+        "label": "trial (court)",
+        "value": "20000111"
+      },
+      {
+        "label": "defendant",
+        "value": "20000113"
+      },
+      {
+        "label": "litigation",
+        "value": "20000114"
+      },
+      {
+        "label": "pre-trial",
+        "value": "20000112"
+      },
+      {
+        "label": "sentencing (criminal)",
+        "value": "20000134"
+      },
+      {
+        "label": "capital punishment",
+        "value": "20000135"
+      },
+      {
+        "label": "court-ordered psychiatric treatment",
+        "value": "20001198"
+      },
+      {
+        "label": "fine (penalty)",
+        "value": "20000136"
+      },
+      {
+        "label": "prison",
+        "value": "20000137"
+      },
+      {
+        "label": "suspended sentence",
+        "value": "20001199"
+      },
+      {
+        "label": "witness",
+        "value": "20000115"
+      },
+      {
+        "label": "out of court procedures",
+        "value": "20000116"
+      },
+      {
+        "label": "arbitration",
+        "value": "20000117"
+      },
+      {
+        "label": "prosecution",
+        "value": "20000118"
+      },
+      {
+        "label": "dropped criminal investigation",
+        "value": "20001200"
+      },
+      {
+        "label": "justice",
+        "value": "20000119"
+      },
+      {
+        "label": "law",
+        "value": "20000121"
+      },
+      {
+        "label": "administrative law",
+        "value": "20001197"
+      },
+      {
+        "label": "civil law",
+        "value": "20000122"
+      },
+      {
+        "label": "regulations",
+        "value": "20000124"
+      },
+      {
+        "label": "antitrust regulations",
+        "value": "20000123"
+      },
+      {
+        "label": "criminal law",
+        "value": "20000125"
+      },
+      {
+        "label": "international law",
+        "value": "20000126"
+      },
+      {
+        "label": "extradition",
+        "value": "20000127"
+      },
+      {
+        "label": "international court or tribunal",
+        "value": "20000128"
+      },
+      {
+        "label": "law enforcement",
+        "value": "20000129"
+      },
+      {
+        "label": "arrest",
+        "value": "20000130"
+      },
+      {
+        "label": "investigation (criminal)",
+        "value": "20000131"
+      },
+      {
+        "label": "missing person",
+        "value": "20000132"
+      },
+      {
+        "label": "police",
+        "value": "20000133"
+      },
+      {
+        "label": "surveillance",
+        "value": "20001299"
+      },
+      {
+        "label": "disaster, accident and emergency incident",
+        "value": "3000000"
+      },
+      {
+        "label": "accident and emergency incident",
+        "value": "20000139"
+      },
+      {
+        "label": "explosion accident and incident",
+        "value": "20000140"
+      },
+      {
+        "label": "industrial accident and incident",
+        "value": "20000141"
+      },
+      {
+        "label": "nuclear accident and incident",
+        "value": "20000142"
+      },
+      {
+        "label": "structural failure",
+        "value": "20000161"
+      },
+      {
+        "label": "transportation accident and incident",
+        "value": "20000143"
+      },
+      {
+        "label": "air and space accident and incident",
+        "value": "20000144"
+      },
+      {
+        "label": "maritime accident and incident",
+        "value": "20000145"
+      },
+      {
+        "label": "railway accident and incident",
+        "value": "20000146"
+      },
+      {
+        "label": "road accident and incident",
+        "value": "20000147"
+      },
+      {
+        "label": "wildlife traffic accident",
+        "value": "20001201"
+      },
+      {
+        "label": "disaster",
+        "value": "20000148"
+      },
+      {
+        "label": "famine",
+        "value": "20000149"
+      },
+      {
+        "label": "fire",
+        "value": "20000150"
+      },
+      {
+        "label": "wildfire",
+        "value": "20001202"
+      },
+      {
+        "label": "natural disaster",
+        "value": "20000151"
+      },
+      {
+        "label": "drought",
+        "value": "20000152"
+      },
+      {
+        "label": "earthquake",
+        "value": "20000153"
+      },
+      {
+        "label": "flood",
+        "value": "20000154"
+      },
+      {
+        "label": "landslide",
+        "value": "20000155"
+      },
+      {
+        "label": "avalanche",
+        "value": "20000156"
+      },
+      {
+        "label": "meteorological disaster",
+        "value": "20000157"
+      },
+      {
+        "label": "hurricane",
+        "value": "20001280"
+      },
+      {
+        "label": "windstorms",
+        "value": "20000158"
+      },
+      {
+        "label": "volcanic eruption",
+        "value": "20000159"
+      },
+      {
+        "label": "emergency incident",
+        "value": "20000160"
+      },
+      {
+        "label": "transport incident",
+        "value": "20000162"
+      },
+      {
+        "label": "air and space incident",
+        "value": "20000163"
+      },
+      {
+        "label": "maritime incident",
+        "value": "20000164"
+      },
+      {
+        "label": "railway incident",
+        "value": "20000165"
+      },
+      {
+        "label": "road incident",
+        "value": "20000166"
+      },
+      {
+        "label": "emergency planning",
+        "value": "20000167"
+      },
+      {
+        "label": "emergency response",
+        "value": "20000168"
+      },
+      {
+        "label": "economy, business and finance",
+        "value": "4000000"
+      },
+      {
+        "label": "business information",
+        "value": "20000170"
+      },
+      {
+        "label": "business finance",
+        "value": "20000171"
+      },
+      {
+        "label": "accounting and audit",
+        "value": "20000172"
+      },
+      {
+        "label": "analysts comment",
+        "value": "20000173"
+      },
+      {
+        "label": "bankruptcy",
+        "value": "20000174"
+      },
+      {
+        "label": "corporate financing",
+        "value": "20000183"
+      },
+      {
+        "label": "buyback",
+        "value": "20000175"
+      },
+      {
+        "label": "restructuring and recapitalisation",
+        "value": "20000184"
+      },
+      {
+        "label": "stock activity",
+        "value": "20000186"
+      },
+      {
+        "label": "stock flotation",
+        "value": "20000187"
+      },
+      {
+        "label": "credit rating",
+        "value": "20000176"
+      },
+      {
+        "label": "dividend announcement",
+        "value": "20000177"
+      },
+      {
+        "label": "earnings",
+        "value": "20000178"
+      },
+      {
+        "label": "earnings forecast",
+        "value": "20000179"
+      },
+      {
+        "label": "financial statement",
+        "value": "20000180"
+      },
+      {
+        "label": "proxy filing",
+        "value": "20000181"
+      },
+      {
+        "label": "financially distressed company",
+        "value": "20000182"
+      },
+      {
+        "label": "shareholder",
+        "value": "20000185"
+      },
+      {
+        "label": "corporate social responsibility",
+        "value": "20001230"
+      },
+      {
+        "label": "human resources",
+        "value": "20000188"
+      },
+      {
+        "label": "layoffs and downsizing",
+        "value": "20000189"
+      },
+      {
+        "label": "management",
+        "value": "20000190"
+      },
+      {
+        "label": "stock option",
+        "value": "20000191"
+      },
+      {
+        "label": "strategy and marketing",
+        "value": "20000192"
+      },
+      {
+        "label": "annual and special corporate meeting",
+        "value": "20000193"
+      },
+      {
+        "label": "annual report",
+        "value": "20000194"
+      },
+      {
+        "label": "board of directors",
+        "value": "20000195"
+      },
+      {
+        "label": "business governance",
+        "value": "20000199"
+      },
+      {
+        "label": "commercial contract",
+        "value": "20000196"
+      },
+      {
+        "label": "company spin-off",
+        "value": "20000197"
+      },
+      {
+        "label": "economic globalisation",
+        "value": "20000198"
+      },
+      {
+        "label": "joint venture",
+        "value": "20000200"
+      },
+      {
+        "label": "leveraged buyout",
+        "value": "20000201"
+      },
+      {
+        "label": "licensing agreement",
+        "value": "20000202"
+      },
+      {
+        "label": "management buyout",
+        "value": "20000203"
+      },
+      {
+        "label": "merger or acquisition",
+        "value": "20000204"
+      },
+      {
+        "label": "new product or service",
+        "value": "20000205"
+      },
+      {
+        "label": "outsourcing",
+        "value": "20001295"
+      },
+      {
+        "label": "patent, copyright and trademark",
+        "value": "20000206"
+      },
+      {
+        "label": "product recall",
+        "value": "20000207"
+      },
+      {
+        "label": "public contract",
+        "value": "20001159"
+      },
+      {
+        "label": "research and development",
+        "value": "20000208"
+      },
+      {
+        "label": "economic sector",
+        "value": "20000209"
+      },
+      {
+        "label": "agriculture",
+        "value": "20000210"
+      },
+      {
+        "label": "aquaculture",
+        "value": "20000211"
+      },
+      {
+        "label": "arable farming",
+        "value": "20000212"
+      },
+      {
+        "label": "fishing industry",
+        "value": "20000213"
+      },
+      {
+        "label": "forestry and timber",
+        "value": "20000214"
+      },
+      {
+        "label": "livestock farming",
+        "value": "20000215"
+      },
+      {
+        "label": "viniculture",
+        "value": "20000216"
+      },
+      {
+        "label": "chemicals",
+        "value": "20000217"
+      },
+      {
+        "label": "biotechnology business",
+        "value": "20000218"
+      },
+      {
+        "label": "fertiliser",
+        "value": "20000219"
+      },
+      {
+        "label": "health and beauty product",
+        "value": "20000220"
+      },
+      {
+        "label": "inorganic chemical",
+        "value": "20000221"
+      },
+      {
+        "label": "organic chemical",
+        "value": "20000222"
+      },
+      {
+        "label": "pharmaceutical",
+        "value": "20000223"
+      },
+      {
+        "label": "synthetic and plastic chemicals",
+        "value": "20000224"
+      },
+      {
+        "label": "computing and information technology",
+        "value": "20000225"
+      },
+      {
+        "label": "Internet of Things",
+        "value": "20001161"
+      },
+      {
+        "label": "computer networking",
+        "value": "20000227"
+      },
+      {
+        "label": "computer security",
+        "value": "20000229"
+      },
+      {
+        "label": "hardware",
+        "value": "20000226"
+      },
+      {
+        "label": "satellite technology",
+        "value": "20000228"
+      },
+      {
+        "label": "semiconductors and active components",
+        "value": "20000230"
+      },
+      {
+        "label": "software",
+        "value": "20000231"
+      },
+      {
+        "label": "telecommunication equipment",
+        "value": "20000232"
+      },
+      {
+        "label": "telecommunication service",
+        "value": "20000233"
+      },
+      {
+        "label": "wireless technology",
+        "value": "20000234"
+      },
+      {
+        "label": "construction and property",
+        "value": "20000235"
+      },
+      {
+        "label": "commercial building",
+        "value": "20001246"
+      },
+      {
+        "label": "design and engineering",
+        "value": "20000236"
+      },
+      {
+        "label": "farms",
+        "value": "20000237"
+      },
+      {
+        "label": "heavy construction",
+        "value": "20000238"
+      },
+      {
+        "label": "house building",
+        "value": "20000239"
+      },
+      {
+        "label": "infrastructure projects",
+        "value": "20001245"
+      },
+      {
+        "label": "land price",
+        "value": "20000240"
+      },
+      {
+        "label": "real estate",
+        "value": "20000241"
+      },
+      {
+        "label": "renovation",
+        "value": "20000242"
+      },
+      {
+        "label": "consumer goods",
+        "value": "20000243"
+      },
+      {
+        "label": "beverage",
+        "value": "20000244"
+      },
+      {
+        "label": "clothing",
+        "value": "20000245"
+      },
+      {
+        "label": "consumer electronics",
+        "value": "20001258"
+      },
+      {
+        "label": "grocery",
+        "value": "20000248"
+      },
+      {
+        "label": "luxury good",
+        "value": "20000249"
+      },
+      {
+        "label": "non-durable good",
+        "value": "20000251"
+      },
+      {
+        "label": "sales channels",
+        "value": "20001289"
+      },
+      {
+        "label": "toy",
+        "value": "20000254"
+      },
+      {
+        "label": "wholesale",
+        "value": "20000255"
+      },
+      {
+        "label": "crafts industry",
+        "value": "20001160"
+      },
+      {
+        "label": "energy and resource",
+        "value": "20000256"
+      },
+      {
+        "label": "alternative energy",
+        "value": "20000257"
+      },
+      {
+        "label": "biofuel",
+        "value": "20001207"
+      },
+      {
+        "label": "coal",
+        "value": "20000258"
+      },
+      {
+        "label": "electricity production and distribution",
+        "value": "20000260"
+      },
+      {
+        "label": "energy industry",
+        "value": "20000261"
+      },
+      {
+        "label": "geothermal power",
+        "value": "20001208"
+      },
+      {
+        "label": "hydroelectric power",
+        "value": "20001210"
+      },
+      {
+        "label": "nuclear power",
+        "value": "20000265"
+      },
+      {
+        "label": "oil and gas - downstream activities",
+        "value": "20000266"
+      },
+      {
+        "label": "oil and gas - upstream activities",
+        "value": "20000267"
+      },
+      {
+        "label": "oil and gas industry",
+        "value": "20001243"
+      },
+      {
+        "label": "diesel fuel",
+        "value": "20000259"
+      },
+      {
+        "label": "kerosene/paraffin",
+        "value": "20000262"
+      },
+      {
+        "label": "natural gas",
+        "value": "20000263"
+      },
+      {
+        "label": "petrol",
+        "value": "20000268"
+      },
+      {
+        "label": "solar power",
+        "value": "20001209"
+      },
+      {
+        "label": "wind power",
+        "value": "20001211"
+      },
+      {
+        "label": "financial and business service",
+        "value": "20000271"
+      },
+      {
+        "label": "accountancy and auditing",
+        "value": "20000272"
+      },
+      {
+        "label": "asset management",
+        "value": "20001162"
+      },
+      {
+        "label": "auction service",
+        "value": "20000273"
+      },
+      {
+        "label": "banking",
+        "value": "20000274"
+      },
+      {
+        "label": "client relationship management",
+        "value": "20001163"
+      },
+      {
+        "label": "consultancy service",
+        "value": "20000275"
+      },
+      {
+        "label": "crowdfunding",
+        "value": "20001294"
+      },
+      {
+        "label": "employment agency",
+        "value": "20000276"
+      },
+      {
+        "label": "funeral parlour and crematorium",
+        "value": "20000277"
+      },
+      {
+        "label": "healthcare provider",
+        "value": "20000278"
+      },
+      {
+        "label": "insurance",
+        "value": "20000279"
+      },
+      {
+        "label": "investment service",
+        "value": "20000280"
+      },
+      {
+        "label": "janitorial service",
+        "value": "20000281"
+      },
+      {
+        "label": "legal service",
+        "value": "20000282"
+      },
+      {
+        "label": "market research",
+        "value": "20000283"
+      },
+      {
+        "label": "market trend",
+        "value": "20000284"
+      },
+      {
+        "label": "payment service",
+        "value": "20001164"
+      },
+      {
+        "label": "personal finance",
+        "value": "20000285"
+      },
+      {
+        "label": "personal income",
+        "value": "20000286"
+      },
+      {
+        "label": "personal investing",
+        "value": "20000287"
+      },
+      {
+        "label": "personal service",
+        "value": "20000288"
+      },
+      {
+        "label": "printing service",
+        "value": "20000289"
+      },
+      {
+        "label": "rental service",
+        "value": "20000290"
+      },
+      {
+        "label": "shipping service",
+        "value": "20000291"
+      },
+      {
+        "label": "stock broking",
+        "value": "20000292"
+      },
+      {
+        "label": "trade fair",
+        "value": "20001136"
+      },
+      {
+        "label": "wedding service",
+        "value": "20000293"
+      },
+      {
+        "label": "logistics",
+        "value": "20001170"
+      },
+      {
+        "label": "manufacturing and engineering",
+        "value": "20000294"
+      },
+      {
+        "label": "aerospace",
+        "value": "20000295"
+      },
+      {
+        "label": "automotive",
+        "value": "20000296"
+      },
+      {
+        "label": "capital goods",
+        "value": "20001165"
+      },
+      {
+        "label": "defence equipment",
+        "value": "20000297"
+      },
+      {
+        "label": "electrical appliance",
+        "value": "20000298"
+      },
+      {
+        "label": "heavy engineering",
+        "value": "20000299"
+      },
+      {
+        "label": "industrial component",
+        "value": "20000300"
+      },
+      {
+        "label": "instrument engineering",
+        "value": "20000301"
+      },
+      {
+        "label": "machine manufacturing",
+        "value": "20000302"
+      },
+      {
+        "label": "railway manufacturing",
+        "value": "20001166"
+      },
+      {
+        "label": "shipbuilding",
+        "value": "20000303"
+      },
+      {
+        "label": "media",
+        "value": "20000304"
+      },
+      {
+        "label": "advertising",
+        "value": "20000305"
+      },
+      {
+        "label": "book industry",
+        "value": "20000306"
+      },
+      {
+        "label": "cinema industry",
+        "value": "20000307"
+      },
+      {
+        "label": "music industry",
+        "value": "20000308"
+      },
+      {
+        "label": "news agency",
+        "value": "20000309"
+      },
+      {
+        "label": "newspaper and magazine",
+        "value": "20000310"
+      },
+      {
+        "label": "online media",
+        "value": "20000311"
+      },
+      {
+        "label": "public relations",
+        "value": "20000312"
+      },
+      {
+        "label": "radio industry",
+        "value": "20000313"
+      },
+      {
+        "label": "satellite and cable service",
+        "value": "20000314"
+      },
+      {
+        "label": "television industry",
+        "value": "20000315"
+      },
+      {
+        "label": "metal and mineral",
+        "value": "20000316"
+      },
+      {
+        "label": "building material",
+        "value": "20000317"
+      },
+      {
+        "label": "gold and precious material",
+        "value": "20000318"
+      },
+      {
+        "label": "iron and steel",
+        "value": "20000319"
+      },
+      {
+        "label": "mining",
+        "value": "20000320"
+      },
+      {
+        "label": "non ferrous metal",
+        "value": "20000321"
+      },
+      {
+        "label": "process industry",
+        "value": "20000322"
+      },
+      {
+        "label": "distiller and brewer",
+        "value": "20000323"
+      },
+      {
+        "label": "e-cigarette",
+        "value": "20001169"
+      },
+      {
+        "label": "food industry",
+        "value": "20000324"
+      },
+      {
+        "label": "furnishings and furniture",
+        "value": "20000325"
+      },
+      {
+        "label": "medical equipment",
+        "value": "20001167"
+      },
+      {
+        "label": "paper and packaging product",
+        "value": "20000326"
+      },
+      {
+        "label": "pet product and service",
+        "value": "20001168"
+      },
+      {
+        "label": "rubber product",
+        "value": "20000327"
+      },
+      {
+        "label": "soft drinks",
+        "value": "20000328"
+      },
+      {
+        "label": "textile and clothing",
+        "value": "20000329"
+      },
+      {
+        "label": "tobacco",
+        "value": "20000330"
+      },
+      {
+        "label": "retail",
+        "value": "20000252"
+      },
+      {
+        "label": "department store",
+        "value": "20000246"
+      },
+      {
+        "label": "electronic commerce",
+        "value": "20000247"
+      },
+      {
+        "label": "mail order",
+        "value": "20000250"
+      },
+      {
+        "label": "shopping district and high street",
+        "value": "20001297"
+      },
+      {
+        "label": "shopping mall",
+        "value": "20001296"
+      },
+      {
+        "label": "speciality store",
+        "value": "20000253"
+      },
+      {
+        "label": "tourism and leisure industry",
+        "value": "20000331"
+      },
+      {
+        "label": "casino and gambling",
+        "value": "20000332"
+      },
+      {
+        "label": "hotel and accommodation",
+        "value": "20000333"
+      },
+      {
+        "label": "recreational and sporting goods",
+        "value": "20000334"
+      },
+      {
+        "label": "restaurant and catering",
+        "value": "20000335"
+      },
+      {
+        "label": "tour operator",
+        "value": "20000336"
+      },
+      {
+        "label": "transport",
+        "value": "20000337"
+      },
+      {
+        "label": "air transport",
+        "value": "20000338"
+      },
+      {
+        "label": "railway transport",
+        "value": "20000340"
+      },
+      {
+        "label": "road transport",
+        "value": "20000341"
+      },
+      {
+        "label": "traffic",
+        "value": "20000342"
+      },
+      {
+        "label": "waterway and maritime transport",
+        "value": "20000343"
+      },
+      {
+        "label": "utilities",
+        "value": "20001244"
+      },
+      {
+        "label": "heating and cooling",
+        "value": "20001291"
+      },
+      {
+        "label": "waste management industry",
+        "value": "20000269"
+      },
+      {
+        "label": "water supply",
+        "value": "20000270"
+      },
+      {
+        "label": "economy",
+        "value": "20000344"
+      },
+      {
+        "label": "macro economics",
+        "value": "20000346"
+      },
+      {
+        "label": "bonds",
+        "value": "20000347"
+      },
+      {
+        "label": "budgets and budgeting",
+        "value": "20000348"
+      },
+      {
+        "label": "business enterprise",
+        "value": "20000349"
+      },
+      {
+        "label": "cooperative",
+        "value": "20001278"
+      },
+      {
+        "label": "entrepreneurship",
+        "value": "20001158"
+      },
+      {
+        "label": "small and medium enterprise",
+        "value": "20001172"
+      },
+      {
+        "label": "central bank",
+        "value": "20000350"
+      },
+      {
+        "label": "consumers",
+        "value": "20000351"
+      },
+      {
+        "label": "consumer confidence",
+        "value": "20000352"
+      },
+      {
+        "label": "consumer issue",
+        "value": "20000353"
+      },
+      {
+        "label": "credit and debt",
+        "value": "20000354"
+      },
+      {
+        "label": "currency",
+        "value": "20000355"
+      },
+      {
+        "label": "cryptocurrency",
+        "value": "20001279"
+      },
+      {
+        "label": "deflation",
+        "value": "20000356"
+      },
+      {
+        "label": "economic growth",
+        "value": "20000357"
+      },
+      {
+        "label": "economic indicator",
+        "value": "20000358"
+      },
+      {
+        "label": "gross domestic product",
+        "value": "20000359"
+      },
+      {
+        "label": "industrial production",
+        "value": "20000360"
+      },
+      {
+        "label": "inventories",
+        "value": "20000361"
+      },
+      {
+        "label": "productivity",
+        "value": "20000362"
+      },
+      {
+        "label": "economic organisation",
+        "value": "20000363"
+      },
+      {
+        "label": "emerging market",
+        "value": "20000364"
+      },
+      {
+        "label": "employment statistics",
+        "value": "20000365"
+      },
+      {
+        "label": "exports",
+        "value": "20000366"
+      },
+      {
+        "label": "government aid",
+        "value": "20000367"
+      },
+      {
+        "label": "government debt",
+        "value": "20000368"
+      },
+      {
+        "label": "imports",
+        "value": "20000369"
+      },
+      {
+        "label": "inflation",
+        "value": "20000370"
+      },
+      {
+        "label": "interest rate",
+        "value": "20000371"
+      },
+      {
+        "label": "international economic institution",
+        "value": "20000372"
+      },
+      {
+        "label": "international trade",
+        "value": "20000373"
+      },
+      {
+        "label": "trade agreements",
+        "value": "20000374"
+      },
+      {
+        "label": "trade balance",
+        "value": "20000375"
+      },
+      {
+        "label": "trade dispute",
+        "value": "20000376"
+      },
+      {
+        "label": "trade policy",
+        "value": "20000377"
+      },
+      {
+        "label": "investments",
+        "value": "20000378"
+      },
+      {
+        "label": "monetary policy",
+        "value": "20000379"
+      },
+      {
+        "label": "mortgage",
+        "value": "20000380"
+      },
+      {
+        "label": "mutual funds",
+        "value": "20000381"
+      },
+      {
+        "label": "prices",
+        "value": "20000382"
+      },
+      {
+        "label": "recession",
+        "value": "20000383"
+      },
+      {
+        "label": "tariff",
+        "value": "20000384"
+      },
+      {
+        "label": "sharing economy",
+        "value": "20001171"
+      },
+      {
+        "label": "market and exchange",
+        "value": "20000385"
+      },
+      {
+        "label": "commodity market",
+        "value": "20000386"
+      },
+      {
+        "label": "energy market",
+        "value": "20000387"
+      },
+      {
+        "label": "metal",
+        "value": "20000388"
+      },
+      {
+        "label": "soft commodity",
+        "value": "20000389"
+      },
+      {
+        "label": "debt market",
+        "value": "20000390"
+      },
+      {
+        "label": "foreign exchange market",
+        "value": "20000391"
+      },
+      {
+        "label": "loan market",
+        "value": "20000392"
+      },
+      {
+        "label": "loans",
+        "value": "20000393"
+      },
+      {
+        "label": "securities",
+        "value": "20000394"
+      },
+      {
+        "label": "derivative securities",
+        "value": "20000395"
+      },
+      {
+        "label": "stocks",
+        "value": "20000396"
+      },
+      {
+        "label": "hot stock",
+        "value": "20001141"
+      },
+      {
+        "label": "stock recommendation",
+        "value": "20001137"
+      },
+      {
+        "label": "buy recommendation",
+        "value": "20001138"
+      },
+      {
+        "label": "hold recommendation",
+        "value": "20001139"
+      },
+      {
+        "label": "sell recommendation",
+        "value": "20001140"
+      },
+      {
+        "label": "education",
+        "value": "5000000"
+      },
+      {
+        "label": "parent organisation",
+        "value": "20000398"
+      },
+      {
+        "label": "religious education",
+        "value": "20000399"
+      },
+      {
+        "label": "school",
+        "value": "20000400"
+      },
+      {
+        "label": "elementary schools",
+        "value": "20000401"
+      },
+      {
+        "label": "further education",
+        "value": "20000402"
+      },
+      {
+        "label": "adult education",
+        "value": "20000403"
+      },
+      {
+        "label": "high schools",
+        "value": "20000404"
+      },
+      {
+        "label": "higher education",
+        "value": "20000405"
+      },
+      {
+        "label": "college",
+        "value": "20000406"
+      },
+      {
+        "label": "university",
+        "value": "20000407"
+      },
+      {
+        "label": "independent schools",
+        "value": "20001215"
+      },
+      {
+        "label": "middle schools",
+        "value": "20000408"
+      },
+      {
+        "label": "preschool",
+        "value": "20000409"
+      },
+      {
+        "label": "private schools",
+        "value": "20001214"
+      },
+      {
+        "label": "public schools",
+        "value": "20001213"
+      },
+      {
+        "label": "religious schools",
+        "value": "20001212"
+      },
+      {
+        "label": "social learning",
+        "value": "20000410"
+      },
+      {
+        "label": "teaching and learning",
+        "value": "20000411"
+      },
+      {
+        "label": "curriculum",
+        "value": "20000412"
+      },
+      {
+        "label": "educational grading",
+        "value": "20001217"
+      },
+      {
+        "label": "examination",
+        "value": "20000413"
+      },
+      {
+        "label": "entrance examination",
+        "value": "20000414"
+      },
+      {
+        "label": "students",
+        "value": "20000415"
+      },
+      {
+        "label": "teachers",
+        "value": "20000416"
+      },
+      {
+        "label": "vocational education",
+        "value": "20001216"
+      },
+      {
+        "label": "environment",
+        "value": "6000000"
+      },
+      {
+        "label": "climate change",
+        "value": "20000418"
+      },
+      {
+        "label": "global warming",
+        "value": "20000419"
+      },
+      {
+        "label": "conservation",
+        "value": "20000420"
+      },
+      {
+        "label": "energy saving",
+        "value": "20000421"
+      },
+      {
+        "label": "parks",
+        "value": "20000422"
+      },
+      {
+        "label": "environmental politics",
+        "value": "20000423"
+      },
+      {
+        "label": "environmental pollution",
+        "value": "20000424"
+      },
+      {
+        "label": "air pollution",
+        "value": "20000425"
+      },
+      {
+        "label": "environmental cleanup",
+        "value": "20000426"
+      },
+      {
+        "label": "hazardous materials",
+        "value": "20000427"
+      },
+      {
+        "label": "waste materials",
+        "value": "20000428"
+      },
+      {
+        "label": "water pollution",
+        "value": "20000429"
+      },
+      {
+        "label": "natural resources",
+        "value": "20000430"
+      },
+      {
+        "label": "energy resources",
+        "value": "20000431"
+      },
+      {
+        "label": "land resources",
+        "value": "20000432"
+      },
+      {
+        "label": "forests",
+        "value": "20000433"
+      },
+      {
+        "label": "mountains",
+        "value": "20000434"
+      },
+      {
+        "label": "population growth",
+        "value": "20000435"
+      },
+      {
+        "label": "renewable energy",
+        "value": "20000436"
+      },
+      {
+        "label": "water",
+        "value": "20000437"
+      },
+      {
+        "label": "oceans",
+        "value": "20000438"
+      },
+      {
+        "label": "rivers",
+        "value": "20000439"
+      },
+      {
+        "label": "wetlands",
+        "value": "20000440"
+      },
+      {
+        "label": "nature",
+        "value": "20000441"
+      },
+      {
+        "label": "ecosystem",
+        "value": "20000442"
+      },
+      {
+        "label": "endangered species",
+        "value": "20000443"
+      },
+      {
+        "label": "invasive species",
+        "value": "20000444"
+      },
+      {
+        "label": "health",
+        "value": "7000000"
+      },
+      {
+        "label": "diseases and conditions",
+        "value": "20000446"
+      },
+      {
+        "label": "cancer",
+        "value": "20000447"
+      },
+      {
+        "label": "communicable disease",
+        "value": "20000448"
+      },
+      {
+        "label": "epidemic",
+        "value": "20000449"
+      },
+      {
+        "label": "pandemic",
+        "value": "20001218"
+      },
+      {
+        "label": "plague (disease)",
+        "value": "20000450"
+      },
+      {
+        "label": "virus disease",
+        "value": "20000451"
+      },
+      {
+        "label": "AIDS",
+        "value": "20000452"
+      },
+      {
+        "label": "retrovirus",
+        "value": "20000453"
+      },
+      {
+        "label": "heart disease",
+        "value": "20000454"
+      },
+      {
+        "label": "illness",
+        "value": "20000455"
+      },
+      {
+        "label": "injury",
+        "value": "20000456"
+      },
+      {
+        "label": "medical conditions",
+        "value": "20000457"
+      },
+      {
+        "label": "mental health and disorders",
+        "value": "20000458"
+      },
+      {
+        "label": "eating disorder",
+        "value": "20000459"
+      },
+      {
+        "label": "obesity",
+        "value": "20000460"
+      },
+      {
+        "label": "health facility",
+        "value": "20000461"
+      },
+      {
+        "label": "healthcare clinic",
+        "value": "20001229"
+      },
+      {
+        "label": "hospital",
+        "value": "20000462"
+      },
+      {
+        "label": "health organisations",
+        "value": "20000463"
+      },
+      {
+        "label": "health treatment",
+        "value": "20000464"
+      },
+      {
+        "label": "diet",
+        "value": "20000465"
+      },
+      {
+        "label": "dietary supplements",
+        "value": "20000466"
+      },
+      {
+        "label": "drug rehabilitation",
+        "value": "20001219"
+      },
+      {
+        "label": "emergency care",
+        "value": "20001221"
+      },
+      {
+        "label": "medical drugs",
+        "value": "20000467"
+      },
+      {
+        "label": "prescription drugs",
+        "value": "20000468"
+      },
+      {
+        "label": "medical procedure/test",
+        "value": "20000469"
+      },
+      {
+        "label": "medicine",
+        "value": "20000470"
+      },
+      {
+        "label": "herbal medicine",
+        "value": "20000471"
+      },
+      {
+        "label": "holistic medicine",
+        "value": "20000472"
+      },
+      {
+        "label": "traditional Chinese medicine",
+        "value": "20000473"
+      },
+      {
+        "label": "western medicine",
+        "value": "20000474"
+      },
+      {
+        "label": "physical fitness",
+        "value": "20000475"
+      },
+      {
+        "label": "preventative medicine",
+        "value": "20000476"
+      },
+      {
+        "label": "vaccines",
+        "value": "20000477"
+      },
+      {
+        "label": "surgery",
+        "value": "20001228"
+      },
+      {
+        "label": "therapy",
+        "value": "20000478"
+      },
+      {
+        "label": "healthcare policy",
+        "value": "20000479"
+      },
+      {
+        "label": "government health care",
+        "value": "20000480"
+      },
+      {
+        "label": "Medicaid",
+        "value": "20000481"
+      },
+      {
+        "label": "Medicare",
+        "value": "20000482"
+      },
+      {
+        "label": "health insurance",
+        "value": "20000483"
+      },
+      {
+        "label": "private health care",
+        "value": "20000484"
+      },
+      {
+        "label": "medical profession",
+        "value": "20000485"
+      },
+      {
+        "label": "medical service",
+        "value": "20000486"
+      },
+      {
+        "label": "medical specialisation",
+        "value": "20000487"
+      },
+      {
+        "label": "dentistry",
+        "value": "20000712"
+      },
+      {
+        "label": "general practice",
+        "value": "20001220"
+      },
+      {
+        "label": "geriatric medicine",
+        "value": "20000488"
+      },
+      {
+        "label": "obstetrics/gynaecology",
+        "value": "20000489"
+      },
+      {
+        "label": "oncology",
+        "value": "20001223"
+      },
+      {
+        "label": "ophthalmology",
+        "value": "20001225"
+      },
+      {
+        "label": "orthopaedics",
+        "value": "20001222"
+      },
+      {
+        "label": "paediatrics",
+        "value": "20000490"
+      },
+      {
+        "label": "pharmacology",
+        "value": "20000713"
+      },
+      {
+        "label": "psychiatry",
+        "value": "20001227"
+      },
+      {
+        "label": "radiology",
+        "value": "20001224"
+      },
+      {
+        "label": "reproductive medicine",
+        "value": "20000491"
+      },
+      {
+        "label": "surgical medicine",
+        "value": "20001226"
+      },
+      {
+        "label": "veterinary medicine",
+        "value": "20000714"
+      },
+      {
+        "label": "medical staff",
+        "value": "20000492"
+      },
+      {
+        "label": "non-human diseases",
+        "value": "20000493"
+      },
+      {
+        "label": "animal disease",
+        "value": "20000494"
+      },
+      {
+        "label": "plant disease",
+        "value": "20000495"
+      },
+      {
+        "label": "human interest",
+        "value": "8000000"
+      },
+      {
+        "label": "accomplishment",
+        "value": "20000497"
+      },
+      {
+        "label": "award and prize",
+        "value": "20000498"
+      },
+      {
+        "label": "records and achievements",
+        "value": "20000499"
+      },
+      {
+        "label": "animal",
+        "value": "20000500"
+      },
+      {
+        "label": "anniversary",
+        "value": "20001237"
+      },
+      {
+        "label": "ceremony",
+        "value": "20000501"
+      },
+      {
+        "label": "funeral and memorial service",
+        "value": "20001235"
+      },
+      {
+        "label": "graduation",
+        "value": "20001234"
+      },
+      {
+        "label": "name ceremony",
+        "value": "20001233"
+      },
+      {
+        "label": "wedding",
+        "value": "20001236"
+      },
+      {
+        "label": "people",
+        "value": "20000502"
+      },
+      {
+        "label": "birthday",
+        "value": "20001238"
+      },
+      {
+        "label": "high-society",
+        "value": "20000504"
+      },
+      {
+        "label": "celebrity",
+        "value": "20000505"
+      },
+      {
+        "label": "imperial and royal matters",
+        "value": "20000506"
+      },
+      {
+        "label": "human mishap",
+        "value": "20000503"
+      },
+      {
+        "label": "plant",
+        "value": "20000507"
+      },
+      {
+        "label": "labour",
+        "value": "9000000"
+      },
+      {
+        "label": "employment",
+        "value": "20000509"
+      },
+      {
+        "label": "apprenticeship",
+        "value": "20000510"
+      },
+      {
+        "label": "child labour",
+        "value": "20000511"
+      },
+      {
+        "label": "commuting",
+        "value": "20000339"
+      },
+      {
+        "label": "employee",
+        "value": "20000512"
+      },
+      {
+        "label": "employer",
+        "value": "20000513"
+      },
+      {
+        "label": "employment training",
+        "value": "20000514"
+      },
+      {
+        "label": "advanced training",
+        "value": "20000515"
+      },
+      {
+        "label": "retraining",
+        "value": "20000516"
+      },
+      {
+        "label": "occupations",
+        "value": "20000517"
+      },
+      {
+        "label": "parental leave",
+        "value": "20001276"
+      },
+      {
+        "label": "self-employment",
+        "value": "20001206"
+      },
+      {
+        "label": "volunteering",
+        "value": "20001277"
+      },
+      {
+        "label": "wages and benefits",
+        "value": "20000518"
+      },
+      {
+        "label": "employee benefits",
+        "value": "20000519"
+      },
+      {
+        "label": "social security",
+        "value": "20000520"
+      },
+      {
+        "label": "employment legislation",
+        "value": "20000521"
+      },
+      {
+        "label": "workplace health and safety",
+        "value": "20000522"
+      },
+      {
+        "label": "labour market",
+        "value": "20000523"
+      },
+      {
+        "label": "gig economy",
+        "value": "20001275"
+      },
+      {
+        "label": "labour relations",
+        "value": "20000524"
+      },
+      {
+        "label": "collective agreements",
+        "value": "20000525"
+      },
+      {
+        "label": "contract issue-healthcare",
+        "value": "20000526"
+      },
+      {
+        "label": "contract issue-wages",
+        "value": "20000527"
+      },
+      {
+        "label": "contract issue-work rules",
+        "value": "20000528"
+      },
+      {
+        "label": "labour dispute",
+        "value": "20000529"
+      },
+      {
+        "label": "labour strike",
+        "value": "20000530"
+      },
+      {
+        "label": "retirement",
+        "value": "20000531"
+      },
+      {
+        "label": "pension",
+        "value": "20000532"
+      },
+      {
+        "label": "unemployment",
+        "value": "20000533"
+      },
+      {
+        "label": "job layoffs",
+        "value": "20000534"
+      },
+      {
+        "label": "unemployment benefits",
+        "value": "20000535"
+      },
+      {
+        "label": "unions",
+        "value": "20000536"
+      },
+      {
+        "label": "lifestyle and leisure",
+        "value": "10000000"
+      },
+      {
+        "label": "exercise and fitness",
+        "value": "20001239"
+      },
+      {
+        "label": "leisure",
+        "value": "20000538"
+      },
+      {
+        "label": "club and association",
+        "value": "20000539"
+      },
+      {
+        "label": "game",
+        "value": "20000540"
+      },
+      {
+        "label": "board game",
+        "value": "20000541"
+      },
+      {
+        "label": "card game",
+        "value": "20000542"
+      },
+      {
+        "label": "children's game",
+        "value": "20000543"
+      },
+      {
+        "label": "dice game",
+        "value": "20000544"
+      },
+      {
+        "label": "outdoor game",
+        "value": "20000545"
+      },
+      {
+        "label": "puzzle",
+        "value": "20000546"
+      },
+      {
+        "label": "tile game",
+        "value": "20000547"
+      },
+      {
+        "label": "video game",
+        "value": "20000548"
+      },
+      {
+        "label": "gaming and lottery",
+        "value": "20000549"
+      },
+      {
+        "label": "hobby",
+        "value": "20000550"
+      },
+      {
+        "label": "automobile enthusiasm",
+        "value": "20000566"
+      },
+      {
+        "label": "bicycle enthusiasm",
+        "value": "20000567"
+      },
+      {
+        "label": "collecting",
+        "value": "20001247"
+      },
+      {
+        "label": "food and drink enthusiasm",
+        "value": "20000568"
+      },
+      {
+        "label": "beer, wine and spirits",
+        "value": "20001254"
+      },
+      {
+        "label": "cooking and baking",
+        "value": "20001253"
+      },
+      {
+        "label": "motorbike enthusiasm",
+        "value": "20000571"
+      },
+      {
+        "label": "holiday",
+        "value": "20000551"
+      },
+      {
+        "label": "Halloween",
+        "value": "20001270"
+      },
+      {
+        "label": "public holiday",
+        "value": "20000552"
+      },
+      {
+        "label": "Midsummer",
+        "value": "20001267"
+      },
+      {
+        "label": "National day",
+        "value": "20001268"
+      },
+      {
+        "label": "New year",
+        "value": "20001269"
+      },
+      {
+        "label": "leisure venue",
+        "value": "20000553"
+      },
+      {
+        "label": "amusement park",
+        "value": "20000554"
+      },
+      {
+        "label": "bar",
+        "value": "20000555"
+      },
+      {
+        "label": "cafe",
+        "value": "20000556"
+      },
+      {
+        "label": "nightclub",
+        "value": "20000557"
+      },
+      {
+        "label": "restaurant",
+        "value": "20000558"
+      },
+      {
+        "label": "sports facilities",
+        "value": "20000559"
+      },
+      {
+        "label": "outdoor recreational activities",
+        "value": "20000560"
+      },
+      {
+        "label": "fishing",
+        "value": "20000561"
+      },
+      {
+        "label": "horseback riding",
+        "value": "20001241"
+      },
+      {
+        "label": "hunting",
+        "value": "20000562"
+      },
+      {
+        "label": "recreational mountaineering",
+        "value": "20001142"
+      },
+      {
+        "label": "scuba diving",
+        "value": "20000917"
+      },
+      {
+        "label": "travel and tourism",
+        "value": "20000563"
+      },
+      {
+        "label": "tourism",
+        "value": "20000564"
+      },
+      {
+        "label": "lifestyle",
+        "value": "20000565"
+      },
+      {
+        "label": "house and home",
+        "value": "20000570"
+      },
+      {
+        "label": "gardening",
+        "value": "20001257"
+      },
+      {
+        "label": "home renovation",
+        "value": "20001255"
+      },
+      {
+        "label": "interior decoration",
+        "value": "20001256"
+      },
+      {
+        "label": "organic food",
+        "value": "20000569"
+      },
+      {
+        "label": "party",
+        "value": "20001143"
+      },
+      {
+        "label": "trend",
+        "value": "20000572"
+      },
+      {
+        "label": "body modification",
+        "value": "20001250"
+      },
+      {
+        "label": "piercing",
+        "value": "20001252"
+      },
+      {
+        "label": "tattooing",
+        "value": "20001251"
+      },
+      {
+        "label": "politics",
+        "value": "11000000"
+      },
+      {
+        "label": "election",
+        "value": "20000574"
+      },
+      {
+        "label": "church elections",
+        "value": "20001263"
+      },
+      {
+        "label": "citizens initiative and recall",
+        "value": "20000575"
+      },
+      {
+        "label": "electoral system",
+        "value": "20000576"
+      },
+      {
+        "label": "intergovernmental elections",
+        "value": "20000577"
+      },
+      {
+        "label": "local elections",
+        "value": "20000578"
+      },
+      {
+        "label": "national elections",
+        "value": "20000579"
+      },
+      {
+        "label": "political campaigns",
+        "value": "20000580"
+      },
+      {
+        "label": "campaign finance",
+        "value": "20000581"
+      },
+      {
+        "label": "political candidates",
+        "value": "20000582"
+      },
+      {
+        "label": "political debates",
+        "value": "20001266"
+      },
+      {
+        "label": "primary elections",
+        "value": "20000583"
+      },
+      {
+        "label": "referenda",
+        "value": "20000584"
+      },
+      {
+        "label": "regional elections",
+        "value": "20000585"
+      },
+      {
+        "label": "voting",
+        "value": "20000586"
+      },
+      {
+        "label": "fundamental rights",
+        "value": "20000587"
+      },
+      {
+        "label": "censorship and freedom of speech",
+        "value": "20000588"
+      },
+      {
+        "label": "civil rights",
+        "value": "20000120"
+      },
+      {
+        "label": "freedom of religion",
+        "value": "20000590"
+      },
+      {
+        "label": "freedom of the press",
+        "value": "20000591"
+      },
+      {
+        "label": "human rights",
+        "value": "20000592"
+      },
+      {
+        "label": "privacy",
+        "value": "20001300"
+      },
+      {
+        "label": "government",
+        "value": "20000593"
+      },
+      {
+        "label": "civil and public service",
+        "value": "20000594"
+      },
+      {
+        "label": "civilian service",
+        "value": "20001144"
+      },
+      {
+        "label": "public employees",
+        "value": "20000595"
+      },
+      {
+        "label": "public officials",
+        "value": "20000596"
+      },
+      {
+        "label": "constitution (law)",
+        "value": "20000597"
+      },
+      {
+        "label": "defence",
+        "value": "20000598"
+      },
+      {
+        "label": "armed forces",
+        "value": "20000599"
+      },
+      {
+        "label": "military service",
+        "value": "20001145"
+      },
+      {
+        "label": "veterans affairs",
+        "value": "20000600"
+      },
+      {
+        "label": "military equipment",
+        "value": "20000601"
+      },
+      {
+        "label": "military weaponry",
+        "value": "20000602"
+      },
+      {
+        "label": "security measures (defence)",
+        "value": "20000603"
+      },
+      {
+        "label": "national security",
+        "value": "20000604"
+      },
+      {
+        "label": "espionage and intelligence",
+        "value": "20000605"
+      },
+      {
+        "label": "executive (government)",
+        "value": "20000606"
+      },
+      {
+        "label": "government budget",
+        "value": "20000607"
+      },
+      {
+        "label": "public finance",
+        "value": "20000608"
+      },
+      {
+        "label": "government department",
+        "value": "20000609"
+      },
+      {
+        "label": "heads of government",
+        "value": "20001261"
+      },
+      {
+        "label": "heads of state",
+        "value": "20000610"
+      },
+      {
+        "label": "impeachment",
+        "value": "20000611"
+      },
+      {
+        "label": "local government and authority",
+        "value": "20000612"
+      },
+      {
+        "label": "minister (government)",
+        "value": "20000613"
+      },
+      {
+        "label": "national government",
+        "value": "20000614"
+      },
+      {
+        "label": "parliament",
+        "value": "20000615"
+      },
+      {
+        "label": "lower house (legislature)",
+        "value": "20000616"
+      },
+      {
+        "label": "upper house (legislature)",
+        "value": "20000617"
+      },
+      {
+        "label": "political committees",
+        "value": "20001260"
+      },
+      {
+        "label": "political convention",
+        "value": "20001259"
+      },
+      {
+        "label": "public inquiry",
+        "value": "20001262"
+      },
+      {
+        "label": "regional government and authority",
+        "value": "20000618"
+      },
+      {
+        "label": "regulatory authority",
+        "value": "20001173"
+      },
+      {
+        "label": "government policy",
+        "value": "20000621"
+      },
+      {
+        "label": "cultural policies",
+        "value": "20001132"
+      },
+      {
+        "label": "economic policy",
+        "value": "20000345"
+      },
+      {
+        "label": "economic development incentive",
+        "value": "20001292"
+      },
+      {
+        "label": "nationalisation",
+        "value": "20000623"
+      },
+      {
+        "label": "privatisation",
+        "value": "20000624"
+      },
+      {
+        "label": "state-owned enterprise",
+        "value": "20000625"
+      },
+      {
+        "label": "interior policy",
+        "value": "20000626"
+      },
+      {
+        "label": "data protection policy",
+        "value": "20000627"
+      },
+      {
+        "label": "housing and urban planning policy",
+        "value": "20000628"
+      },
+      {
+        "label": "infrastructure policy",
+        "value": "20001264"
+      },
+      {
+        "label": "integration policy",
+        "value": "20001146"
+      },
+      {
+        "label": "pension and welfare policy",
+        "value": "20000630"
+      },
+      {
+        "label": "personal data collection policy",
+        "value": "20000631"
+      },
+      {
+        "label": "personal weapon control policy",
+        "value": "20000632"
+      },
+      {
+        "label": "planning inquiries",
+        "value": "20000633"
+      },
+      {
+        "label": "policy towards indigenous people",
+        "value": "20000629"
+      },
+      {
+        "label": "regional development policy",
+        "value": "20001174"
+      },
+      {
+        "label": "local government policy",
+        "value": "20001265"
+      },
+      {
+        "label": "migration policy",
+        "value": "20000634"
+      },
+      {
+        "label": "nuclear policy",
+        "value": "20000635"
+      },
+      {
+        "label": "regulation of industry",
+        "value": "20000636"
+      },
+      {
+        "label": "food and drink regulations",
+        "value": "20000637"
+      },
+      {
+        "label": "safety of citizens",
+        "value": "20000619"
+      },
+      {
+        "label": "sports policies",
+        "value": "20001147"
+      },
+      {
+        "label": "taxation",
+        "value": "20000620"
+      },
+      {
+        "label": "international relations",
+        "value": "20000638"
+      },
+      {
+        "label": "diplomacy",
+        "value": "20000639"
+      },
+      {
+        "label": "summit meetings",
+        "value": "20000640"
+      },
+      {
+        "label": "treaty",
+        "value": "20000641"
+      },
+      {
+        "label": "economic sanction",
+        "value": "20000642"
+      },
+      {
+        "label": "foreign aid",
+        "value": "20000643"
+      },
+      {
+        "label": "international organisation",
+        "value": "20000644"
+      },
+      {
+        "label": "refugees and internally displaced people",
+        "value": "20000645"
+      },
+      {
+        "label": "non-governmental organisation",
+        "value": "20000646"
+      },
+      {
+        "label": "political crisis",
+        "value": "20000647"
+      },
+      {
+        "label": "political dissent",
+        "value": "20000648"
+      },
+      {
+        "label": "political process",
+        "value": "20000649"
+      },
+      {
+        "label": "lobbying",
+        "value": "20000650"
+      },
+      {
+        "label": "political development",
+        "value": "20000652"
+      },
+      {
+        "label": "political parties and movements",
+        "value": "20000651"
+      },
+      {
+        "label": "political system",
+        "value": "20000653"
+      },
+      {
+        "label": "democracy",
+        "value": "20000654"
+      },
+      {
+        "label": "dictatorship",
+        "value": "20000655"
+      },
+      {
+        "label": "religion and belief",
+        "value": "12000000"
+      },
+      {
+        "label": "interreligious dialogue",
+        "value": "20000687"
+      },
+      {
+        "label": "religious belief",
+        "value": "20000657"
+      },
+      {
+        "label": "Buddhism",
+        "value": "20000658"
+      },
+      {
+        "label": "Christianity",
+        "value": "20000659"
+      },
+      {
+        "label": "Mormon",
+        "value": "20000661"
+      },
+      {
+        "label": "Old Catholic",
+        "value": "20000662"
+      },
+      {
+        "label": "Orthodoxy",
+        "value": "20000663"
+      },
+      {
+        "label": "Protestant",
+        "value": "20000664"
+      },
+      {
+        "label": "Anglican",
+        "value": "20000665"
+      },
+      {
+        "label": "Baptist",
+        "value": "20000666"
+      },
+      {
+        "label": "Lutheran",
+        "value": "20000667"
+      },
+      {
+        "label": "Mennonite",
+        "value": "20000668"
+      },
+      {
+        "label": "Methodist",
+        "value": "20000669"
+      },
+      {
+        "label": "Reformed",
+        "value": "20000670"
+      },
+      {
+        "label": "Roman Catholic",
+        "value": "20000671"
+      },
+      {
+        "label": "concordat",
+        "value": "20000672"
+      },
+      {
+        "label": "ecumenism",
+        "value": "20000660"
+      },
+      {
+        "label": "Confucianism",
+        "value": "20000673"
+      },
+      {
+        "label": "Freemasonry",
+        "value": "20000675"
+      },
+      {
+        "label": "Hinduism",
+        "value": "20000676"
+      },
+      {
+        "label": "Islam",
+        "value": "20000677"
+      },
+      {
+        "label": "Jainism",
+        "value": "20000678"
+      },
+      {
+        "label": "Judaism",
+        "value": "20000679"
+      },
+      {
+        "label": "Scientology",
+        "value": "20000682"
+      },
+      {
+        "label": "Shintoism",
+        "value": "20000683"
+      },
+      {
+        "label": "Sikhism",
+        "value": "20000684"
+      },
+      {
+        "label": "Taoism",
+        "value": "20000685"
+      },
+      {
+        "label": "Unificationism",
+        "value": "20000686"
+      },
+      {
+        "label": "Zoroastrianism",
+        "value": "20000681"
+      },
+      {
+        "label": "cult and sect",
+        "value": "20000674"
+      },
+      {
+        "label": "nature religion",
+        "value": "20000680"
+      },
+      {
+        "label": "religious conflict",
+        "value": "20000688"
+      },
+      {
+        "label": "religious event",
+        "value": "20000689"
+      },
+      {
+        "label": "religious festival or holiday",
+        "value": "20000690"
+      },
+      {
+        "label": "All Saints Day",
+        "value": "20001271"
+      },
+      {
+        "label": "Christmas",
+        "value": "20000691"
+      },
+      {
+        "label": "Easter",
+        "value": "20000692"
+      },
+      {
+        "label": "Pentecost",
+        "value": "20000693"
+      },
+      {
+        "label": "Ramadan",
+        "value": "20000694"
+      },
+      {
+        "label": "Walpurgis night",
+        "value": "20001272"
+      },
+      {
+        "label": "Yom Kippur",
+        "value": "20000695"
+      },
+      {
+        "label": "religious ritual",
+        "value": "20000696"
+      },
+      {
+        "label": "baptism",
+        "value": "20001273"
+      },
+      {
+        "label": "religious facilities",
+        "value": "20000697"
+      },
+      {
+        "label": "church",
+        "value": "20000698"
+      },
+      {
+        "label": "mosque",
+        "value": "20000699"
+      },
+      {
+        "label": "synagogue",
+        "value": "20000700"
+      },
+      {
+        "label": "temple",
+        "value": "20000701"
+      },
+      {
+        "label": "religious institutions and state relations",
+        "value": "20000702"
+      },
+      {
+        "label": "religious leader",
+        "value": "20000703"
+      },
+      {
+        "label": "pope",
+        "value": "20000704"
+      },
+      {
+        "label": "religious text",
+        "value": "20000705"
+      },
+      {
+        "label": "Bible",
+        "value": "20000706"
+      },
+      {
+        "label": "Qur'an",
+        "value": "20000707"
+      },
+      {
+        "label": "Torah",
+        "value": "20000708"
+      },
+      {
+        "label": "science and technology",
+        "value": "13000000"
+      },
+      {
+        "label": "biomedical science",
+        "value": "20000710"
+      },
+      {
+        "label": "biotechnology",
+        "value": "20000711"
+      },
+      {
+        "label": "mathematics",
+        "value": "20000715"
+      },
+      {
+        "label": "natural science",
+        "value": "20000717"
+      },
+      {
+        "label": "astronomy",
+        "value": "20000718"
+      },
+      {
+        "label": "biology",
+        "value": "20000719"
+      },
+      {
+        "label": "botany",
+        "value": "20000720"
+      },
+      {
+        "label": "genetics",
+        "value": "20000721"
+      },
+      {
+        "label": "palaeontology",
+        "value": "20000722"
+      },
+      {
+        "label": "physiology",
+        "value": "20000723"
+      },
+      {
+        "label": "zoology",
+        "value": "20000724"
+      },
+      {
+        "label": "chemistry",
+        "value": "20000725"
+      },
+      {
+        "label": "cosmology",
+        "value": "20000726"
+      },
+      {
+        "label": "geology",
+        "value": "20000727"
+      },
+      {
+        "label": "horticulture",
+        "value": "20000728"
+      },
+      {
+        "label": "marine science",
+        "value": "20000729"
+      },
+      {
+        "label": "meteorology",
+        "value": "20000730"
+      },
+      {
+        "label": "physics",
+        "value": "20000731"
+      },
+      {
+        "label": "electromagnetism",
+        "value": "20000732"
+      },
+      {
+        "label": "nuclear physics",
+        "value": "20000733"
+      },
+      {
+        "label": "particle physics",
+        "value": "20000734"
+      },
+      {
+        "label": "scientific institution",
+        "value": "20000741"
+      },
+      {
+        "label": "scientific research",
+        "value": "20000735"
+      },
+      {
+        "label": "medical research",
+        "value": "20000737"
+      },
+      {
+        "label": "scientific exploration",
+        "value": "20000738"
+      },
+      {
+        "label": "space exploration",
+        "value": "20000739"
+      },
+      {
+        "label": "scientific innovation",
+        "value": "20000736"
+      },
+      {
+        "label": "scientific publication",
+        "value": "20000740"
+      },
+      {
+        "label": "scientific standards",
+        "value": "20000755"
+      },
+      {
+        "label": "social sciences",
+        "value": "20000742"
+      },
+      {
+        "label": "anthropology",
+        "value": "20000743"
+      },
+      {
+        "label": "archaeology",
+        "value": "20000744"
+      },
+      {
+        "label": "economics",
+        "value": "20000745"
+      },
+      {
+        "label": "geography",
+        "value": "20000746"
+      },
+      {
+        "label": "history",
+        "value": "20000747"
+      },
+      {
+        "label": "information science",
+        "value": "20000748"
+      },
+      {
+        "label": "linguistics",
+        "value": "20000750"
+      },
+      {
+        "label": "philosophy",
+        "value": "20000751"
+      },
+      {
+        "label": "political science",
+        "value": "20000752"
+      },
+      {
+        "label": "psychology",
+        "value": "20000753"
+      },
+      {
+        "label": "sociology",
+        "value": "20000754"
+      },
+      {
+        "label": "study of law",
+        "value": "20000749"
+      },
+      {
+        "label": "technology and engineering",
+        "value": "20000756"
+      },
+      {
+        "label": "aerospace engineering",
+        "value": "20000757"
+      },
+      {
+        "label": "rocketry",
+        "value": "20000758"
+      },
+      {
+        "label": "agricultural technology",
+        "value": "20000759"
+      },
+      {
+        "label": "civil engineering",
+        "value": "20000760"
+      },
+      {
+        "label": "electronic engineering",
+        "value": "20000761"
+      },
+      {
+        "label": "identification technology",
+        "value": "20000762"
+      },
+      {
+        "label": "information technology and computer science",
+        "value": "20000763"
+      },
+      {
+        "label": "artificial intelligence",
+        "value": "20001298"
+      },
+      {
+        "label": "materials science",
+        "value": "20000764"
+      },
+      {
+        "label": "mechanical engineering",
+        "value": "20000716"
+      },
+      {
+        "label": "micro science",
+        "value": "20000765"
+      },
+      {
+        "label": "nanotechnology",
+        "value": "20000766"
+      },
+      {
+        "label": "society",
+        "value": "14000000"
+      },
+      {
+        "label": "communities",
+        "value": "20000768"
+      },
+      {
+        "label": "social networking",
+        "value": "20000769"
+      },
+      {
+        "label": "demographics",
+        "value": "20000770"
+      },
+      {
+        "label": "population and census",
+        "value": "20000774"
+      },
+      {
+        "label": "discrimination",
+        "value": "20000775"
+      },
+      {
+        "label": "ageism",
+        "value": "20000776"
+      },
+      {
+        "label": "racism",
+        "value": "20000777"
+      },
+      {
+        "label": "religious discrimination",
+        "value": "20000778"
+      },
+      {
+        "label": "sexism",
+        "value": "20000779"
+      },
+      {
+        "label": "emigration",
+        "value": "20000772"
+      },
+      {
+        "label": "family",
+        "value": "20000780"
+      },
+      {
+        "label": "Dating and Relationships",
+        "value": "20000782"
+      },
+      {
+        "label": "adoption",
+        "value": "20000781"
+      },
+      {
+        "label": "divorce",
+        "value": "20000783"
+      },
+      {
+        "label": "family planning",
+        "value": "20000784"
+      },
+      {
+        "label": "abortion",
+        "value": "20000785"
+      },
+      {
+        "label": "contraception",
+        "value": "20001274"
+      },
+      {
+        "label": "marriage",
+        "value": "20000786"
+      },
+      {
+        "label": "parenting",
+        "value": "20000787"
+      },
+      {
+        "label": "immigration",
+        "value": "20000771"
+      },
+      {
+        "label": "illegal immigration",
+        "value": "20000773"
+      },
+      {
+        "label": "mankind",
+        "value": "20000788"
+      },
+      {
+        "label": "LGBTQ",
+        "value": "20000792"
+      },
+      {
+        "label": "adults",
+        "value": "20000789"
+      },
+      {
+        "label": "children",
+        "value": "20000790"
+      },
+      {
+        "label": "disabilities",
+        "value": "20000791"
+      },
+      {
+        "label": "gender",
+        "value": "20000793"
+      },
+      {
+        "label": "indigenous people",
+        "value": "20001288"
+      },
+      {
+        "label": "infants",
+        "value": "20000794"
+      },
+      {
+        "label": "national or ethnic minority",
+        "value": "20000795"
+      },
+      {
+        "label": "nuclear radiation victims",
+        "value": "20000796"
+      },
+      {
+        "label": "senior citizens",
+        "value": "20000797"
+      },
+      {
+        "label": "teenagers",
+        "value": "20000798"
+      },
+      {
+        "label": "social condition",
+        "value": "20000799"
+      },
+      {
+        "label": "homelessness",
+        "value": "20000800"
+      },
+      {
+        "label": "poverty",
+        "value": "20000801"
+      },
+      {
+        "label": "social problem",
+        "value": "20000802"
+      },
+      {
+        "label": "abusive behaviour",
+        "value": "20000803"
+      },
+      {
+        "label": "addiction",
+        "value": "20000804"
+      },
+      {
+        "label": "bullying",
+        "value": "20001284"
+      },
+      {
+        "label": "juvenile delinquency",
+        "value": "20000805"
+      },
+      {
+        "label": "prostitution",
+        "value": "20000806"
+      },
+      {
+        "label": "sexual misconduct",
+        "value": "20001193"
+      },
+      {
+        "label": "slavery",
+        "value": "20000807"
+      },
+      {
+        "label": "values",
+        "value": "20000808"
+      },
+      {
+        "label": "corrupt practices",
+        "value": "20000809"
+      },
+      {
+        "label": "death and dying",
+        "value": "20000810"
+      },
+      {
+        "label": "euthanasia",
+        "value": "20000811"
+      },
+      {
+        "label": "assisted suicide",
+        "value": "20000812"
+      },
+      {
+        "label": "suicide",
+        "value": "20000813"
+      },
+      {
+        "label": "ethics",
+        "value": "20000814"
+      },
+      {
+        "label": "pornography",
+        "value": "20000815"
+      },
+      {
+        "label": "sexual behaviour",
+        "value": "20000816"
+      },
+      {
+        "label": "welfare",
+        "value": "20000817"
+      },
+      {
+        "label": "charity",
+        "value": "20000818"
+      },
+      {
+        "label": "elderly care",
+        "value": "20001232"
+      },
+      {
+        "label": "long term care",
+        "value": "20000819"
+      },
+      {
+        "label": "public housing",
+        "value": "20001290"
+      },
+      {
+        "label": "social services",
+        "value": "20000820"
+      },
+      {
+        "label": "sport",
+        "value": "15000000"
+      },
+      {
+        "label": "bodybuilding",
+        "value": "20001240"
+      },
+      {
+        "label": "competition discipline",
+        "value": "20000822"
+      },
+      {
+        "label": "American football",
+        "value": "20000823"
+      },
+      {
+        "label": "Australian rules football",
+        "value": "20000846"
+      },
+      {
+        "label": "Canadian football",
+        "value": "20000876"
+      },
+      {
+        "label": "Gaelic football",
+        "value": "20000939"
+      },
+      {
+        "label": "Jai Alai (Pelota)",
+        "value": "20000968"
+      },
+      {
+        "label": "archery",
+        "value": "20000824"
+      },
+      {
+        "label": "crossbow shooting",
+        "value": "20000825"
+      },
+      {
+        "label": "longbow",
+        "value": "20000826"
+      },
+      {
+        "label": "arm wrestling",
+        "value": "20001286"
+      },
+      {
+        "label": "athletics, track and field",
+        "value": "20000827"
+      },
+      {
+        "label": "cross country run",
+        "value": "20000828"
+      },
+      {
+        "label": "decathlon",
+        "value": "20000829"
+      },
+      {
+        "label": "discus throw",
+        "value": "20000830"
+      },
+      {
+        "label": "hammer throw",
+        "value": "20000831"
+      },
+      {
+        "label": "heptathlon",
+        "value": "20000832"
+      },
+      {
+        "label": "high jump",
+        "value": "20000833"
+      },
+      {
+        "label": "hurdles",
+        "value": "20000834"
+      },
+      {
+        "label": "javelin throw",
+        "value": "20000835"
+      },
+      {
+        "label": "long distance run",
+        "value": "20000836"
+      },
+      {
+        "label": "long jump",
+        "value": "20000837"
+      },
+      {
+        "label": "middle distance run",
+        "value": "20000838"
+      },
+      {
+        "label": "pentathlon",
+        "value": "20000839"
+      },
+      {
+        "label": "pole vault",
+        "value": "20000840"
+      },
+      {
+        "label": "race walking",
+        "value": "20000841"
+      },
+      {
+        "label": "relay run",
+        "value": "20000842"
+      },
+      {
+        "label": "shot put",
+        "value": "20000843"
+      },
+      {
+        "label": "sprint run",
+        "value": "20000844"
+      },
+      {
+        "label": "steeplechase (athletics)",
+        "value": "20001242"
+      },
+      {
+        "label": "triple jump",
+        "value": "20000845"
+      },
+      {
+        "label": "badminton",
+        "value": "20000847"
+      },
+      {
+        "label": "bandy",
+        "value": "20000848"
+      },
+      {
+        "label": "baseball",
+        "value": "20000849"
+      },
+      {
+        "label": "rubberball baseball",
+        "value": "20000850"
+      },
+      {
+        "label": "basketball",
+        "value": "20000851"
+      },
+      {
+        "label": "biathlon",
+        "value": "20000852"
+      },
+      {
+        "label": "billiards",
+        "value": "20000853"
+      },
+      {
+        "label": "bobsleigh",
+        "value": "20000854"
+      },
+      {
+        "label": "boules",
+        "value": "20000855"
+      },
+      {
+        "label": "boxing",
+        "value": "20000856"
+      },
+      {
+        "label": "bantamweight (boxing)",
+        "value": "20000857"
+      },
+      {
+        "label": "cruiserweight (boxing)",
+        "value": "20000858"
+      },
+      {
+        "label": "featherweight (boxing)",
+        "value": "20000859"
+      },
+      {
+        "label": "flyweight (boxing)",
+        "value": "20000860"
+      },
+      {
+        "label": "heavyweight (boxing)",
+        "value": "20000861"
+      },
+      {
+        "label": "light flyweight (boxing)",
+        "value": "20000862"
+      },
+      {
+        "label": "light-heavyweight (boxing)",
+        "value": "20000863"
+      },
+      {
+        "label": "light-middleweight (boxing)",
+        "value": "20000864"
+      },
+      {
+        "label": "light-welterweight (boxing)",
+        "value": "20000865"
+      },
+      {
+        "label": "lightweight (boxing)",
+        "value": "20000866"
+      },
+      {
+        "label": "middleweight (boxing)",
+        "value": "20000867"
+      },
+      {
+        "label": "straw weight (boxing)",
+        "value": "20000868"
+      },
+      {
+        "label": "super-bantamweight (boxing)",
+        "value": "20000869"
+      },
+      {
+        "label": "super-featherweight (boxing)",
+        "value": "20000870"
+      },
+      {
+        "label": "super-flyweight (boxing)",
+        "value": "20000871"
+      },
+      {
+        "label": "super-heavyweight (boxing)",
+        "value": "20000872"
+      },
+      {
+        "label": "super-middleweight (boxing)",
+        "value": "20000873"
+      },
+      {
+        "label": "welterweight (boxing)",
+        "value": "20000874"
+      },
+      {
+        "label": "bullfighting",
+        "value": "20000875"
+      },
+      {
+        "label": "canoeing",
+        "value": "20000877"
+      },
+      {
+        "label": "C1 (canoeing)",
+        "value": "20000878"
+      },
+      {
+        "label": "C2 (canoeing)",
+        "value": "20000879"
+      },
+      {
+        "label": "C4 (canoeing)",
+        "value": "20000880"
+      },
+      {
+        "label": "canoe sailing",
+        "value": "20000881"
+      },
+      {
+        "label": "pontoniering",
+        "value": "20000882"
+      },
+      {
+        "label": "casting (fishing)",
+        "value": "20000883"
+      },
+      {
+        "label": "chess",
+        "value": "20001154"
+      },
+      {
+        "label": "competitive dancing",
+        "value": "20000911"
+      },
+      {
+        "label": "cricket",
+        "value": "20000888"
+      },
+      {
+        "label": "croquet",
+        "value": "20000889"
+      },
+      {
+        "label": "curling",
+        "value": "20000890"
+      },
+      {
+        "label": "icestock sport",
+        "value": "20000891"
+      },
+      {
+        "label": "cycling",
+        "value": "20000892"
+      },
+      {
+        "label": "Keirin",
+        "value": "20000901"
+      },
+      {
+        "label": "Madison race",
+        "value": "20000902"
+      },
+      {
+        "label": "artistic cycling",
+        "value": "20000893"
+      },
+      {
+        "label": "bi-crossing",
+        "value": "20000894"
+      },
+      {
+        "label": "bmx",
+        "value": "20000895"
+      },
+      {
+        "label": "cycle ball",
+        "value": "20000896"
+      },
+      {
+        "label": "cycle sprint race",
+        "value": "20000897"
+      },
+      {
+        "label": "cycling staging race",
+        "value": "20000906"
+      },
+      {
+        "label": "cyclo-cross",
+        "value": "20000898"
+      },
+      {
+        "label": "individual pursuit (cycling)",
+        "value": "20000899"
+      },
+      {
+        "label": "individual time trial (cycling)",
+        "value": "20000900"
+      },
+      {
+        "label": "mountain biking",
+        "value": "20000903"
+      },
+      {
+        "label": "points race (cycling)",
+        "value": "20000904"
+      },
+      {
+        "label": "road cycling",
+        "value": "20000905"
+      },
+      {
+        "label": "road cycling team pursuit",
+        "value": "20000908"
+      },
+      {
+        "label": "team cycle sprint",
+        "value": "20000907"
+      },
+      {
+        "label": "team time trial (cycling)",
+        "value": "20000909"
+      },
+      {
+        "label": "track race (cycling)",
+        "value": "20000910"
+      },
+      {
+        "label": "darts",
+        "value": "20000912"
+      },
+      {
+        "label": "diving",
+        "value": "20000913"
+      },
+      {
+        "label": "platform diving",
+        "value": "20000914"
+      },
+      {
+        "label": "springboard diving",
+        "value": "20000915"
+      },
+      {
+        "label": "synchronised diving",
+        "value": "20000916"
+      },
+      {
+        "label": "dog racing",
+        "value": "20000919"
+      },
+      {
+        "label": "dog sled racing",
+        "value": "20000921"
+      },
+      {
+        "label": "oval track dog racing",
+        "value": "20000920"
+      },
+      {
+        "label": "duathlon",
+        "value": "20000922"
+      },
+      {
+        "label": "eSports",
+        "value": "20001183"
+      },
+      {
+        "label": "equestrian",
+        "value": "20000923"
+      },
+      {
+        "label": "cross country horse riding",
+        "value": "20000924"
+      },
+      {
+        "label": "dressage",
+        "value": "20000925"
+      },
+      {
+        "label": "horse driving",
+        "value": "20000928"
+      },
+      {
+        "label": "horse jumping",
+        "value": "20000926"
+      },
+      {
+        "label": "three day eventing",
+        "value": "20000927"
+      },
+      {
+        "label": "fencing",
+        "value": "20000929"
+      },
+      {
+        "label": "epee",
+        "value": "20000930"
+      },
+      {
+        "label": "foil",
+        "value": "20000931"
+      },
+      {
+        "label": "sabre",
+        "value": "20000932"
+      },
+      {
+        "label": "field hockey",
+        "value": "20000933"
+      },
+      {
+        "label": "figure skating",
+        "value": "20000934"
+      },
+      {
+        "label": "ice dance",
+        "value": "20000935"
+      },
+      {
+        "label": "fist ball",
+        "value": "20000936"
+      },
+      {
+        "label": "floorball",
+        "value": "20000937"
+      },
+      {
+        "label": "flying disc",
+        "value": "20000938"
+      },
+      {
+        "label": "golf",
+        "value": "20000940"
+      },
+      {
+        "label": "mini golf",
+        "value": "20000941"
+      },
+      {
+        "label": "gymnastics",
+        "value": "20000942"
+      },
+      {
+        "label": "artistic gymnastics",
+        "value": "20001152"
+      },
+      {
+        "label": "beam (artistic gymnastics)",
+        "value": "20000944"
+      },
+      {
+        "label": "floor exercise (artistic gymnastics)",
+        "value": "20000946"
+      },
+      {
+        "label": "horizontal bar (artistic gymnastics)",
+        "value": "20000948"
+      },
+      {
+        "label": "parallel bars (artistic gymnastics)",
+        "value": "20000949"
+      },
+      {
+        "label": "pommel horse (artistic gymnastics)",
+        "value": "20000950"
+      },
+      {
+        "label": "rings (artistic gymnastics)",
+        "value": "20000953"
+      },
+      {
+        "label": "uneven bars (artistic gymnastics)",
+        "value": "20000956"
+      },
+      {
+        "label": "vault (artistic gymnastics)",
+        "value": "20000957"
+      },
+      {
+        "label": "rhythmic gymnastics",
+        "value": "20000951"
+      },
+      {
+        "label": "ball (rhythmic gymnastics)",
+        "value": "20000943"
+      },
+      {
+        "label": "clubs (rhythmic gymnastics)",
+        "value": "20000945"
+      },
+      {
+        "label": "hoop (rhythmic gymnastics)",
+        "value": "20000947"
+      },
+      {
+        "label": "ribbon (rhythmic gymnastics)",
+        "value": "20000952"
+      },
+      {
+        "label": "rope (rhythmic gymnastics)",
+        "value": "20000954"
+      },
+      {
+        "label": "trampoline",
+        "value": "20000955"
+      },
+      {
+        "label": "handball (team)",
+        "value": "20000958"
+      },
+      {
+        "label": "hornuss",
+        "value": "20000959"
+      },
+      {
+        "label": "horse racing",
+        "value": "20000960"
+      },
+      {
+        "label": "flat racing",
+        "value": "20000961"
+      },
+      {
+        "label": "harness racing",
+        "value": "20000962"
+      },
+      {
+        "label": "steeple chase",
+        "value": "20000963"
+      },
+      {
+        "label": "hurling",
+        "value": "20000964"
+      },
+      {
+        "label": "ice hockey",
+        "value": "20000965"
+      },
+      {
+        "label": "sledge hockey",
+        "value": "20000966"
+      },
+      {
+        "label": "inline skating",
+        "value": "20000967"
+      },
+      {
+        "label": "kabaddi",
+        "value": "20000978"
+      },
+      {
+        "label": "kayaking",
+        "value": "20000979"
+      },
+      {
+        "label": "K1 (kayaking)",
+        "value": "20000980"
+      },
+      {
+        "label": "K2 (kayaking)",
+        "value": "20000981"
+      },
+      {
+        "label": "K4 (kayaking)",
+        "value": "20000982"
+      },
+      {
+        "label": "lacrosse",
+        "value": "20000986"
+      },
+      {
+        "label": "luge",
+        "value": "20000987"
+      },
+      {
+        "label": "marathon",
+        "value": "20000988"
+      },
+      {
+        "label": "martial arts",
+        "value": "20001157"
+      },
+      {
+        "label": "Taekwon-Do",
+        "value": "20001084"
+      },
+      {
+        "label": "judo",
+        "value": "20000969"
+      },
+      {
+        "label": "extra lightweight (judo)",
+        "value": "20000970"
+      },
+      {
+        "label": "half-heavyweight (judo)",
+        "value": "20000971"
+      },
+      {
+        "label": "half-lightweight (judo)",
+        "value": "20000972"
+      },
+      {
+        "label": "half-middleweight (judo)",
+        "value": "20000973"
+      },
+      {
+        "label": "heavyweight (judo)",
+        "value": "20000974"
+      },
+      {
+        "label": "lightweight (judo)",
+        "value": "20000975"
+      },
+      {
+        "label": "middleweight (judo)",
+        "value": "20000976"
+      },
+      {
+        "label": "jukendo",
+        "value": "20000977"
+      },
+      {
+        "label": "karate",
+        "value": "20000983"
+      },
+      {
+        "label": "kendo",
+        "value": "20000984"
+      },
+      {
+        "label": "kyudo",
+        "value": "20000985"
+      },
+      {
+        "label": "mixed martial arts",
+        "value": "20001231"
+      },
+      {
+        "label": "naginata",
+        "value": "20001009"
+      },
+      {
+        "label": "wushu",
+        "value": "20001102"
+      },
+      {
+        "label": "modern pentathlon",
+        "value": "20000989"
+      },
+      {
+        "label": "motor car racing",
+        "value": "20000991"
+      },
+      {
+        "label": "F3000",
+        "value": "20000993"
+      },
+      {
+        "label": "Formula One",
+        "value": "20000994"
+      },
+      {
+        "label": "Indy Racing",
+        "value": "20000995"
+      },
+      {
+        "label": "endurance race",
+        "value": "20000992"
+      },
+      {
+        "label": "motor car rallycross",
+        "value": "20000996"
+      },
+      {
+        "label": "motor car rallying",
+        "value": "20000997"
+      },
+      {
+        "label": "motorboat racing",
+        "value": "20000990"
+      },
+      {
+        "label": "motorcycling",
+        "value": "20000998"
+      },
+      {
+        "label": "enduro",
+        "value": "20001000"
+      },
+      {
+        "label": "grass-track",
+        "value": "20001001"
+      },
+      {
+        "label": "moto-ball",
+        "value": "20001002"
+      },
+      {
+        "label": "moto-cross",
+        "value": "20001003"
+      },
+      {
+        "label": "motoGP",
+        "value": "20001004"
+      },
+      {
+        "label": "motorcycle endurance",
+        "value": "20000999"
+      },
+      {
+        "label": "motorcycle rallying",
+        "value": "20001005"
+      },
+      {
+        "label": "motorcycling trial",
+        "value": "20001008"
+      },
+      {
+        "label": "side-cars",
+        "value": "20001006"
+      },
+      {
+        "label": "speedway",
+        "value": "20001007"
+      },
+      {
+        "label": "mountain climbing",
+        "value": "20000884"
+      },
+      {
+        "label": "ice climbing",
+        "value": "20000885"
+      },
+      {
+        "label": "mountaineering",
+        "value": "20000886"
+      },
+      {
+        "label": "sport climbing",
+        "value": "20000887"
+      },
+      {
+        "label": "netball",
+        "value": "20001010"
+      },
+      {
+        "label": "orienteering",
+        "value": "20001011"
+      },
+      {
+        "label": "ski orienteering",
+        "value": "20001012"
+      },
+      {
+        "label": "parachuting",
+        "value": "20001013"
+      },
+      {
+        "label": "polo",
+        "value": "20001014"
+      },
+      {
+        "label": "pool",
+        "value": "20001015"
+      },
+      {
+        "label": "power boating",
+        "value": "20001016"
+      },
+      {
+        "label": "racquetball",
+        "value": "20001281"
+      },
+      {
+        "label": "ringette",
+        "value": "20001282"
+      },
+      {
+        "label": "rodeo",
+        "value": "20001017"
+      },
+      {
+        "label": "bareback bronc",
+        "value": "20001018"
+      },
+      {
+        "label": "barrel racing",
+        "value": "20001019"
+      },
+      {
+        "label": "bull riding",
+        "value": "20001020"
+      },
+      {
+        "label": "bulldogging",
+        "value": "20001021"
+      },
+      {
+        "label": "calf roping",
+        "value": "20001022"
+      },
+      {
+        "label": "goat roping",
+        "value": "20001023"
+      },
+      {
+        "label": "saddle bronc",
+        "value": "20001024"
+      },
+      {
+        "label": "roller sports",
+        "value": "20001155"
+      },
+      {
+        "label": "roller hockey",
+        "value": "20001025"
+      },
+      {
+        "label": "skateboarding",
+        "value": "20001156"
+      },
+      {
+        "label": "rowing",
+        "value": "20001026"
+      },
+      {
+        "label": "coxed eight",
+        "value": "20001032"
+      },
+      {
+        "label": "coxed four",
+        "value": "20001027"
+      },
+      {
+        "label": "coxed pair",
+        "value": "20001028"
+      },
+      {
+        "label": "coxless four",
+        "value": "20001029"
+      },
+      {
+        "label": "coxless pair",
+        "value": "20001030"
+      },
+      {
+        "label": "double sculls",
+        "value": "20001031"
+      },
+      {
+        "label": "quadruple sculls",
+        "value": "20001033"
+      },
+      {
+        "label": "single sculls",
+        "value": "20001034"
+      },
+      {
+        "label": "rugby",
+        "value": "20001176"
+      },
+      {
+        "label": "rugby league",
+        "value": "20001035"
+      },
+      {
+        "label": "rugby sevens",
+        "value": "20001037"
+      },
+      {
+        "label": "rugby union",
+        "value": "20001036"
+      },
+      {
+        "label": "sailing",
+        "value": "20001038"
+      },
+      {
+        "label": "dinghy",
+        "value": "20001040"
+      },
+      {
+        "label": "keelboat",
+        "value": "20001041"
+      },
+      {
+        "label": "multihull",
+        "value": "20001039"
+      },
+      {
+        "label": "non-stop solo race",
+        "value": "20001046"
+      },
+      {
+        "label": "ocean sailing",
+        "value": "20001043"
+      },
+      {
+        "label": "round the world race",
+        "value": "20001044"
+      },
+      {
+        "label": "sailing regatta",
+        "value": "20001042"
+      },
+      {
+        "label": "solo ocean sailing",
+        "value": "20001045"
+      },
+      {
+        "label": "sepak takraw",
+        "value": "20001047"
+      },
+      {
+        "label": "shinty",
+        "value": "20001048"
+      },
+      {
+        "label": "short track speed skating",
+        "value": "20001151"
+      },
+      {
+        "label": "skeleton",
+        "value": "20001055"
+      },
+      {
+        "label": "skiing",
+        "value": "20001056"
+      },
+      {
+        "label": "Nordic combined",
+        "value": "20001150"
+      },
+      {
+        "label": "Nordic skiing",
+        "value": "20001060"
+      },
+      {
+        "label": "Telemark skiing",
+        "value": "20001153"
+      },
+      {
+        "label": "alpine skiing",
+        "value": "20001057"
+      },
+      {
+        "label": "cross-country skiing",
+        "value": "20001149"
+      },
+      {
+        "label": "freestyle skiing",
+        "value": "20001058"
+      },
+      {
+        "label": "grass skiing",
+        "value": "20001059"
+      },
+      {
+        "label": "ski jumping",
+        "value": "20001061"
+      },
+      {
+        "label": "sky diving",
+        "value": "20001062"
+      },
+      {
+        "label": "snooker",
+        "value": "20001063"
+      },
+      {
+        "label": "snowboarding",
+        "value": "20001064"
+      },
+      {
+        "label": "soccer",
+        "value": "20001065"
+      },
+      {
+        "label": "softball",
+        "value": "20001066"
+      },
+      {
+        "label": "speed skating",
+        "value": "20001067"
+      },
+      {
+        "label": "sport shooting",
+        "value": "20001049"
+      },
+      {
+        "label": "clay pigeon shooting",
+        "value": "20001054"
+      },
+      {
+        "label": "pistol shooting",
+        "value": "20001050"
+      },
+      {
+        "label": "rifle shooting",
+        "value": "20001051"
+      },
+      {
+        "label": "running target shooting",
+        "value": "20001052"
+      },
+      {
+        "label": "shotgun shooting",
+        "value": "20001053"
+      },
+      {
+        "label": "squash",
+        "value": "20001068"
+      },
+      {
+        "label": "sumo wrestling",
+        "value": "20001069"
+      },
+      {
+        "label": "surfing",
+        "value": "20001070"
+      },
+      {
+        "label": "swimming",
+        "value": "20001071"
+      },
+      {
+        "label": "backstroke",
+        "value": "20001072"
+      },
+      {
+        "label": "breaststroke",
+        "value": "20001073"
+      },
+      {
+        "label": "butterfly swimming",
+        "value": "20001074"
+      },
+      {
+        "label": "freestyle swimming",
+        "value": "20001075"
+      },
+      {
+        "label": "marathon swimming",
+        "value": "20001077"
+      },
+      {
+        "label": "medley swimming",
+        "value": "20001076"
+      },
+      {
+        "label": "relay freestyle swimming",
+        "value": "20001078"
+      },
+      {
+        "label": "relay medley swimming",
+        "value": "20001079"
+      },
+      {
+        "label": "short course swimming",
+        "value": "20001080"
+      },
+      {
+        "label": "synchronised swimming",
+        "value": "20001175"
+      },
+      {
+        "label": "synchronised free routine",
+        "value": "20001081"
+      },
+      {
+        "label": "synchronised technical routine",
+        "value": "20001082"
+      },
+      {
+        "label": "table tennis",
+        "value": "20001083"
+      },
+      {
+        "label": "ten pin bowling",
+        "value": "20001086"
+      },
+      {
+        "label": "tennis",
+        "value": "20001085"
+      },
+      {
+        "label": "triathlon",
+        "value": "20001087"
+      },
+      {
+        "label": "tug-of-war",
+        "value": "20001088"
+      },
+      {
+        "label": "underwater sports",
+        "value": "20000918"
+      },
+      {
+        "label": "volleyball",
+        "value": "20001089"
+      },
+      {
+        "label": "beach volleyball",
+        "value": "20001090"
+      },
+      {
+        "label": "water polo",
+        "value": "20001091"
+      },
+      {
+        "label": "water skiing",
+        "value": "20001092"
+      },
+      {
+        "label": "weightlifting",
+        "value": "20001093"
+      },
+      {
+        "label": "clean and jerk (weightlifting)",
+        "value": "20001094"
+      },
+      {
+        "label": "powerlifting",
+        "value": "20001095"
+      },
+      {
+        "label": "snatch (weightlifting)",
+        "value": "20001096"
+      },
+      {
+        "label": "windsurfing",
+        "value": "20001097"
+      },
+      {
+        "label": "wrestling",
+        "value": "20001098"
+      },
+      {
+        "label": "Swiss wrestling",
+        "value": "20001101"
+      },
+      {
+        "label": "freestyle wrestling",
+        "value": "20001099"
+      },
+      {
+        "label": "greco-roman",
+        "value": "20001100"
+      },
+      {
+        "label": "disciplinary action in sport",
+        "value": "20001103"
+      },
+      {
+        "label": "drug use in sport",
+        "value": "20001104"
+      },
+      {
+        "label": "drug abuse in sport",
+        "value": "20001105"
+      },
+      {
+        "label": "drug testing in sport",
+        "value": "20001106"
+      },
+      {
+        "label": "medical drug use in sport",
+        "value": "20001107"
+      },
+      {
+        "label": "sport event",
+        "value": "20001108"
+      },
+      {
+        "label": "continental championship",
+        "value": "20001109"
+      },
+      {
+        "label": "continental cup",
+        "value": "20001110"
+      },
+      {
+        "label": "continental games",
+        "value": "20001111"
+      },
+      {
+        "label": "international championship",
+        "value": "20001112"
+      },
+      {
+        "label": "international cup",
+        "value": "20001113"
+      },
+      {
+        "label": "international games",
+        "value": "20001114"
+      },
+      {
+        "label": "national championship",
+        "value": "20001115"
+      },
+      {
+        "label": "national cup",
+        "value": "20001116"
+      },
+      {
+        "label": "national games",
+        "value": "20001117"
+      },
+      {
+        "label": "regional championship",
+        "value": "20001118"
+      },
+      {
+        "label": "regional cup",
+        "value": "20001119"
+      },
+      {
+        "label": "regional games",
+        "value": "20001120"
+      },
+      {
+        "label": "world championship",
+        "value": "20001121"
+      },
+      {
+        "label": "world cup",
+        "value": "20001122"
+      },
+      {
+        "label": "world games",
+        "value": "20001123"
+      },
+      {
+        "label": "Olympic Games",
+        "value": "20001177"
+      },
+      {
+        "label": "Paralympic Games",
+        "value": "20001178"
+      },
+      {
+        "label": "sport industry",
+        "value": "20001124"
+      },
+      {
+        "label": "sport organisation",
+        "value": "20001125"
+      },
+      {
+        "label": "sport venue",
+        "value": "20001126"
+      },
+      {
+        "label": "transfer",
+        "value": "20001148"
+      },
+      {
+        "label": "weather",
+        "value": "17000000"
+      },
+      {
+        "label": "weather forecast",
+        "value": "20001128"
+      },
+      {
+        "label": "weather phenomena",
+        "value": "20001129"
+      },
+      {
+        "label": "weather statistic",
+        "value": "20001130"
+      },
+      {
+        "label": "weather warning",
+        "value": "20001131"
+      }
+    ]
+  },
+  {
+    "id": "Iptc4xmpCore:Sublocation",
+    "displayName": "Sublocation",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "Location",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "Iptc4xmpCore:CountryCode",
+    "displayName": "Country Code",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CountryCode",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  }
+]

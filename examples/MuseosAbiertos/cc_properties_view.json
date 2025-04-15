@@ -1,0 +1,81 @@
+[
+  {
+    "id": "dividerCreativeCommons",
+    "displayName": "Creative Commons Namespace",
+    "type": "Divider",
+    "dependencies": []
+  },
+  {
+    "id": "cc:license",
+    "displayName": "CC License",
+    "namespace": "http://creativecommons.org/ns#",
+    "prefix": "cc",
+    "propertyName": "license",
+    "type": "Dropdown",
+    "readOnly": false,
+    "dependencies": [],
+    "options": [
+		{
+		"label": "Attribution (CC BY 4.0)",
+		"value": "http://creativecommons.org/licenses/by/4.0/"
+		},
+		{
+		"label": "Attribution-ShareAlike (CC BY-SA 4.0)",
+		"value": "http://creativecommons.org/licenses/by-sa/4.0/"
+		},
+		{
+		"label": "Attribution-NoDerivatives (CC BY-ND 4.0)",
+		"value": "http://creativecommons.org/licenses/by-nd/4.0/"
+		},
+		{
+		"label": "Attribution-NonCommercial (CC BY-NC 4.0)",
+		"value": "http://creativecommons.org/licenses/by-nc/4.0/"
+		},
+		{
+		"label": "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)",
+		"value": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+		},
+		{
+		"label": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0)",
+		"value": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+		},
+		{
+		"label": "Public Domain (CC 1.0)",
+		"value": "https://creativecommons.org/publicdomain/zero/1.0/"
+		}
+    ]
+  },
+  {
+    "id": "cc:morePermissions",
+    "displayName": "More Permissions",
+    "namespace": "http://creativecommons.org/ns#",
+    "prefix": "cc",
+    "propertyName": "morePermissions",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "cc:attributionURL",
+    "displayName": "Attribution URL",
+    "namespace": "http://creativecommons.org/ns#",
+    "prefix": "cc",
+    "propertyName": "attributionURL",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "cc:attributionName",
+    "displayName": "Attribution Name",
+    "namespace": "http://creativecommons.org/ns#",
+    "prefix": "cc",
+    "propertyName": "attributionName",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  }
+]

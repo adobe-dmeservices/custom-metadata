@@ -1,0 +1,381 @@
+[
+  { "id": "ClMyZZbLtA", "displayName": "ISAD(G)", "type": "Divider" },
+  {
+    "id": "isadg:Identity",
+    "displayName": "Identity",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "Identity",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "U0MbmAudtu",
+          "displayName": "Reference",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Reference",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "Q3H6rxZo9e",
+          "displayName": "Title",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Title",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "207S0Dx5dV",
+          "displayName": "Date",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Date",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "Q31yKe1Xux",
+          "displayName": "DescriptionLevel",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "DescriptionLevel",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "gOov2mO3Zy",
+          "displayName": "Extent",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Extent",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
+  },
+  {
+    "id": "isadg:Context",
+    "displayName": "Context",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "Context",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "uJpbZ5bHFW",
+          "displayName": "Creator",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Creator",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "lUnKTL6DEP",
+          "displayName": "Adminbiohistory",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Adminbiohistory",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "QeelfcZmyd",
+          "displayName": "Archivalhistory",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Archivalhistory",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "YpNX2i7qWF",
+          "displayName": "Acqinfo",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Acqinfo",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
+  },
+  {
+    "id": "isadg:Contentstructure",
+    "displayName": "Contentstructure",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "Contentstructure",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "tGcSbjoS19",
+          "displayName": "Scopecontent",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Scopecontent",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "2SgWy0iIPm",
+          "displayName": "Appraisaldestruction",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Appraisaldestruction",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "JKN1i8Mntj",
+          "displayName": "Accruals",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Accruals",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "Z6q2NfC8SH",
+          "displayName": "Arrangement",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Arrangement",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
+  },
+  {
+    "id": "isadg:Conditionsaccessuse",
+    "displayName": "Conditionsaccessuse",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "Conditionsaccessuse",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "nNfmxOuWRd",
+          "displayName": "Accessrestrictions",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Accessrestrictions",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "LvH0LHSoJJ",
+          "displayName": "Reprorestrictions",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Reprorestrictions",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "Z2WgpUfxFh",
+          "displayName": "Languagescripts",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Languagescripts",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "RkvEjPlqVr",
+          "displayName": "Phystech",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Phystech",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "nl3s97cHDU",
+          "displayName": "Findingaids",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Findingaids",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
+  },
+  {
+    "id": "isadg:Alliedmaterials",
+    "displayName": "Alliedmaterials",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "Alliedmaterials",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "3YZgOj81NZ",
+          "displayName": "Existencelocationoriginals",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Existencelocationoriginals",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "3YZgOj81NZ",
+          "displayName": "Existencelocationoriginals",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Existencelocationoriginals",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "SsfuTzbV2p",
+          "displayName": "Existencelocationcopies",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Existencelocationcopies",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "kcrjnTuHoR",
+          "displayName": "Relatedunits",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Relatedunits",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "DBdSCDdfWP",
+          "displayName": "Publication",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Publication",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
+  },
+  {
+    "id": "WvuFRTkDrX",
+    "displayName": "Notes",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "isadg:NotesNote",
+    "type": "Text",
+    "options": "",
+    "readOnly": false
+  },
+  {
+    "id": "isadg:Descriptioncontrol",
+    "displayName": "Descriptioncontrol",
+    "prefix": "isadg",
+    "namespace": "https://gist.github.com/anarchivist/826364",
+    "propertyName": "Descriptioncontrol",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "3dlb1usVSR",
+          "displayName": "Archivistsnote",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Archivistsnote",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "o3py6Defzd",
+          "displayName": "Rulesconventions",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Rulesconventions",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        },
+        {
+          "id": "I9zSbueTfM",
+          "displayName": "Descriptionsdate",
+          "prefix": "isadg",
+          "namespace": "https://gist.github.com/anarchivist/826364",
+          "propertyName": "Descriptionsdate",
+          "type": "Text",
+          "options": "",
+          "readOnly": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
+  }
+]

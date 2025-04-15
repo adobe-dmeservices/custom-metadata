@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "1",
+    "displayName": "Standard Metadata",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "2",
+    "displayName": "File Modification Date",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "MetadataDate",
+    "type": "Date",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "3",
+    "displayName": "Description",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "prefix": "dc",
+    "propertyName": "description",
+    "type": "Text",
+    "dependencies": [],
+    "multiLine": true,
+    "altLangEnabled": true,
+    "disabled": false
+  },
+  {
+    "id": "17",
+    "displayName": "IPTC Creator Information",
+    "type": "Subsection",
+    "disabled": false,
+    "sectionLink": "https://iptc.org/standards/photo-metadata/",
+    "dependencies": []
+  },
+  {
+    "id": "4",
+    "displayName": "Creator",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "creator",
+    "type": "MultiText",
+    "readOnly": false,
+    "dependencies": [],
+    "arrayType": "seq",
+    "disabled": false
+  },
+  {
+    "id": "iuoWVEWuJY",
+    "displayName": "Image Creator",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageCreator",
+    "customToolTip": "Enter details about the creator or creators of this image",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "FU96cAMsxcVdspHtS0LpZekLeaojp7",
+          "displayName": "Image Creator Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "ImageCreatorName",
+          "customToolTip": "",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "xcMnNy1W7fmFN6szbdvpik3PZaaZyC",
+          "displayName": "Image Creator ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "ImageCreatorID",
+          "customToolTip": "",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        }
+      ],
+      "isArray": true,
+      "shouldOverwrite": true
+    },
+    "disabled": false
+  },
+  {
+    "id": "5",
+    "displayName": "Creator Title",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "AuthorsPosition",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "Roz5V3fMsw",
+    "displayName": "Creator's Contact Info",
+    "prefix": "Iptc4xmpCore",
+    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+    "propertyName": "CreatorContactInfo",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "Fx884Sk60beldZ15DSx5KRJuGsHfwv",
+          "displayName": "Address",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrExtadr",
+          "customToolTip": "Enter Address for the person that created this image",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "Ty5RCrXtqrsZe1trmE6WKQiduKBcdZ",
+          "displayName": "City",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrCity",
+          "customToolTip": "Enter the City for the address of the person that created this image",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "IxZezgXo94zNCUvQxwUogxmOeW1PdX",
+          "displayName": "State/Province",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrRegion",
+          "customToolTip": "Enter the State for the address of the person that created this image",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "yJbkvvwKbUeCHk5ggUP2oReDT5GKu6",
+          "displayName": "Country",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrCtry",
+          "customToolTip": "Enter the Country name for the address of the person that created this image",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "370nhMIIKkTDTWPS5ZhuOze74u1Jka",
+          "displayName": "Postal Code",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrPcode",
+          "customToolTip": "Enter the Postal Code for the address of the person that created this image",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "Hugtn5agfntZ0foTG9ALoFT8xxgw7I",
+          "displayName": "Email address(es)",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiEmailWork",
+          "customToolTip": "Enter the work Email address(es) for the person that created this image, such as name@domain.com",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "yTDANUUOdjvEwiVEJxrB4TZDgwNH3z",
+          "displayName": "Phone number(s)",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiTelWork",
+          "customToolTip": "Enter the work Phone number(s) for the person that created this image, using the international format, such as +1 (123) 456789",
+          "customDefaultText": "",
+          "type": "Text",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        },
+        {
+          "id": "zixqcJfCDh1RtxuQ7MweMCY7Vl7Xk5",
+          "displayName": "Web URL(s)",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiUrlWork",
+          "customToolTip": "Enter the work Web URL(s) for the person that created this image, such as http://www.domain.com/",
+          "customDefaultText": "",
+          "type": "URL",
+          "dependencies": [],
+          "syncToFile": [],
+          "readOnly": false,
+          "multiLine": false,
+          "timeFormat": "hh:mm a",
+          "dateFormat": "YYYY-MM-DD",
+          "disabled": false
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": true
+    },
+    "disabled": false
+  },
+  {
+    "id": "6",
+    "displayName": "Headline",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Headline",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "8",
+    "displayName": "Keywords",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "subject",
+    "type": "MultiText",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "7",
+    "displayName": "Pet Shop Metadata",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "9",
+    "displayName": "Pet Type",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "type",
+    "type": "Dropdown",
+    "options": ["Cat", "Dog", "Bird", "Rabbit", "Others"],
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "10",
+    "displayName": "Name",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "name",
+    "type": "Text",
+    "dependencies": [],
+    "altLangEnabled": true,
+    "altLang": ["es", "en-gb", "en-us", "en"],
+    "altLangDefault": "en",
+    "disabled": false
+  },
+  {
+    "id": "11",
+    "displayName": "Breed",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "breed",
+    "type": "MultiDropdown",
+    "options": [
+      {
+        "label": "Labrador Retriever",
+        "parent": "Dog",
+        "value": "Labrador Retriever"
+      },
+      {
+        "label": "German Shepherd Dog",
+        "parent": "Dog",
+        "value": "German Shepherd Dog"
+      },
+      {
+        "label": "Golden Retriever",
+        "parent": "Dog",
+        "value": "Golden Retriever"
+      },
+      { "label": "Bulldog", "parent": "Dog", "value": "Bulldog" },
+      { "label": "Siamese", "parent": "Cat", "value": "Siamese" },
+      { "label": "Ragdoll", "parent": "Cat", "value": "Ragdoll" },
+      {
+        "label": "British Shorthair",
+        "parent": "Cat",
+        "value": "British Shorthair"
+      },
+      { "label": "Persian", "parent": "Cat", "value": "Persian" },
+      { "label": "Maine Coon", "parent": "Cat", "value": "Maine Coon" },
+      { "label": "Parrot", "parent": "Bird", "value": "Parrot" },
+      { "label": "Chicadee", "parent": "Bird", "value": "Chicadee" },
+      { "label": "Cockatoo", "parent": "Bird", "value": "Cockatoo" },
+      {
+        "label": "American Rabbit",
+        "parent": "Rabbit",
+        "value": "American Rabbit"
+      },
+      { "label": "English Lop", "parent": "Rabbit", "value": "English Lop" },
+      {
+        "label": "Blanc de Hotot",
+        "parent": "Rabbit",
+        "value": "Blanc de Hotot"
+      },
+      {
+        "label": "Other",
+        "parent": ["Cat", "Dog", "Bird", "Rabbit", "Others"],
+        "value": "Other"
+      }
+    ],
+    "filterOptionsSource": "9",
+    "dependencies": ["9"],
+    "disabled": false
+  },
+  {
+    "id": "12",
+    "displayName": "Gender",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "gender",
+    "type": "Dropdown",
+    "options": ["Male", "Female"],
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "12.5",
+    "displayName": "Arrival Date",
+    "prefix": "pet",
+    "namespace": "http://pet.adobe.com",
+    "propertyName": "arrivalDate",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false
+  },
+  {
+    "id": "13",
+    "displayName": "Adoption Date",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "adoptDate",
+    "type": "Date",
+    "dependencies": ["12.5"],
+    "disabled": false
+  },
+  {
+    "id": "13.5",
+    "displayName": "How did this pet arrive?",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "arrival",
+    "type": "RadioGroup",
+    "options": [
+      { "label": "Pet Surrender", "value": "surrender" },
+      { "label": "Animal Control", "value": "stray-ac" },
+      { "label": "Anonymous Stray", "value": "stray-anon" }
+    ],
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "orientation": "horizontal"
+  },
+  {
+    "id": "13.55",
+    "displayName": "When did this pet arrive?",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "arrivalTime",
+    "type": "RadioGroup",
+    "options": [
+      { "label": "Morning", "value": "morning" },
+      { "label": "Mid-day", "value": "noon" },
+      { "label": "Afternoon", "value": "afternoon" }
+    ],
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "orientation": "vertical"
+  },
+  {
+    "id": "13.60",
+    "displayName": "Pet Medical Details",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "13.61",
+    "displayName": "Vaccinated",
+    "prefix": "pet",
+    "namespace": "http://pet.adobe.com",
+    "propertyName": "vaccinated",
+    "type": "Switch",
+    "dependencies": [],
+    "readOnly": false,
+    "options": { "checked": "True", "unchecked": "" },
+    "disabled": false
+  },
+  {
+    "id": "13.62",
+    "displayName": "Spayed or Neutered",
+    "prefix": "pet",
+    "namespace": "http://pet.adobe.com",
+    "propertyName": "neutered",
+    "type": "Checkbox",
+    "dependencies": [],
+    "readOnly": false,
+    "options": { "checked": "True", "unchecked": "False" },
+    "disabled": false
+  },
+  {
+    "id": "13.63",
+    "displayName": "Has had litter?",
+    "prefix": "pet",
+    "namespace": "http://pet.adobe.com",
+    "propertyName": "mother",
+    "type": "Checkbox",
+    "dependencies": [],
+    "readOnly": false,
+    "options": "{\n    \"checked\": \"True\",\n    \"unchecked\": \"False\"\n}",
+    "disabled": false
+  },
+  {
+    "id": "13.64",
+    "displayName": "Vaccines Administered",
+    "prefix": "pet",
+    "namespace": "http://pet.adobe.com",
+    "propertyName": "vaccines",
+    "type": "SwitchGroup",
+    "dependencies": [],
+    "readOnly": false,
+    "options": [
+      { "label": "Distemper", "value": "distemper" },
+      { "label": "Rabies", "value": "rabies" },
+      { "label": "Kennel Cough", "value": "kennelcough" }
+    ],
+    "disabled": false,
+    "orientation": "horizontal"
+  },
+  {
+    "id": "14",
+    "displayName": "Additional Notes",
+    "namespace": "http://pet.adobe.com",
+    "prefix": "pet",
+    "propertyName": "otherNotes",
+    "type": "MultiText",
+    "dependencies": [],
+    "multiLine": true,
+    "disabled": false
+  },
+  {
+    "id": "15",
+    "displayName": "Coat type",
+    "prefix": "pet",
+    "namespace": "http://pet.adobe.com",
+    "propertyName": "coat",
+    "type": "Text",
+    "readOnly": false,
+    "dependencies": ["11"],
+    "disabled": false
+  },
+  {
+    "id": "5X5B2ylvUg",
+    "displayName": "Adobe Experience Manger",
+    "type": "Divider",
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "16",
+    "displayName": "AEM Tags",
+    "prefix": "cq",
+    "namespace": "http://www.day.com/jcr/cq/1.0",
+    "propertyName": "tags",
+    "type": "AEMTags",
+    "options": {
+      "namespaces": {
+        "pet-rescue": {
+          "name": "pet-rescue",
+          "title": "Pet Rescue",
+          "description": "Pet Rescue Tags",
+          "path": "/content/cq:tags/pet-rescue",
+          "tags": {
+            "behavior": {
+              "path": "/content/cq:tags/pet-rescue/behavior",
+              "tagID": "pet-rescue:behavior",
+              "name": "behavior",
+              "title": "Behavior",
+              "title_xss": "Behavior",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Behavior",
+              "tags": {
+                "active": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/active",
+                  "tagID": "pet-rescue:behavior/active",
+                  "name": "active",
+                  "title": "Active",
+                  "title_xss": "Active",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Active",
+                  "tags": {}
+                },
+                "playful": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/playful",
+                  "tagID": "pet-rescue:behavior/playful",
+                  "name": "playful",
+                  "title": "Playful",
+                  "title_xss": "Playful",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Playful",
+                  "tags": {}
+                },
+                "friendly": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/friendly",
+                  "tagID": "pet-rescue:behavior/friendly",
+                  "name": "friendly",
+                  "title": "Friendly",
+                  "title_xss": "Friendly",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Friendly",
+                  "tags": {}
+                },
+                "aloof": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/aloof",
+                  "tagID": "pet-rescue:behavior/aloof",
+                  "name": "aloof",
+                  "title": "Aloof",
+                  "title_xss": "Aloof",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Aloof",
+                  "tags": {}
+                },
+                "trained": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/trained",
+                  "tagID": "pet-rescue:behavior/trained",
+                  "name": "trained",
+                  "title": "Trained",
+                  "title_xss": "Trained",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Trained",
+                  "tags": {}
+                }
+              }
+            },
+            "health": {
+              "path": "/content/cq:tags/pet-rescue/health",
+              "tagID": "pet-rescue:health",
+              "name": "health",
+              "title": "Health",
+              "title_xss": "Health",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Health",
+              "tags": {
+                "spayed": {
+                  "path": "/content/cq:tags/pet-rescue/health/spayed",
+                  "tagID": "pet-rescue:health/spayed",
+                  "name": "spayed",
+                  "title": "Spayed",
+                  "title_xss": "Spayed",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Spayed",
+                  "tags": {}
+                },
+                "neutered": {
+                  "path": "/content/cq:tags/pet-rescue/health/neutered",
+                  "tagID": "pet-rescue:health/neutered",
+                  "name": "neutered",
+                  "title": "Neutered",
+                  "title_xss": "Neutered",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Neutered",
+                  "tags": {}
+                },
+                "vaccinated": {
+                  "path": "/content/cq:tags/pet-rescue/health/vaccinated",
+                  "tagID": "pet-rescue:health/vaccinated",
+                  "name": "vaccinated",
+                  "title": "Vaccinated",
+                  "title_xss": "Vaccinated",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Vaccinated",
+                  "tags": {}
+                },
+                "special-needs": {
+                  "path": "/content/cq:tags/pet-rescue/health/special-needs",
+                  "tagID": "pet-rescue:health/special-needs",
+                  "name": "special-needs",
+                  "title": "Special Needs",
+                  "title_xss": "Special Needs",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Special Needs",
+                  "tags": {}
+                }
+              }
+            },
+            "coat": {
+              "path": "/content/cq:tags/pet-rescue/coat",
+              "tagID": "pet-rescue:coat",
+              "name": "coat",
+              "title": "Coat",
+              "title_xss": "Coat",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Coat",
+              "tags": {
+                "hairless": {
+                  "path": "/content/cq:tags/pet-rescue/coat/hairless",
+                  "tagID": "pet-rescue:coat/hairless",
+                  "name": "hairless",
+                  "title": "Hairless",
+                  "title_xss": "Hairless",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / Hairless",
+                  "tags": {}
+                },
+                "short": {
+                  "path": "/content/cq:tags/pet-rescue/coat/short",
+                  "tagID": "pet-rescue:coat/short",
+                  "name": "short",
+                  "title": "Short",
+                  "title_xss": "Short",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / Short",
+                  "tags": {}
+                },
+                "medium": {
+                  "path": "/content/cq:tags/pet-rescue/coat/medium",
+                  "tagID": "pet-rescue:coat/medium",
+                  "name": "medium",
+                  "title": "Medium",
+                  "title_xss": "Medium",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / Medium",
+                  "tags": {}
+                },
+                "long": {
+                  "path": "/content/cq:tags/pet-rescue/coat/long",
+                  "tagID": "pet-rescue:coat/long",
+                  "name": "long",
+                  "title": "long",
+                  "title_xss": "long",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / long",
+                  "tags": {}
+                }
+              }
+            },
+            "other": {
+              "path": "/content/cq:tags/pet-rescue/other",
+              "tagID": "pet-rescue:other",
+              "name": "other",
+              "title": "Other",
+              "title_xss": "Other",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Other",
+              "tags": {
+                "good-with-other-dogs": {
+                  "path": "/content/cq:tags/pet-rescue/other/good-with-other-dogs",
+                  "tagID": "pet-rescue:other/good-with-other-dogs",
+                  "name": "good-with-other-dogs",
+                  "title": "Good with other dogs",
+                  "title_xss": "Good with other dogs",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Other / Good with other dogs",
+                  "tags": {}
+                },
+                "good-with-other-cats": {
+                  "path": "/content/cq:tags/pet-rescue/other/good-with-other-cats",
+                  "tagID": "pet-rescue:other/good-with-other-cats",
+                  "name": "good-with-other-cats",
+                  "title": "Good with other cats",
+                  "title_xss": "Good with other cats",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Other / Good with other cats",
+                  "tags": {}
+                },
+                "good-with-children": {
+                  "path": "/content/cq:tags/pet-rescue/other/good-with-children",
+                  "tagID": "pet-rescue:other/good-with-children",
+                  "name": "good-with-children",
+                  "title": "Good with children",
+                  "title_xss": "Good with children",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Other / Good with children",
+                  "tags": {}
+                }
+              }
+            }
+          }
+        },
+        "petshop": {
+          "name": "petshop",
+          "title": "Pet Shop",
+          "description": "",
+          "path": "/content/cq:tags/petshop",
+          "tags": {
+            "cat": {
+              "path": "/content/cq:tags/petshop/cat",
+              "tagID": "petshop:cat",
+              "name": "cat",
+              "title": "cat",
+              "title_xss": "cat",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Shop : cat",
+              "tags": {
+                "short-hair": {
+                  "path": "/content/cq:tags/petshop/cat/short-hair",
+                  "tagID": "petshop:cat/short-hair",
+                  "name": "short-hair",
+                  "title": "short hair",
+                  "title_xss": "short hair",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : cat / short hair",
+                  "tags": {
+                    "siamese": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/siamese",
+                      "tagID": "petshop:cat/short-hair/siamese",
+                      "name": "siamese",
+                      "title": "siamese",
+                      "title_xss": "siamese",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / siamese",
+                      "tags": {}
+                    },
+                    "abyssinian": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/abyssinian",
+                      "tagID": "petshop:cat/short-hair/abyssinian",
+                      "name": "abyssinian",
+                      "title": "abyssinian",
+                      "title_xss": "abyssinian",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / abyssinian",
+                      "tags": {}
+                    },
+                    "american-shorthair": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/american-shorthair",
+                      "tagID": "petshop:cat/short-hair/american-shorthair",
+                      "name": "american-shorthair",
+                      "title": "american short hair",
+                      "title_xss": "american short hair",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / american short hair",
+                      "tags": {}
+                    },
+                    "oriental": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/oriental",
+                      "tagID": "petshop:cat/short-hair/oriental",
+                      "name": "oriental",
+                      "title": "oriental",
+                      "title_xss": "oriental",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / oriental",
+                      "tags": {}
+                    }
+                  }
+                },
+                "long-hair": {
+                  "path": "/content/cq:tags/petshop/cat/long-hair",
+                  "tagID": "petshop:cat/long-hair",
+                  "name": "long-hair",
+                  "title": "long hair",
+                  "title_xss": "long hair",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : cat / long hair",
+                  "tags": {
+                    "maine-coon": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/maine-coon",
+                      "tagID": "petshop:cat/long-hair/maine-coon",
+                      "name": "maine-coon",
+                      "title": "maine coon",
+                      "title_xss": "maine coon",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / maine coon",
+                      "tags": {}
+                    },
+                    "persian": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/persian",
+                      "tagID": "petshop:cat/long-hair/persian",
+                      "name": "persian",
+                      "title": "persian",
+                      "title_xss": "persian",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / persian",
+                      "tags": {}
+                    },
+                    "birman": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/birman",
+                      "tagID": "petshop:cat/long-hair/birman",
+                      "name": "birman",
+                      "title": "birman",
+                      "title_xss": "birman",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / birman",
+                      "tags": {}
+                    },
+                    "norwegian-forest": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/norwegian-forest",
+                      "tagID": "petshop:cat/long-hair/norwegian-forest",
+                      "name": "norwegian-forest",
+                      "title": "norwegian forest",
+                      "title_xss": "norwegian forest",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / norwegian forest",
+                      "tags": {}
+                    }
+                  }
+                }
+              }
+            },
+            "dog": {
+              "path": "/content/cq:tags/petshop/dog",
+              "tagID": "petshop:dog",
+              "name": "dog",
+              "title": "dog",
+              "title_xss": "dog",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Shop : dog",
+              "tags": {
+                "schnauzer": {
+                  "path": "/content/cq:tags/petshop/dog/schnauzer",
+                  "tagID": "petshop:dog/schnauzer",
+                  "name": "schnauzer",
+                  "title": "schnauzer",
+                  "title_xss": "schnauzer",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / schnauzer",
+                  "tags": {}
+                },
+                "chinook": {
+                  "path": "/content/cq:tags/petshop/dog/chinook",
+                  "tagID": "petshop:dog/chinook",
+                  "name": "chinook",
+                  "title": "chinook",
+                  "title_xss": "chinook",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / chinook",
+                  "tags": {}
+                },
+                "great-pyrenees": {
+                  "path": "/content/cq:tags/petshop/dog/great-pyrenees",
+                  "tagID": "petshop:dog/great-pyrenees",
+                  "name": "great-pyrenees",
+                  "title": "great pyrenees",
+                  "title_xss": "great pyrenees",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / great pyrenees",
+                  "tags": {}
+                },
+                "labrador": {
+                  "path": "/content/cq:tags/petshop/dog/labrador",
+                  "tagID": "petshop:dog/labrador",
+                  "name": "labrador",
+                  "title": "labrador",
+                  "title_xss": "labrador",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / labrador",
+                  "tags": {
+                    "yellow-lab": {
+                      "path": "/content/cq:tags/petshop/dog/labrador/yellow-lab",
+                      "tagID": "petshop:dog/labrador/yellow-lab",
+                      "name": "yellow-lab",
+                      "title": "yellow lab",
+                      "title_xss": "yellow lab",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : dog / labrador / yellow lab",
+                      "tags": {}
+                    },
+                    "chocolate-lab": {
+                      "path": "/content/cq:tags/petshop/dog/labrador/chocolate-lab",
+                      "tagID": "petshop:dog/labrador/chocolate-lab",
+                      "name": "chocolate-lab",
+                      "title": "chocolate lab",
+                      "title_xss": "chocolate lab",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : dog / labrador / chocolate lab",
+                      "tags": {}
+                    }
+                  }
+                }
+              }
+            },
+            "gender": {
+              "path": "/content/cq:tags/petshop/gender",
+              "tagID": "petshop:gender",
+              "name": "gender",
+              "title": "gender",
+              "title_xss": "gender",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Shop : gender",
+              "tags": {
+                "male": {
+                  "path": "/content/cq:tags/petshop/gender/male",
+                  "tagID": "petshop:gender/male",
+                  "name": "male",
+                  "title": "male",
+                  "title_xss": "male",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : gender / male",
+                  "tags": {}
+                },
+                "female": {
+                  "path": "/content/cq:tags/petshop/gender/female",
+                  "tagID": "petshop:gender/female",
+                  "name": "female",
+                  "title": "female",
+                  "title_xss": "female",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : gender / female",
+                  "tags": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  }
+]

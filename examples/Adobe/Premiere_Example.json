@@ -1,0 +1,206 @@
+[
+    {
+        "id": "4YRiAGgBOG",
+        "displayName": "Clip Metadata",
+        "type": "Divider",
+        "disabled": false,
+        "dependencies": []
+    },
+    {
+        "id": "D7lg3cPqz5",
+        "displayName": "Media Duration",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.Intrinsic.MediaDuration",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": true,
+        "type": "Clip",
+        "disabled": false
+    },
+    {
+        "id": "XrH5J5oIT8",
+        "displayName": "Media Type",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.Intrinsic.MediaType",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": true,
+        "type": "Clip",
+        "disabled": false
+    },
+    {
+        "id": "L2Mszx2VuP",
+        "displayName": "Tape Name",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.Intrinsic.TapeName",
+        "dependencies": [],
+        "readOnly": false,
+        "disabled": false,
+        "type": "Clip",
+        "clipType": 2
+    },
+    {
+        "id": "KdPVHNL63B",
+        "displayName": "Description",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyText.Description",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false
+    },
+    {
+        "id": "W7tdPTkYKh",
+        "displayName": "Comment",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyText.Comment",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false
+    },
+    {
+        "id": "E0hBtj8me4",
+        "displayName": "Log note",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.Intrinsic.LogNote",
+        "dependencies": [],
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false,
+        "clipType": 2
+    },
+    {
+        "id": "ZNHB8WmqHZ",
+        "displayName": "Capture Settings",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyText.CaptureSettings",
+        "dependencies": [],
+        "clipType": 3,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false
+    },
+    {
+        "id": "MzOntaphrn",
+        "displayName": "Scene name",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyText.Scene",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false,
+        "linkToFile": {
+            "fileFieldId": "FrVJlixBJv",
+            "enabled": false
+        }
+    },
+    {
+        "id": "ZYNQ68qsdv",
+        "displayName": "Shot",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyText.Shot",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false,
+        "linkToFile": {
+            "fileFieldId": "VNkPGDfgiQ",
+            "enabled": false
+        }
+    },
+    {
+        "id": "KctJATdCKB",
+        "displayName": "Client",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyText.Client",
+        "dependencies": [],
+        "clipType": 2,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false,
+        "linkToFile": {
+            "fileFieldId": "8NqwRGd8fN",
+            "enabled": false
+        }
+    },
+    {
+        "id": "rGYLTr4MN1",
+        "displayName": "Good",
+        "prefix": "premierePrivateProjectMetaData",
+        "namespace": "http://ns.adobe.com/premierePrivateProjectMetaData/1.0/",
+        "propertyName": "Column.PropertyBool.Good",
+        "dependencies": [],
+        "clipType": 3,
+        "readOnly": false,
+        "type": "Clip",
+        "disabled": false
+    },
+    {
+        "id": "0WSIAuV9OR",
+        "displayName": "XMP Metadata",
+        "type": "Divider",
+        "disabled": false,
+        "dependencies": []
+    },
+    {
+        "id": "FrVJlixBJv",
+        "displayName": "Scene",
+        "prefix": "xmpDM",
+        "namespace": "http://ns.adobe.com/xmp/1.0/DynamicMedia/",
+        "propertyName": "scene",
+        "type": "Text",
+        "dependencies": [],
+        "readOnly": false,
+        "multiLine": false,
+        "altLang": [],
+        "altLangDefault": "",
+        "altLangEnabled": false,
+        "disabled": true
+    },
+    {
+        "id": "VNkPGDfgiQ",
+        "displayName": "Shot",
+        "prefix": "xmpDM",
+        "namespace": "http://ns.adobe.com/xmp/1.0/DynamicMedia/",
+        "propertyName": "ShotName",
+        "type": "Text",
+        "dependencies": [],
+        "readOnly": false,
+        "multiLine": false,
+        "altLang": [],
+        "altLangDefault": "",
+        "altLangEnabled": false,
+        "disabled": true
+    },
+    {
+        "id": "8NqwRGd8fN",
+        "displayName": "Client",
+        "prefix": "xmpDM",
+        "namespace": "http://ns.adobe.com/xmp/1.0/DynamicMedia/",
+        "propertyName": "client",
+        "type": "Text",
+        "dependencies": [],
+        "linkToFile": {},
+        "readOnly": false,
+        "multiLine": false,
+        "altLang": [],
+        "altLangDefault": "",
+        "altLangEnabled": false,
+        "disabled": false
+    }
+]

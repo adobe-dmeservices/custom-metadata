@@ -1,0 +1,983 @@
+[
+   {
+       "id": "TpjoWhORthUMb0876GzGlzW69qSnt",
+       "displayName": "IPTC Video Metadata Hub (core properties)",
+       "type": "Divider",
+       "sectionLink": "https://www.iptc.org/cm-videometadata-core-userguide",
+       "disabled": false,
+       "dependencies": []
+   },
+   {
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Descriptive - General",
+      "id" : "yUREuXkaJwQ9lGpkjhvuY1uz8HZXWy",
+      "type" : "Divider"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "",
+      "altLangEnabled" : true,
+      "customDefaultText" : "",
+      "customToolTip" : "Title of the video, should be a shorthand reference",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Title",
+      "hideTime" : "datetime",
+      "id" : "JUxKbHVSjibGJgd7DgDc6OAeQucUTj",
+      "linkToFile" : {},
+      "multiLine" : false,
+      "namespace" : "http://purl.org/dc/elements/1.1/",
+      "options" : [],
+      "prefix" : "dc",
+      "propertyName" : "title",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "",
+      "altLangEnabled" : true,
+      "customDefaultText" : "",
+      "customToolTip" : "Textual description of the content of the video",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Description",
+      "hideTime" : "datetime",
+      "id" : "sMg4e2J2NT3qm0R7unq4ElAU9V2aGS",
+      "linkToFile" : {},
+      "multiLine" : false,
+      "namespace" : "http://purl.org/dc/elements/1.1/",
+      "options" : [],
+      "prefix" : "dc",
+      "propertyName" : "description",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "arrayType" : "bag",
+      "customDefaultText" : "Enter a single keyword",
+      "customToolTip" : "What the video is about expressed by a free choice of descriptive phrases or keywords",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Keywords",
+      "id" : "TSRORLDClfx2XcAC9m2yI6O8qhXLk5",
+      "namespace" : "http://purl.org/dc/elements/1.1/",
+      "prefix" : "dc",
+      "propertyName" : "subject",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "MultiText"
+   },
+   {
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Descriptive - Accessibility",
+      "id" : "yUREuXkaJwQ9lGpkjhvuY1uz8HZXWy",
+      "type" : "Divider"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "en",
+      "altLangEnabled" : false,
+      "customDefaultText" : "",
+      "customToolTip" : "A brief textual description of the purpose and meaning of a video that can be accessed by assistive technology or displayed when the video is disabled in the browser. It should not exceed 250 characters.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Alt Text (Accessibility)",
+      "hideTime" : "datetime",
+      "id" : "LgpHwkmiPmSWTMAVcBrwzkXTiXh0KH",
+      "linkToFile" : {},
+      "multiLine" : false,
+      "namespace" : "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+      "options" : [],
+      "prefix" : "Iptc4xmpCore",
+      "propertyName" : "AltTextAccessibility",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Descriptive - People and Places",
+      "id" : "yUREuXkaJwQ9lGpkjhvuY1uz8HZXWy",
+      "type" : "Divider"
+   },
+   {
+      "arrayType" : "bag",
+      "customToolTip" : "Place(s) shown by the video",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Location Shown in the Image",
+      "id" : "gLAVTYpg0RsryeOA88JpCzxTT2h6ZT",
+      "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+      "prefix" : "Iptc4xmpExt",
+      "propertyName" : "LocationShown",
+      "readOnly" : false,
+      "structure" : {
+         "fields" : [
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the Sublocation",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Sublocation",
+               "id" : "WmU1P5b2meTIGxTatDwgYOREEK4mZ3",
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "Sublocation",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the City",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "City",
+               "id" : "2odzcMhfb3bKe7AVTYKpjwErPqXen8",
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "City",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the Province or State",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Province or State",
+               "id" : "rkIv37xwbDaEMncQj3byGQigwRbwqW",
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "ProvinceState",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the 2 or 3 letter ISO 3166 Country Code of the Country",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Country ISO-Code",
+               "id" : "PEweY5HtdtDrLR7rxeZaStkQ0woBOK",
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "CountryCode",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the Country",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Country Name",
+               "id" : "hxBPggQv6MtLxjwJr4Rw556CAUxXks",
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "CountryName",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the World Region",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "World Region",
+               "id" : "UNvXqik3gmjTjdjylgpLXojeru6P9j",
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "WorldRegion",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : true,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter a full name of the location",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Location Name",
+               "hideTime" : "datetime",
+               "id" : "er63fWOsJWsws8SORxBPeRkvfWAKy1",
+               "linkToFile" : {},
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "options" : [],
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "LocationName",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "arrayType" : "bag",
+               "customDefaultText" : "",
+               "customToolTip" : "Enter globally unique identifier(s) of the location",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Location Identifier",
+               "id" : "iHteSXg0HN9g0IzrzdEbOgfxDjaqAx",
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "LocationId",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "MultiText"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "GPS-Altitude (write an integer value and you MUST append /1 to it!!)",
+               "id" : "ZMzJiCrO7JLfvxgBo15IPPr1IQiBc8",
+               "multiLine" : false,
+               "namespace" : "http://ns.adobe.com/exif/1.0/",
+               "prefix" : "exif",
+               "propertyName" : "GPSAltitude",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "customToolTip" : "",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "GPS-Altitude Reference",
+               "id" : "cGoUhFSPJqMYNyZrtfZjKAZgHvdgM5",
+               "namespace" : "http://ns.adobe.com/exif/1.0/",
+               "options" : [
+                  {
+                     "label" : "Above the zero altitude",
+                     "value" : "0"
+                  },
+                  {
+                     "label" : "Below the zero altitude",
+                     "value" : "1"
+                  }
+               ],
+               "orientation" : "vertical",
+               "prefix" : "exif",
+               "propertyName" : "GPSAltitudeRef",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "RadioGroup"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "GPS-Latitude (format: degrees\",\"minutes\".\"seconds\"N\"orth or \"S\"outh)",
+               "id" : "k1X3bh9CjqAiLUgagtjv4QaaWzh603",
+               "multiLine" : false,
+               "namespace" : "http://ns.adobe.com/exif/1.0/",
+               "prefix" : "exif",
+               "propertyName" : "GPSLatitude",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "GPS-Longitude (format: degrees\",\"minutes\".\"seconds\"E\"ast or \"W\"est)",
+               "id" : "MgSvh2HumJ6a6k6C1sYkUaH9tGu3SG",
+               "multiLine" : false,
+               "namespace" : "http://ns.adobe.com/exif/1.0/",
+               "prefix" : "exif",
+               "propertyName" : "GPSLongitude",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            }
+         ],
+         "isArray" : true,
+         "shouldOverwrite" : true
+      },
+      "timeFormat" : "hh:mm a",
+      "type" : "Structure"
+   },
+   {
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Descriptive - News media",
+      "id" : "yUREuXkaJwQ9lGpkjhvuY1uz8HZXWy",
+      "type" : "Divider"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "",
+      "altLangEnabled" : false,
+      "customDefaultText" : "",
+      "customToolTip" : "Enter a brief publishable synopsis or summary of the contents of the image",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Headline",
+      "id" : "YdYRvRrqLpE7W5tmwVs5G0rM8GUOK4",
+      "multiLine" : false,
+      "namespace" : "http://ns.adobe.com/photoshop/1.0/",
+      "prefix" : "photoshop",
+      "propertyName" : "Headline",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Administrative - General",
+      "id" : "yUREuXkaJwQ9lGpkjhvuY1uz8HZXWy",
+      "type" : "Divider"
+   },
+   {
+      "customDefaultText" : "",
+      "customToolTip" : "Designates the date and optionally the time the content of the video was created (rather than the date of the creation of the digital representation)",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Date Created",
+      "hideTime" : "datetime",
+      "id" : "bVsz0GZDssvVtdqDvzOYzr2OEUMcAv",
+      "namespace" : "http://ns.adobe.com/photoshop/1.0/",
+      "prefix" : "photoshop",
+      "propertyName" : "DateCreated",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "HH:mm:ss",
+      "type" : "Date"
+   },
+   {
+      "customDefaultText" : "",
+      "customToolTip" : "Date and optionally time when the video was last modified",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Date Modified",
+      "hideTime" : "datetime",
+      "id" : "bVsz0GZDssvVtdqDvzOYzr2OEJHMcAv",
+      "namespace" : "http://ns.adobe.com/xap/1.0/",
+      "prefix" : "xmp",
+      "propertyName" : "ModifyDate",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "HH:mm:ss",
+      "type" : "Date"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "en",
+      "altLangEnabled" : false,
+      "customDefaultText" : "",
+      "customToolTip" : "Language of the video",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Language",
+      "hideTime" : "datetime",
+      "id" : "qpYpyZT6B5UXhhgGq5Yg370F88Ir",
+      "linkToFile" : {},
+      "multiLine" : false,
+      "namespace" : "http://purl.org/dc/elements/1.1/",
+      "options" : [],
+      "prefix" : "dc",
+      "propertyName" : "language",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "customDefaultText" : "",
+      "customToolTip" : "Select one of the values for identifying the type of the source of the digital video from the controlled vocabulary",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Digital Source Type",
+      "id" : "IYk01IdB80rXHHha48WwLOqzDCHWqe",
+      "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+      "options" : [
+         {
+            "label" : "Digital capture sampled from real life",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"
+         },
+         {
+            "label" : "Multi-frame computational capture sampled from real life",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/computationalCapture"
+         },
+         {
+            "label" : "Digitised from a transparent negative",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/negativeFilm"
+         },
+         {
+            "label" : "Digitised from a transparent positive",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/positiveFilm"
+         },
+         {
+            "label" : "Digitised from a non-transparent medium",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/print"
+         },
+         {
+            "label" : "Human-edited media",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/humanEdits"
+         },
+         {
+            "label" : "Edited using Generative AI",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/compositeWithTrainedAlgorithmicMedia"
+         },
+         {
+            "label" : "Algorithmically-altered media",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/algorithmicallyEnhanced"
+         },
+         {
+            "label" : "Digital creation",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCreation"
+         },
+         {
+            "label" : "Data-driven media",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/dataDrivenMedia"
+         },
+         {
+            "label" : "Created using Generative AI",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+         },
+         {
+            "label" : "Pure algorithmic media",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/algorithmicMedia"
+         },
+         {
+            "label" : "Screen capture",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/screenCapture"
+         },
+         {
+            "label" : "Virtual event recording",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/virtualRecording"
+         },
+         {
+            "label" : "Composite of elements",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/composite"
+         },
+         {
+            "label" : "Composite of captured elements",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/compositeCapture"
+         },
+         {
+            "label" : "Composite including generative AI elements",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/compositeSynthetic"
+         },
+         {
+            "label" : "Original media with minor human edits (retired)",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/minorHumanEdits"
+         },
+         {
+            "label" : "Created by software (retired)",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/softwareImage"
+         },
+         {
+            "label" : "Digital art (retired)",
+            "value" : "http://cv.iptc.org/newscodes/digitalsourcetype/digitalArt"
+         }
+      ],
+      "prefix" : "Iptc4xmpExt",
+      "propertyName" : "DigitalSourceType",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Dropdown"
+   },
+   {
+      "customDefaultText" : "",
+      "customToolTip" : "Globally unambiguous identifier of the video regardless of renditions, formats, encodings etc. This identifier should be shared across all renditions.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Video Identifier",
+      "id" : "5RvV0ZR65HbTiX7h5eE25ySll8yb",
+      "multiLine" : false,
+      "namespace" : "http://purl.org/dc/elements/1.1/",
+      "prefix" : "dc",
+      "propertyName" : "identifier",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Administrative - Workflow",
+      "id" : "yURjhgHGkaJwQ9lGpkjhvuY1uz8HZXWy",
+      "type" : "Divider"
+   },
+   {
+      "customDefaultText" : "",
+      "customToolTip" : "An aesthetic rating given to the video by its creator or editor, for example to mark the best take of a series",
+      "dateFormat" : "YYYY-MM-DD",
+      "decimal" : true,
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Workflow Rating",
+      "id" : "eav4J1FXPD9jBYRpssftMn6wgIEP9p",
+      "namespace" : "http://ns.adobe.com/xap/1.0/",
+      "options": [
+        {
+          "label": "no stars (0)",
+          "value": "0"
+        },
+        {
+          "label": "* (1)",
+          "value": "1.0"
+        },
+        {
+          "label": "** (2)",
+          "value": "2.0"
+        },
+        {
+          "label": "*** (3)",
+          "value": "3.0"
+        },
+        {
+          "label": "**** (4)",
+          "value": "4.0"
+        },
+        {
+          "label": "***** (5)",
+          "value": "5.0"
+        }
+      ],
+      "prefix" : "xmp",
+      "prependZeroes" : false,
+      "propertyName" : "Rating",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Dropdown"
+   },
+   {
+      "arrayType" : "bag",
+      "customToolTip" : "Party or parties (person or organisation) which created the video, refinement by the role attribute.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Creator",
+      "id" : "mpR6p0ahnpgMUATuP7Bkc58ktlFHIn",
+      "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+      "prefix" : "Iptc4xmpExt",
+      "propertyName" : "Creator",
+      "readOnly" : false,
+      "structure" : {
+         "fields" : [
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : true,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the entity or concept",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Name",
+               "hideTime" : "datetime",
+               "id" : "creatorXgnZglh9JQHafFb9ySlcWErkDOdf8b",
+               "linkToFile" : {},
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "options" : [],
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "Name",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "arrayType" : "bag",
+               "customDefaultText" : "",
+               "customToolTip" : "Enter globally unique identifier(s) of the entity or concept",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Identifier",
+               "id" : "creatorTqIAZZw33YsULO0N7zXFma1n3fSPti",
+               "namespace" : "http://ns.adobe.com/xap/1.0/",
+               "prefix" : "xmp",
+               "propertyName" : "Identifier",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "MultiText"
+            },
+            {
+               "arrayType" : "bag",
+               "customDefaultText" : "",
+               "customToolTip" : "Enter an identifier for the role the entity has regarding the {...software maker: apply name of metadata property here...} property.",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Role",
+               "id" : "creatorWCC6921wwqfYrJAurLwSHrqv4Driyg",
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "Role",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "MultiText"
+            }
+         ],
+         "isArray" : true,
+         "shouldOverwrite" : true
+      },
+      "timeFormat" : "hh:mm a",
+      "type" : "Structure"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "",
+      "altLangEnabled" : false,
+      "customDefaultText" : "",
+      "customToolTip" : "Credit to person(s) and/or organisation(s) required by the supplier of the video (clip) to be used when published.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Credit Line",
+      "id" : "CW60KDvFMfsgzQwAYsBE5s7z3DMf7S",
+      "multiLine" : false,
+      "namespace" : "http://ns.adobe.com/photoshop/1.0/",
+      "prefix" : "photoshop",
+      "propertyName" : "Credit",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "arrayType" : "bag",
+      "customToolTip" : "Party or parties (person or organisation) which contributed to the video, refinement by the role attribute.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Contributor",
+      "id" : "conmpR6p0ahnpgMUATuP7Bkc58ktlFHIn",
+      "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+      "prefix" : "Iptc4xmpExt",
+      "propertyName" : "Contributor",
+      "readOnly" : false,
+      "structure" : {
+         "fields" : [
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : true,
+               "customDefaultText" : "",
+               "customToolTip" : "Enter the name of the entity or concept",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Name",
+               "hideTime" : "datetime",
+               "id" : "contribXgnZglh9JQHafFb9ySlcWErkDOdf8b",
+               "linkToFile" : {},
+               "multiLine" : false,
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "options" : [],
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "Name",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "arrayType" : "bag",
+               "customDefaultText" : "",
+               "customToolTip" : "Enter globally unique identifier(s) of the entity or concept",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Identifier",
+               "id" : "contribTqIAZZw33YsULO0N7zXFma1n3fSPti",
+               "namespace" : "http://ns.adobe.com/xap/1.0/",
+               "prefix" : "xmp",
+               "propertyName" : "Identifier",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "MultiText"
+            },
+            {
+               "arrayType" : "bag",
+               "customDefaultText" : "",
+               "customToolTip" : "Enter an identifier for the role the entity has regarding the {...software maker: apply name of metadata property here...} property.",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Role",
+               "id" : "contribWCC6921wwqfYrJAurLwSHrqv4Driyg",
+               "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+               "prefix" : "Iptc4xmpExt",
+               "propertyName" : "Role",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "MultiText"
+            }
+         ],
+         "isArray" : true,
+         "shouldOverwrite" : true
+      },
+      "timeFormat" : "hh:mm a",
+      "type" : "Structure"
+   },
+   {
+      "altLang" : [],
+      "altLangDefault" : "",
+      "altLangEnabled" : true,
+      "customDefaultText" : "",
+      "customToolTip" : "Any textual notice necessary by law or common use to indicate the current owner of the copyright of this media resource",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Copyright Notice",
+      "hideTime" : "datetime",
+      "id" : "oT9oPXtEePdinyS16vbU47eftr2mKh",
+      "linkToFile" : {},
+      "multiLine" : false,
+      "namespace" : "http://purl.org/dc/elements/1.1/",
+      "options" : [],
+      "prefix" : "dc",
+      "propertyName" : "rights",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Text"
+   },
+   {
+      "arrayType" : "bag",
+      "customToolTip" : "Data identifying the individual or organisation owning the rights for this media resource which could be the video as a whole or a clip in a video. The optional role attribute may indicate which facet of rights is covered by this entity.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Copyright Owner",
+      "id" : "MULlivlozhwbFrFcqa3x6os8Hk89NV",
+      "namespace" : "http://ns.useplus.org/ldf/xmp/1.0/",
+      "prefix" : "plus",
+      "propertyName" : "CopyrightOwner",
+      "readOnly" : false,
+      "structure" : {
+         "fields" : [
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Copyright Owner Name",
+               "id" : "CLGanKnsgF7HTBImKOZxCjYgXpuhth",
+               "multiLine" : false,
+               "namespace" : "http://ns.useplus.org/ldf/xmp/1.0/",
+               "prefix" : "plus",
+               "propertyName" : "CopyrightOwnerName",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            },
+            {
+               "altLang" : [],
+               "altLangDefault" : "",
+               "altLangEnabled" : false,
+               "customDefaultText" : "",
+               "customToolTip" : "",
+               "dateFormat" : "YYYY-MM-DD",
+               "dependencies" : [],
+               "disabled" : false,
+               "displayName" : "Copyright Owner ID",
+               "id" : "yxwDxhs7MwEcE36vI2wVtAIvZNuMpF",
+               "multiLine" : false,
+               "namespace" : "http://ns.useplus.org/ldf/xmp/1.0/",
+               "prefix" : "plus",
+               "propertyName" : "CopyrightOwnerID",
+               "readOnly" : false,
+               "syncToFile" : [],
+               "timeFormat" : "hh:mm a",
+               "type" : "Text"
+            }
+         ],
+         "isArray" : true,
+         "shouldOverwrite" : true
+      },
+      "timeFormat" : "hh:mm a",
+      "type" : "Structure"
+   },
+   {
+      "customDefaultText" : "",
+      "customToolTip" : "Year of origin of the video, usually appearing in the copyright notice as a numeric value",
+      "dateFormat" : "YYYY-MM-DD",
+      "decimal" : false,
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Copyright Year",
+      "id" : "eav4J1FXPD876BYRpssftMn6wgIEP9p",
+      "increment" : 1,
+      "maximumValue" : 2100,
+      "minimumValue" : 1850,
+      "namespace" : "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+      "prefix" : "Iptc4xmpExt",
+      "prependZeroes" : false,
+      "propertyName" : "CopyrightYear",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "Number"
+   },
+   {
+      "customToolTip" : "Data mining prohibition or permission, optionally with constraints.",
+      "dateFormat" : "YYYY-MM-DD",
+      "dependencies" : [],
+      "disabled" : false,
+      "displayName" : "Data Mining",
+      "id" : "HcDKw0rorV11iEDVB08xRq0tex1uE2",
+      "namespace" : "http://ns.useplus.org/ldf/xmp/1.0/",
+      "options" : [
+         {
+            "label" : "Unspecified - no prohibition defined",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-UNSPECIFIED"
+         },
+         {
+            "label" : "Allowed",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-ALLOWED"
+         },
+         {
+            "label" : "Prohibited",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED"
+         },
+         {
+            "label" : "Prohibited for AI/ML training",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-AIMLTRAINING"
+         },
+         {
+            "label" : "Prohibited for Generative AI/ML training",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-GENAIMLTRAINING"
+         },
+         {
+            "label" : "Prohibited except for search engine indexing",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING"
+         },
+         {
+            "label" : "Prohibited, see Other Constraints property",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-SEECONSTRAINT"
+         },
+         {
+            "label" : "Prohibited, see Linked Encoded Rights Expression property",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-SEELINKEDRIGHTSEXPR"
+         },
+         {
+            "label" : "Prohibited, see Embedded Encoded Rights Expression property",
+            "value" : "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-SEEEMBEDDEDRIGHTSEXPR"
+         }
+      ],
+      "orientation" : "vertical",
+      "prefix" : "plus",
+      "propertyName" : "DataMining",
+      "readOnly" : false,
+      "syncToFile" : [],
+      "timeFormat" : "hh:mm a",
+      "type" : "RadioGroup"
+   },
+   {               
+      "id": "YlNkqOSLqhYTg7gHchahLuP1u6XIso",
+      "displayName": "IPTC Video Metadata Hub (core) view version: 1.0.0 (VMHub 1.5)",
+      "type": "Divider",
+      "disabled": false,
+      "dependencies": []
+   } 
+]

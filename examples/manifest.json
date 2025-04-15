@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Out-Of-The-Box Example",
+    "author": "Adobe",
+    "type": "Starter View",
+    "path": "/Adobe/default_view.json"
+  },
+  {
+    "name": "PLUS LDF Example",
+    "author": "PLUS",
+    "type": "Example Views",
+    "path": "/PLUS/PLUS_Example.json"
+  },
+  {
+    "name": "Premiere Clip Example",
+    "author": "Adobe",
+    "type": "Example Views",
+    "path": "/Adobe/Premiere_Example.json"
+  },{
+    "name": "IPTC photo all",
+    "author": "IPTC",
+    "type": "Example Views",
+    "path": "/IPTC/IPTCpmd-all_1.0.1.json"
+  },{
+    "name": "IPTC Video Core",
+    "author": "IPTC",
+    "type": "Example Views",
+    "path": "/IPTC/iptc-vmhub-core-1.0.json"
+  },
+  {
+    "name": "Creative Commons Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/cc_properties_view.json"
+  },
+  {
+    "name": "Dublin Core Properties 1",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/core_properties_view.json"
+  },
+  {
+    "name": "Dublin Core Properties 1 (with Structures)",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/core_properties_view_structure.json"
+  },
+  {
+    "name": "Dublin Core Properties 2",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/dc_properties_view.json"
+  },
+  {
+    "name": "IPTC Core Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/Iptc4xmpCore_properties_view.json"
+  },
+  {
+    "name": "IPTC Core Properties (with Structures)",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/Iptc4xmpCore_properties_view_structure.json"
+  },
+  {
+    "name": "ISAD(G) Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/isadg_properties_view.json"
+  },
+  {
+    "name": "ISAD(G) Properties (with Structures)",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/isadg_properties_view_structure.json"
+  },
+  {
+    "name": "Photoshop Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/photoshop_properties_view.json"
+  },
+  {
+    "name": "REF17861 Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/ref17861_properties_view.json"
+  },
+  {
+    "name": "VRA Work Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/vrae_properties_view.json"
+  },
+  {
+    "name": "VRA Work Properties (with Structures)",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/vrae_properties_view_structure.json"
+  },
+  {
+    "name": "XMP Rights Properties",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/xmpRights_properties_view.json"
+  },
+  {
+    "name": "XMP Rights Properties (with URL fields)",
+    "author": "Museos Abiertos",
+    "type": "Example Views",
+    "path": "/MuseosAbiertos/xmpRights_properties_view_url.json"
+  },
+  {
+    "name": "Astronomy Visualization Metadata (AVM)",
+    "author": "AVM",
+    "type": "Example Views",
+    "path": "/avm/avmExample.json"
+  }
+]

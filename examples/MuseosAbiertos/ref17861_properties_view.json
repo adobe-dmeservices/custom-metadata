@@ -1,0 +1,147 @@
+[
+	{
+		"id": "1",
+		"displayName": "Standard Metadata",
+		"type": "Divider"
+	},
+	{
+		"id": "2",
+		"displayName": "Date Created",
+		"namespace": "http://ns.adobe.com/xap/1.0/",
+		"prefix": "xmp",
+		"propertyName": "MetadataDate",
+		"type": "Date"
+	},
+	{
+		"id": "3",
+		"displayName": "Description",
+		"namespace": "http://purl.org/dc/elements/1.1/",
+		"prefix": "dc",
+		"propertyName": "description",
+		"type": "Text",
+		"readOnly": true
+	},
+	{
+		"id": "4",
+		"displayName": "Creator",
+		"prefix": "dc",
+		"namespace": "http://purl.org/dc/elements/1.1/",
+		"propertyName": "creator",
+		"type": "MultiText",
+		"readOnly": false
+	},
+	{
+		"id": "5",
+		"displayName": "Creator Title",
+		"prefix": "photoshop",
+		"namespace": "http://ns.adobe.com/photoshop/1.0/",
+		"propertyName": "AuthorsPosition",
+		"type": "Text",
+		"options": "",
+		"readOnly": false
+	},
+	{
+		"id": "6",
+		"displayName": "Headline",
+		"prefix": "photoshop",
+		"namespace": "http://ns.adobe.com/photoshop/1.0/",
+		"propertyName": "Headline",
+		"type": "Text",
+		"options": "",
+		"readOnly": false
+	},
+	{
+		"id": "7",
+		"displayName": "Keywords",
+		"prefix": "dc",
+		"namespace": "http://purl.org/dc/elements/1.1/",
+		"propertyName": "subject",
+		"type": "MultiText",
+		"readOnly": false
+	},
+	{
+		"id": "8",
+		"displayName": "Pet Shop Metadata",
+		"type": "Divider"
+	},
+	{
+		"id": "9",
+		"displayName": "Pet Type",
+		"namespace": "http://pet.adobe.com",
+		"prefix": "pet",
+		"propertyName": "type",
+		"type": "Dropdown",
+		"options": [
+			"Cat",
+			"Dog",
+			"Bird",
+			"Rabbit",
+			"Others"
+		]
+	},
+	{
+		"id": "10",
+		"displayName": "Names",
+		"namespace": "http://pet.adobe.com",
+		"prefix": "pet",
+		"propertyName": "name",
+		"type": "Text"
+	},
+	{
+		"id": "11",
+		"displayName": "Breed",
+		"namespace": "http://pet.adobe.com",
+		"prefix": "pet",
+		"propertyName": "breed",
+		"type": "MultiDropdown",
+		"options": [
+			"Labrador Retriever",
+			"German Shepherd Dog",
+			"Golden Retriever",
+			"Bulldog",
+			"Siamese",
+			"Ragdoll",
+			"British Shorthair",
+			"Persian",
+			"Maine Coon",
+			"Others"
+		]
+	},
+	{
+		"id": "12",
+		"displayName": "Gender",
+		"namespace": "http://pet.adobe.com",
+		"prefix": "pet",
+		"propertyName": "gender",
+		"type": "Dropdown",
+		"options": [
+			"Male",
+			"Female"
+		]
+	},
+	{
+		"id": "13",
+		"displayName": "Adoption Date",
+		"namespace": "http://pet.adobe.com",
+		"prefix": "pet",
+		"propertyName": "adoptDate",
+		"type": "Date"
+	},
+	{
+		"id": "14",
+		"displayName": "Additional Notes",
+		"namespace": "http://pet.adobe.com",
+		"prefix": "pet",
+		"propertyName": "otherNotes",
+		"type": "MultiText"
+	},
+	{
+		"id": "15",
+		"displayName": "Coat type",
+		"prefix": "pet",
+		"namespace": "http://pet.adobe.com",
+		"propertyName": "coat",
+		"type": "Text",
+		"readOnly": false
+	}
+]

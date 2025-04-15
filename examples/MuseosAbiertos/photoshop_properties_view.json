@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dividerPhotoshop",
+    "displayName": "Photoshop Namespace",
+    "type": "Divider",
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:AuthorsPosition",
+    "displayName": "Creator: Job Title",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "AuthorsPosition",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:CaptionWriter",
+    "displayName": "Description Writer",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "CaptionWriter",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Category",
+    "displayName": "Category",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Category",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:City",
+    "displayName": "City",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "City",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:State",
+    "displayName": "Province or State",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "State",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Country",
+    "displayName": "Country",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Country",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Credit",
+    "displayName": "Credit",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Credit",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:DateCreated",
+    "displayName": "Original Creation Date",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "DateCreated",
+    "type": "Date",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Headline",
+    "displayName": "Headline",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Headline",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Instructions",
+    "displayName": "Instructions",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Instructions",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Source",
+    "displayName": "Source",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Source",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:SupplementalCategories",
+    "displayName": "Supplemental Categories",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "SupplementalCategories",
+    "type": "MultiText",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:TransmissionReference",
+    "displayName": "Transmission Reference",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "TransmissionReference",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "photoshop:Urgency",
+    "displayName": "Urgency",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Urgency",
+    "type": "Dropdown",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "readOnly": false,
+    "dependencies": []
+  }
+]

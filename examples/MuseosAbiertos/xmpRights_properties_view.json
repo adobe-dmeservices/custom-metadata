@@ -1,0 +1,146 @@
+[
+  {
+    "id": "dividerXMP",
+    "displayName": "XMP Namespace",
+    "type": "Divider",
+    "dependencies": []
+  },
+  {
+    "id": "xmp:Identifier",
+    "displayName": "Identifier",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "Identifier",
+    "type": "MultiText",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "xmp:Label",
+    "displayName": "Label",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "Label",
+    "type": "Text",
+    "readOnly": true,
+    "dependencies": []
+  },
+  {
+    "id": "xmp:MetadataDate",
+    "displayName": "Metadata Date",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "MetadataDate",
+    "type": "Date",
+    "readOnly": true,
+    "dependencies": []
+  },
+  {
+    "id": "xmp:ModifyDate",
+    "displayName": "Modify Date",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "ModifyDate",
+    "type": "Date",
+    "readOnly": true,
+    "dependencies": []
+  },
+  {
+    "id": "xmp:Nickname",
+    "displayName": "Nickname",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "Nickname",
+    "type": "Text",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "xmp:Rating",
+    "displayName": "Rating",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "prefix": "xmp",
+    "propertyName": "Rating",
+    "type": "Dropdown",
+    "readOnly": false,
+    "dependencies": [],
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "dividerXMPrights",
+    "displayName": "XMP Rights Namespace",
+    "type": "Divider",
+    "dependencies": []
+  },
+  {
+    "id": "xmpRights:Certificate",
+    "displayName": "Rights Certificate URL",
+    "prefix": "xmpRights",
+    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
+    "propertyName": "Certificate",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "xmpRights:Marked",
+    "displayName": "Rights Marked",
+    "prefix": "xmpRights",
+    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
+    "propertyName": "Marked",
+    "type": "Dropdown",
+    "options": [
+      {
+        "label": "Copyrighted",
+        "value": "True"
+      },
+      {
+        "label": "Public Domain",
+        "value": "False"
+      }
+    ],
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "xmpRights:Owner",
+    "displayName": "Rights Owner",
+    "prefix": "xmpRights",
+    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
+    "propertyName": "Owner",
+    "type": "MultiText",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "xmpRights:UsageTerms",
+    "displayName": "Rights Usage Terms",
+    "prefix": "xmpRights",
+    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
+    "propertyName": "UsageTerms",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+  {
+    "id": "xmpRights:WebStatement",
+    "displayName": "Rights Web Statement",
+    "prefix": "xmpRights",
+    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
+    "propertyName": "WebStatement",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  }
+]

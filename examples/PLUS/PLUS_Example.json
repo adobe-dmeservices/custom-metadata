@@ -1,0 +1,1711 @@
+[
+  {
+    "id": "1",
+    "displayName": "PLUS License Data Format (version 2.0.1)",
+    "sectionLink": "https://www.useplus.org",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "JDM4zPuKIT",
+    "displayName": "Parties",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "LicenseeID54",
+    "displayName": "Licensee",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "Licensee",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "arrayType": "seq",
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "LicenseeID54-a",
+          "displayName": "ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicenseeID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicenseeID54-b",
+          "displayName": "Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicenseeName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "EndUserID89",
+    "displayName": "End User",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "EndUser",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "arrayType": "seq",
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "EndUserID89-a",
+          "displayName": "ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "EndUserID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "EndUserID89-b",
+          "displayName": "Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "EndUserName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "LicensorID30",
+    "displayName": "Licensor",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "Licensor",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "arrayType": "seq",
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "LicensorID30-a",
+          "displayName": "ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-b",
+          "displayName": "Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-c",
+          "displayName": "Street Address",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorStreetAddress",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-d",
+          "displayName": "Extended Address",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorExtendedAddress",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-e",
+          "displayName": "City",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorCity",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-f",
+          "displayName": "Region",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorRegion",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-g",
+          "displayName": "Postal Code",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorPostalCode",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-h",
+          "displayName": "Country",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorCountry",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-i",
+          "displayName": "Telephone Type 1",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorTelephoneType1",
+          "type": "Dropdown",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            {
+              "label": "Work",
+              "value": "http://ns.useplus.org/ldf/vocab/work"
+            },
+            {
+              "label": "Mobile",
+              "value": "http://ns.useplus.org/ldf/vocab/cell"
+            },
+            { "label": "FAX", "value": "http://ns.useplus.org/ldf/vocab/fax" },
+            {
+              "label": "Home",
+              "value": "http://ns.useplus.org/ldf/vocab/home"
+            },
+            {
+              "label": "Pager",
+              "value": "http://ns.useplus.org/ldf/vocab/pager"
+            }
+          ]
+        },
+        {
+          "id": "LicensorID30-j",
+          "displayName": "Telephone 1",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorTelephone1",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-k",
+          "displayName": "Telephone Type 2",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorTelephoneType2",
+          "type": "Dropdown",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            {
+              "label": "Work",
+              "value": "http://ns.useplus.org/ldf/vocab/work"
+            },
+            {
+              "label": "Mobile",
+              "value": "http://ns.useplus.org/ldf/vocab/cell"
+            },
+            { "label": "FAX", "value": "http://ns.useplus.org/ldf/vocab/fax" },
+            {
+              "label": "Home",
+              "value": "http://ns.useplus.org/ldf/vocab/home"
+            },
+            {
+              "label": "Pager",
+              "value": "http://ns.useplus.org/ldf/vocab/pager"
+            }
+          ]
+        },
+        {
+          "id": "LicensorID30-l",
+          "displayName": "Telephone 2",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorTelephone2",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-m",
+          "displayName": "Email",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorEmail",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "LicensorID30-o",
+          "displayName": "URL",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "LicensorURL",
+          "type": "URL",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "L1FKEcC521",
+    "displayName": "Licensor Notes",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicensorNotes",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "A21pruUqe9",
+    "displayName": "Media Permissions",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "rpddGT6YuB",
+    "displayName": "PLUS Media Summary Code",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "MediaSummaryCode",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "as8yAiuVuA",
+    "displayName": "Constraints",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "LicenseStartDate82",
+    "displayName": "License Start Date",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseStartDate",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "disabled": false
+  },
+  {
+    "id": "LicenseEndDate82",
+    "displayName": "License End Date",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseEndDate",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "disabled": false
+  },
+  {
+    "id": "MediaConstraints34",
+    "displayName": "Media Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "MediaConstraints",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "disabled": false
+  },
+  {
+    "id": "ImageFileConstraints",
+    "displayName": "Region Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "RegionConstraints",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "disabled": false
+  },
+  {
+    "id": "idPS2BalLC",
+    "displayName": "Product or Service Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ProductOrServiceConstraints",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "ImageFileConstraints37",
+    "displayName": "Image File Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageFileConstraints",
+    "type": "MultiDropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "arrayType": "bag",
+    "options": [
+      {
+        "label": "Maintain File Name",
+        "value": "http://ns.useplus.org/ldf/vocab/IF-MFN"
+      },
+      {
+        "label": "Maintain ID in File Name",
+        "value": "http://ns.useplus.org/ldf/vocab/IF-MID"
+      },
+      {
+        "label": "Maintain Metadata",
+        "value": "http://ns.useplus.org/ldf/vocab/IF-MMD"
+      },
+      {
+        "label": "Maintain File Type",
+        "value": "http://ns.useplus.org/ldf/vocab/IF-MFT"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "gr5CxjVPXz",
+    "displayName": "Image Alteration Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageAlterationConstraints",
+    "type": "MultiDropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "No Cropping",
+        "value": "http://ns.useplus.org/ldf/vocab/AL-CRP"
+      },
+      {
+        "label": "No Flipping",
+        "value": "http://ns.useplus.org/ldf/vocab/AL-FLP"
+      },
+      {
+        "label": "No Retouching",
+        "value": "http://ns.useplus.org/ldf/vocab/AL-RET"
+      },
+      {
+        "label": "No Colorization",
+        "value": "http://ns.useplus.org/ldf/vocab/AL-CLR"
+      },
+      {
+        "label": "No De-Colorization",
+        "value": "http://ns.useplus.org/ldf/vocab/AL-DCL"
+      },
+      {
+        "label": "No Merging",
+        "value": "http://ns.useplus.org/ldf/vocab/AL-MRG"
+      }
+    ],
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "DmjHuGzxp7",
+    "displayName": "Image Duplication Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageDuplicationConstraints",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "No Duplication Constraints",
+        "value": "http://ns.useplus.org/ldf/vocab/DP-NDC"
+      },
+      {
+        "label": "Duplication Only as Necessary Under License",
+        "value": "http://ns.useplus.org/ldf/vocab/DP-LIC"
+      },
+      {
+        "label": "No Duplication",
+        "value": "http://ns.useplus.org/ldf/vocab/DP-NOD"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "rRdRAZHwpT",
+    "displayName": "Data Mining",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "DataMining",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Unspecified - no prohibition defined",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-UNSPECIFIED"
+      },
+      {
+        "label": "Allowed",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-ALLOWED"
+      },
+      {
+        "label": "Prohibited",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED"
+      },
+      {
+        "label": "Prohibited for AI/ML training",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-AIMLTRAINING"
+      },
+      {
+        "label": "Prohibited for Generative AI/ML training",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-GENAIMLTRAINING"
+      },
+      {
+        "label": "Prohibited except for search engine indexing",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING"
+      },
+      {
+        "label": "Prohibited, see Other Constraints property",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-SEECONSTRAINT"
+      },
+      {
+        "label": "Prohibited, see Linked Encoded Rights Expression property",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-SEELINKEDRIGHTSEXPR"
+      },
+      {
+        "label": "Prohibited, see Embedded Encoded Rights Expression property",
+        "value": "http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-SEEEMBEDDEDRIGHTSEXPR"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "4GkHNAtGED",
+    "displayName": "Model Release Status",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ModelReleaseStatus",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      { "label": "None", "value": "http://ns.useplus.org/ldf/vocab/MR-NON " },
+      {
+        "label": "Not Applicable",
+        "value": "http://ns.useplus.org/ldf/vocab/MR-NAP"
+      },
+      {
+        "label": "Unlimited Model Release",
+        "value": "http://ns.useplus.org/ldf/vocab/MR-UMR"
+      },
+      {
+        "label": "Limited Model Release",
+        "value": "http://ns.useplus.org/ldf/vocab/MR-LMR"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "4ctEXSpyh3",
+    "displayName": "Model Release ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ModelReleaseID",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "mnp740fvjk",
+    "displayName": "Minor Model Age Disclosure",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "MinorModelAgeDisclosure",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Age Unknown",
+        "value": "http://ns.useplus.org/ldf/vocab/AG-UNK"
+      },
+      {
+        "label": "Age 25 or Over",
+        "value": "http://ns.useplus.org/ldf/vocab/AG-A25"
+      },
+      { "label": "Age 24", "value": "http://ns.useplus.org/ldf/vocab/AG-A24" },
+      { "label": "Age 23", "value": "http://ns.useplus.org/ldf/vocab/AG-A23" },
+      { "label": "Age 22", "value": "http://ns.useplus.org/ldf/vocab/AG-A22" },
+      { "label": "Age 21", "value": "http://ns.useplus.org/ldf/vocab/AG-A21" },
+      { "label": "Age 20", "value": "http://ns.useplus.org/ldf/vocab/AG-A20" },
+      { "label": "Age 19", "value": "http://ns.useplus.org/ldf/vocab/AG-A19" },
+      { "label": "Age 18", "value": "http://ns.useplus.org/ldf/vocab/AG-A18" },
+      { "label": "Age 17", "value": "http://ns.useplus.org/ldf/vocab/AG-A17" },
+      { "label": "Age 16", "value": "http://ns.useplus.org/ldf/vocab/AG-A16" },
+      { "label": "Age 15", "value": "http://ns.useplus.org/ldf/vocab/AG-A15" },
+      {
+        "label": "Age 14 or Under",
+        "value": "http://ns.useplus.org/ldf/vocab/AG-A14"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "iW55wMgL4D",
+    "displayName": "Property release Status",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "PropertyReleaseStatus",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      { "label": "None", "value": "http://ns.useplus.org/ldf/vocab/PR-NON" },
+      {
+        "label": "Not Applicable",
+        "value": "http://ns.useplus.org/ldf/vocab/PR-NAP"
+      },
+      {
+        "label": "Unlimited Property Release",
+        "value": "http://ns.useplus.org/ldf/vocab/PR-UPR"
+      },
+      {
+        "label": "Limited Property Release",
+        "value": "http://ns.useplus.org/ldf/vocab/PR-LPR"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "Wq2OHmBHcP",
+    "displayName": "Property Release ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "PropertyReleaseID",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "7K1yw5CntV",
+    "displayName": "Other Constraints",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "OtherConstraints",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "4i4KecPiXP",
+    "displayName": "Requirements",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "0pZUKq7HWk",
+    "displayName": "Credit Line Required",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "CreditLineRequired",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Not Required",
+        "value": "http://ns.useplus.org/ldf/vocab/CR-NRQ"
+      },
+      {
+        "label": "Credit on Image",
+        "value": "http://ns.useplus.org/ldf/vocab/CR-COI"
+      },
+      {
+        "label": "Credit Adjacent to Image",
+        "value": "http://ns.useplus.org/ldf/vocab/CR-CAI"
+      },
+      {
+        "label": "Credit in Credits Area",
+        "value": "http://ns.useplus.org/ldf/vocab/CR-CCA"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "92bKOsoOtk",
+    "displayName": "Credit Line Text",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "Credit",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "3csJQmtyrq",
+    "displayName": "Adult Content Warning",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "AdultContentWarning",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Not Required",
+        "value": "http://ns.useplus.org/ldf/vocab/CW-NRQ"
+      },
+      {
+        "label": "Adult Content Warning Required",
+        "value": "http://ns.useplus.org/ldf/vocab/CW-AWR"
+      },
+      { "label": "Unknown", "value": "http://ns.useplus.org/ldf/vocab/CW-UNK" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "K5oUahlJnH",
+    "displayName": "Other License Requirements",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "OtherLicenseRequirements",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": true,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "wXEsDRNXgu",
+    "displayName": "Conditions",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "e78GQF9eYQ",
+    "displayName": "Terms And Conditions Text",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "TermsAndConditionsText",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": true,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "wVJU3v34bi",
+    "displayName": "Terms and Conditions URL",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "TermsAndConditionsURL",
+    "type": "URL",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "XbJRu2sjxO",
+    "displayName": "Other Conditions",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "OtherConditions",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "ffToonUjSz",
+    "displayName": "Image Info",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "VEHtZguS4p",
+    "displayName": "Image Type",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageType",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Photographic Image",
+        "value": "http://ns.useplus.org/ldf/vocab/TY-PHO"
+      },
+      {
+        "label": "Illustrated Image",
+        "value": "http://ns.useplus.org/ldf/vocab/TY-ILL"
+      },
+      {
+        "label": "Multimedia or Composited Image",
+        "value": "http://ns.useplus.org/ldf/vocab/TY-MCI"
+      },
+      { "label": "Video", "value": "http://ns.useplus.org/ldf/vocab/TY-VID" },
+      { "label": "Other", "value": "http://ns.useplus.org/ldf/vocab/TY-OTR" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "HKPz05M86V",
+    "displayName": "Licensor Image ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicensorImageID",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "u8DCF4VNjF",
+    "displayName": "Licensor Image Title",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "title",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": true,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "7Vj8OhT3K9",
+    "displayName": "Image File Name As Delivered",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "FileNameAsDelivered",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "2CuE2weq8K",
+    "displayName": "Image File Format as Delivered",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageFileFormatAsDelivered",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "JPEG Interchange Format (JPG, JIF, JFIF)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-JPG"
+      },
+      {
+        "label": "Tagged Image File Format (TIFF)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-TIF"
+      },
+      {
+        "label": "Graphics Interchange Format (GIF)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-GIF"
+      },
+      {
+        "label": "Proprietary RAW Image Format",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-RAW"
+      },
+      {
+        "label": "Digital Negative (DNG)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-DNG"
+      },
+      {
+        "label": "Encapsulated PostScript (EPS)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-EPS"
+      },
+      {
+        "label": "Windows Bitmap",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-BMP"
+      },
+      {
+        "label": "Photoshop Document (PSD)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-PSD"
+      },
+      {
+        "label": "Macintosh Pict (PICT)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-PIC"
+      },
+      {
+        "label": "Portable Network Graphic (PNG)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-PNG"
+      },
+      {
+        "label": "Windows Media Photo (HD Photo)",
+        "value": "http://ns.useplus.org/ldf/vocab/FF-WMP"
+      },
+      { "label": "Other", "value": "http://ns.useplus.org/ldf/vocab/FF-OTR" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "Ok2ahxG667",
+    "displayName": "Image File Size as Delivered",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageFileSizeAsDelivered",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Up to 1 MB",
+        "value": "http://ns.useplus.org/ldf/vocab/SZ-U01"
+      },
+      {
+        "label": "Up to 10 MB",
+        "value": "http://ns.useplus.org/ldf/vocab/SZ-U10"
+      },
+      {
+        "label": "Up to 30 MB",
+        "value": "http://ns.useplus.org/ldf/vocab/SZ-U30"
+      },
+      {
+        "label": "Up to 50 MB",
+        "value": "http://ns.useplus.org/ldf/vocab/SZ-U50"
+      },
+      {
+        "label": "Greater than 50 MB",
+        "value": "http://ns.useplus.org/ldf/vocab/SZ-G50"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "HT752P44g1",
+    "displayName": "Copyright Status",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "CopyrightStatus",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Protected",
+        "value": "http://ns.useplus.org/ldf/vocab/CS-PRO"
+      },
+      {
+        "label": "Public Domain",
+        "value": "http://ns.useplus.org/ldf/vocab/CS-PUB"
+      },
+      { "label": "Unknown", "value": "http://ns.useplus.org/ldf/vocab/CS-UNK" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "c9f1HE5SNx",
+    "displayName": "Copyright Registration Number",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "CopyrightRegistrationNumber",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "I1qaJKzQRh",
+    "displayName": "Creation Date",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "DateCreated",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "JT0s9E4OvN",
+    "displayName": "First Publication Date",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "FirstPublicationDate",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "CopyrightOwnerID78",
+    "displayName": "Copyright Owner",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "CopyrightOwner",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "arrayType": "seq",
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "CopyrightOwnerID78-a",
+          "displayName": "ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "CopyrightOwnerID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "CopyrightOwnerID78-b",
+          "displayName": "Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "CopyrightOwnerName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "lCWAeNdJ54",
+    "displayName": "Copyright Owner Image ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "CopyrightOwnerImageID",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "ImageCreatorID45",
+    "displayName": "Image Creator",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageCreator",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "arrayType": "seq",
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "ImageCreatorID45-a",
+          "displayName": "ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "ImageCreatorID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "ImageCreatorID45-b",
+          "displayName": "Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "ImageCreatorName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "gMgDZgVb1r",
+    "displayName": "Image Creator Image ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageCreatorImageID",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "ImageSupplierID72",
+    "displayName": "Image Supplier",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageSupplier",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "arrayType": "seq",
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "ImageSupplierID72-a",
+          "displayName": "ID",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "ImageSupplierID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "ImageSupplierID72-b",
+          "displayName": "Name",
+          "prefix": "plus",
+          "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+          "propertyName": "ImageSupplierName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "TWovhGq1A1",
+    "displayName": "Image Supplier Image ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "ImageSupplierImageID",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "Vtm8XfFsCY",
+    "displayName": "Licensee Image ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseeImageID",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "3n3ooQRQdL",
+    "displayName": "Licensee Image Notes",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseeImageNotes",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "altLangEnabled": true
+  },
+  {
+    "id": "k16FxMgM1W",
+    "displayName": "Other Image Info",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "OtherImageInfo",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "altLangEnabled": true
+  },
+  {
+    "id": "IbV5hzkYKE",
+    "displayName": "License Info",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "OmiNWKJg9n",
+    "displayName": "License ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseID",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "altLangEnabled": false
+  },
+  {
+    "id": "wpLNDqJp4K",
+    "displayName": "Licensor Transaction ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicensorTransactionID",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "gJIg6s8NUs",
+    "displayName": "Licensee Transaction ID",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseeTransactionID",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "1puR9bdan7",
+    "displayName": "Licensee Project Reference",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseeProjectReference",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "7V2CXY2sMK",
+    "displayName": "License Transaction Date",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "LicenseTransactionDate",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false
+  },
+  {
+    "id": "GEaY9KePWU",
+    "displayName": "Reuse",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "Reuse",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "options": [
+      {
+        "label": "Repeat Use",
+        "value": "http://ns.useplus.org/ldf/vocab/RE-REU"
+      },
+      {
+        "label": "Not Applicable",
+        "value": "http://ns.useplus.org/ldf/vocab/RE-NAP"
+      }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "4cA6LJT4jd",
+    "displayName": "Other License Documents",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "OtherLicenseDocuments",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "arrayType": "bag"
+  },
+  {
+    "id": "GqQNsKnq1g",
+    "displayName": "Other License Info",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "OtherLicenseInfo",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "altLangEnabled": true
+  },
+  {
+    "id": "aIzYlILlBy",
+    "displayName": "PLUS Custom Metadata View version 1.0.1 for PLUS LDF 2.0.1. If you have used this panel to edit a pre-existing value in any other field in this panel, it may be necessary to update the PLUS version number to the current version. See",
+    "type": "Divider",
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "disabled": false,
+    "sectionLink": "https://ns.useplus.org/LDF/ldf-FieldSummary",
+    "dependencies": []
+  },
+  {
+    "id": "vLhV6rOaGr",
+    "displayName": "LDF version used on this asset",
+    "prefix": "plus",
+    "namespace": "http://ns.useplus.org/ldf/xmp/1.0/",
+    "propertyName": "Version",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": [],
+    "altLangDefault": "",
+    "altLangEnabled": false,
+    "charLimit": false,
+    "charCount": null,
+    "prependZeroes": false,
+    "decimal": false,
+    "minimumValue": null,
+    "maximumValue": null,
+    "increment": 1,
+    "disabled": false,
+    "customDefaultText": "2.0.1",
+    "customToolTip": "If you have used this panel to edit a pre-existing value in any other field in this panel, it may be necessary to update the PLUS version number to the current version."
+  }
+]
