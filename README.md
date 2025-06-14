@@ -38,6 +38,20 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for 2.0.8
+### InDesign support
+This release brings Custom Metadata to InDesign. You can view and edit XMP metadata for the active InDesign document and also any linked assets that support XMP. InDesign Cloud Documents and multiple selections are also supported.
+
+This release also fixes some irregularities with multiple selections that may have resulted in unexpected values being written to the form when choosing "Merge Values." It also allows merging of Text fields that are Language Alternatives with no defined alternative languages, such as Description in Dublin Core.
+
+## Changes for 2.0.7
+### Preset import and export
+This release adds the ability to import and export Metadata Presets from the Settings menu. When an imported preset already exists (by name), the user can choose to replace or merge the presets. When merging, the new preset values replace the existing values, but any existing values not in the new preset will remain.
+
+We also added documentation links in the Flyout menu for XMP, IPTC Photo & Video, PLUS, AVM
+
+It also improves error handling and makes messages more informative and consistent.
+
 ## Changes for 2.0.6
 ### Introduces the Calculation Field
 [Watch a video for the 2.0.5 and 2.0.6 features](https://youtu.be/r3iqeYmCtTM)
