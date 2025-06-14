@@ -43,6 +43,7 @@ Special thanks to the following, who graciously created example Views that you c
 This release brings Custom Metadata to InDesign. You can view and edit XMP metadata for the active InDesign document and also any linked assets that support XMP. InDesign Cloud Documents and multiple selections are also supported.
 
 This release also fixes some irregularities with multiple selections that may have resulted in unexpected values being written to the form when choosing "Merge Values." It also allows merging of Text fields that are Language Alternatives with no defined alternative languages, such as Description in Dublin Core.
+![InDesign](https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/InDesign.gif)
 
 ## Changes for 2.0.7
 ### Preset import and export
