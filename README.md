@@ -38,6 +38,20 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for 2.0.11
+### UI text resize and Asset Link support for InDesign
+Users can now resize the text in Custom Metadata Panel screens. This control is available from the flyout menu and also from the context menu (right-click). Preferences are also available from the context menu.
+
+Users can also view and edit XMP metadata for checked out linked AEM Assets when using AEM Asset Link. Check out is required to access XMP, because check out downloads the full binary to your computer. When you are done editing metadata, you can check the asset back in to send the changes back to AEM.
+
+![InDesign](https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/resizeview.gif)
+
+## Changes for 2.0.9 & 2.0.10
+### Improved InDesign support
+This clarifies whether a linked asset's XMP metadata can be viewed or edited. Since InDesign does not provide a way to read or write the full XMP packet to and from Library items and linked Cloud Documents, we now tell you that in the UI. We also don't yet support editing metadata for linked AEM Asset Link assets, but we are working on that and should have a solution shortly.
+
+![InDesign](https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/InDesign.gif)
+
 ## Changes for 2.0.8
 ### InDesign support
 This release brings Custom Metadata to InDesign. You can view and edit XMP metadata for the active InDesign document and also any linked assets that support XMP. InDesign Cloud Documents and multiple selections are also supported.
