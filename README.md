@@ -38,9 +38,23 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for 2.0.12
+This release improved linked item support for Custom Metadata in InDesign. InDesign documents often include linked Library items, Cloud Documents, and even AEM Assets. While Custom Metadata can directly inspect metadata from traditionally linked assets, Cloud objects don't have the same properties available. To make it easier to inspect metadata for these items, we have introduced round trip workflows.
+
+### Linked Library Items
+When you select a linked Library item, its original application may be available to view and edit metadata. If so, Custom metadata will display the option to view metadata in the originating application.
+
+### Linked Cloud Documents
+InDesign supports placing Photoshop and InDesign Cloud documents. Custom Metadata will now allow you to open linked Photoshop Cloud Documents directly from Custom Metadata. You will need to open linked Cloud InDesign documents from the Home screen.
+
+### Linked AEM Assets
+When a local copy of a linked AEM Asset is not available to InDesign, Custom Metadata will now present a button to open the asset's Properties page in AEM. You can then view both XMP and AEM metadata. If you check out the linked asset from Asset Link in InDesign, then Custom Metadata will have a local copy and can display the asset's XMP metadata directly.
+
+![InDesign](https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/linked_cloud_library.gif)
+
 ## Changes for 2.0.11
 ### UI text resize and Asset Link support for InDesign
-Users can now resize the text in Custom Metadata Panel screens. This control is available from the flyout menu and also from the context menu (right-click). Preferences are also available from the context menu.
+Users can now resize the text in Custom Metadata Panel screens. This control is available from the flyout menu and also from the context menu (right-click). Preferences are also available from the context menu. ***NOTE: You must enable System Contextual Menus in Settings to see the menu***
 
 Users can also view and edit XMP metadata for checked out linked AEM Assets when using AEM Asset Link. Check out is required to access XMP, because check out downloads the full binary to your computer. When you are done editing metadata, you can check the asset back in to send the changes back to AEM.
 
