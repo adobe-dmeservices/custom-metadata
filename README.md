@@ -16,6 +16,7 @@ Form fields include:
 * Switch and Switch Group
 * Radio Buttons
 * URL and Multiple URL fields that link to external web sites
+* Quicktime metadata properties
 * Complex structures
 * Tables
 * Calculation Fields
@@ -37,6 +38,66 @@ See a video tour at [https://youtu.be/48T_xxx_i6Y](https://youtu.be/48T_xxx_i6Y)
 Special thanks to the following, who graciously created example Views that you can use when creating a new Tab:
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
+
+## Changes for Version 2.0.13
+
+### Introduces Quicktime Metadata Field Type
+
+This release introduces a major new field type: **Quicktime Metadata**. This field type allows users to read and write embedded camera metadata directly in video files (MP4/MOV) without requiring XMP namespace configuration.
+
+#### Key Features
+
+* **16 Supported QuickTime Atoms** for comprehensive metadata coverage:
+  * **Camera & Technical**: Image Rating (`urat`), Manufacturer (`manu`), Camera Model (`modl`), Encoding Tool (`©too`)
+  * **Production Credits**: Director (`©dir`), Producer (`©prd`), Writer (`©wrt`), Artist (`©art`)
+  * **Content & Description**: Title (`©nam`), Description (`©des`), Comment (`©cmt`), Keywords (`keyw`), Copyright (`©cpy`)
+  * **Media Library (iTunes-style)**: Album (`©alb`), Genre (`©gen`), Year (`©day`)
+
+* **Interactive Star Rating Display** for the Image Rating field
+  * 5-star rating component (0-5 scale maps to 0-100 internally)
+  * Users can click to set ratings interactively
+
+* **Optional XMP Synchronization** - Write to both QuickTime atoms AND corresponding XMP properties
+  * User-controlled on a per-property basis via "Sync with XMP" checkbox
+  * Automatic mapping to standard XMP properties (e.g., `urat` → `MicrosoftPhoto:Rating`, `manu` → `tiff:Make`, `©nam` → `dc:title`)
+  * Supports all 16 QuickTime atoms with appropriate XMP equivalents
+  * Handles special cases: alt-lang properties, array types, and value conversions
+  * Configurator displays which XMP property will be synced for each atom
+
+* **Camera Metadata Example View** included with organized sections:
+  * Camera & Technical information
+  * Production Credits
+  * Content & Description
+  * Media Library (iTunes-style)
+
+### Improved Property Name Handling
+
+* **Space Support in Property Names** - Makes Acrobat custom properties easier to use
+  * Spaces automatically convert to `ↂ0020` unicode character internally
+  * Seamless bidirectional conversion for user-friendly editing
+  * Type property names naturally with spaces (e.g., "My Custom Property")
+  * Stored correctly as `Myↂ0020Customↂ0020Property` for XMP compliance
+
+* **Enhanced Prefix Validation** - Prevents invalid prefixes
+  * Spaces are now blocked in XMP prefix field
+  * Clear error messages guide users to XMP-compliant naming
+
+### Technical Notes
+
+* Quicktime Metadata fields work with MP4 and MOV files that use the QuickTime container format
+* The panel safely handles files without existing `udta` atoms by creating the necessary structure
+* All metadata operations preserve video playback integrity by updating internal file pointers
+* Compatible with Bridge, and works alongside existing XMP metadata fields
+
+### Fixed
+
+* Improved unicode character support for property names (spaces and `ↂ` character)
+* Enhanced validation messages for property names and prefixes
+* Better error handling for unsupported file types
+
+---
+
+This release significantly expands the panel's capabilities for video professionals, camera operators, and media asset managers who need to work with embedded camera metadata in their video files. The optional XMP sync feature ensures maximum compatibility with other Adobe applications and DAM systems.
 
 ## Changes for 2.0.12
 This release improved linked item support for Custom Metadata in InDesign. InDesign documents often include linked Library items, Cloud Documents, and even AEM Assets. While Custom Metadata can directly inspect metadata from traditionally linked assets, Cloud objects don't have the same properties available. To make it easier to inspect metadata for these items, we have introduced round trip workflows.
