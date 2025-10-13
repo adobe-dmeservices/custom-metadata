@@ -94,7 +94,7 @@ This release introduces a major new field type: **Quicktime Metadata**. This fie
 * Improved unicode character support for property names (spaces and `ↂ` character)
 * Enhanced validation messages for property names and prefixes
 * Better error handling for unsupported file types
-
+![Quicktime Metadata](https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/Quicktime.gif)
 ---
 
 This release significantly expands the panel's capabilities for video professionals, camera operators, and media asset managers who need to work with embedded camera metadata in their video files. The optional XMP sync feature ensures maximum compatibility with other Adobe applications and DAM systems.
