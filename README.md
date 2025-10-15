@@ -59,9 +59,9 @@ This release introduces a major new field type: **Quicktime Metadata**. This fie
 
 * **Optional XMP Synchronization** - Write to both QuickTime atoms AND corresponding XMP properties
   * User-controlled on a per-property basis via "Sync with XMP" checkbox
-  * Automatic mapping to standard XMP properties (e.g., `urat` → `MicrosoftPhoto:Rating`, `manu` → `tiff:Make`, `©nam` → `dc:title`)
+  * Automatic mapping to standard XMP properties (e.g., `urat` → `xmp:Rating`, `manu` → `tiff:Make`, `©nam` → `dc:title`)
   * Supports all 16 QuickTime atoms with appropriate XMP equivalents
-  * Handles special cases: alt-lang properties, array types, and value conversions
+  * Handles special cases: alt-lang properties, array types, and value conversions (e.g., rating 0-100 scale converts to 0-5 scale)
   * Configurator displays which XMP property will be synced for each atom
 
 * **Camera Metadata Example View** included with organized sections:
