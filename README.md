@@ -39,6 +39,36 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for Version 2.0.14
+
+### Enhanced Quicktime Metadata Support
+- **Dependencies and Sync to Another Field**: You can now configure Dependencies and Sync to another field options for Quicktime Metadata fields, providing the same powerful workflow automation available for XMP fields.
+
+### Improved Calculation Field Editor
+- **New Calculation Editor**: Introduced a completely redesigned calculation editor that makes it easier to build and manage complex formulas:
+  - Visual field picker for easy variable insertion
+  - Function library with categorized functions (Math, Text, Date/Time, Logic, Aggregation)
+  - Syntax highlighting and error detection
+  - Real-time formula preview
+  - Support for cursor positioning and editing
+- **Quicktime Metadata Support**: Calculation fields can now reference Quicktime metadata properties, enabling calculations that combine XMP and Quicktime data.
+
+### Time Zone Support for Date Fields
+- **Date Field Time Zones**: Added comprehensive time zone support for Date and Multi-Date fields:
+  - View and edit the GMT offset for each date value
+  - Automatic conversion to user's local timezone (optional)
+  - Preserves original time zone information
+  - Compatible with ISO 8601 date format
+
+## Bug Fixes
+
+### InDesign Unicode Character Support (Critical)
+**Problem**: Property names containing spaces (encoded as `ↂ0020` unicode markers) failed to save when editing InDesign document metadata directly, despite working correctly in Bridge and for InDesign linked assets.
+
+### Introduces Quicktime Metadata Field Type
+
+This release introduces a major new field type: **Quicktime Metadata**. This field type allows users to read and write embedded camera metadata directly in video files (MP4/MOV) without requiring XMP namespace configuration.
+
 ## Changes for Version 2.0.13
 
 ### Introduces Quicktime Metadata Field Type
