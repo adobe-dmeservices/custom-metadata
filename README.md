@@ -65,10 +65,6 @@ Special thanks to the following, who graciously created example Views that you c
 ### InDesign Unicode Character Support (Critical)
 **Problem**: Property names containing spaces (encoded as `ↂ0020` unicode markers) failed to save when editing InDesign document metadata directly, despite working correctly in Bridge and for InDesign linked assets.
 
-### Introduces Quicktime Metadata Field Type
-
-This release introduces a major new field type: **Quicktime Metadata**. This field type allows users to read and write embedded camera metadata directly in video files (MP4/MOV) without requiring XMP namespace configuration.
-
 ## Changes for Version 2.0.13
 
 ### Introduces Quicktime Metadata Field Type
