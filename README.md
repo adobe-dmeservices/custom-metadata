@@ -39,7 +39,28 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
-## Changes for Version 2.0.14
+## Changes for 2.0.17
+**Quality of life improvements including:**
+- Close and Save buttons to Tab and View editors. These are contextually aware and will prompt the user if they have unsaved changes
+- Redesigned the Tab and View editor tables to include contextual copy, paste and delete
+- Preferences layout improvements. Info window now scrolls and bottom buttons/checkboxes are always visible
+- Updated font scaling methods
+- some bug fixes
+![https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/close_and_save.gif](https://raw.githubusercontent.com/adobe-dmeservices/custom-metadata/refs/heads/master/Images_CEP_%20Adobe%20Bridge%20User%20Guide/close_and_save.gif)
+
+## Changes for 2.0.15
+- **Office Document and Quicktime Metadata Support in InDesign**
+ - **Office and media file Integration**: Automatically detect Office and media files linked in InDesign layouts
+ - **Linked Text Frame Detection**: Select text frames with linked Word documents to view/edit metadata
+- **Linked Table Detection**: Select tables with linked Excel spreadsheets to view/edit metadata  
+ - **Seamless Workflow**: Read and edit metadata directly from InDesign without switching to Bridge
+
+### Office Document Support in Bridge
+- **Word, PowerPoint & Excel Integration**: Automatically detect Office files in Bridge selections
+- **Full metadata access**: Read and write all pre-defined and custom Office metadata properties
+
+
+- ## Changes for Version 2.0.14
 
 ### Enhanced Quicktime Metadata Support
 - **Dependencies and Sync to Another Field**: You can now configure Dependencies and Sync to another field options for Quicktime Metadata fields, providing the same powerful workflow automation available for XMP fields.
