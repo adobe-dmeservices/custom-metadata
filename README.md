@@ -39,6 +39,35 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for 2.0.19
+### Lightroom Classic Support
+
+  This release introduces a complete Lightroom Classic plugin that brings Custom Metadata Panel's view-based metadata editing to Lightroom's Library module.
+
+  **How it works.** The plugin reads your existing CMP view templates directly from the shared settings file — the same JSON you configure in Bridge or Photoshop. At Lightroom startup, it registers all custom fields from all your views into Lightroom's metadata schema. From the Library menu, **Library > Custom Metadata > Edit Custom Metadata…** opens a dynamically generated editing dialog built from your active view template. Because the template is reloaded fresh on every open, any changes made in the CMP Configurator appear immediately in Lightroom without restarting.
+
+  **XMP read/write.** Lightroom Classic does not provide full programmatic XMP access, so the plugin ships with a companion command-line tool (`xmp-cli`) for both Mac and Windows, built on Adobe's official XMP Toolkit SDK. When saving metadata, the plugin writes through the CLI to embed XMP directly in the photo file and also writes a `.xmp` sidecar alongside it. On read, it follows a fallback chain: sidecar on disk → embedded XMP in the file → Lightroom's cached xmpPacket. On Windows, the CLI runs as a persistent background daemon during the Lightroom session to avoid a console window flashing on every metadata operation.
+
+  **Field type coverage.** Nearly all CMP field types render natively in the dialog: text, number, URL (with an Open button), date/time picker, checkbox, switch, radio group, dropdown, tags, multi-select, checkbox group, multi-text, language alternatives, structure, and calculated/read-only fields. Fields that are inherently unsupported in Lightroom — Camera Metadata (QuickTime atoms), Office Metadata, AEM Tags, and Premiere Pro Clip metadata — are skipped. Structures with array types (bag/seq) are fully editable with item navigation and add/remove controls.
+
+  **Multi-photo editing.** Selecting multiple photos and opening the dialog shows the common value for each field. Fields with differing values across the selection are left blank; saving writes only the fields the user explicitly edits.
+
+  **Metadata panel integration.** A "Custom Metadata CEP" entry appears in the Library module's Metadata panel dropdown, showing all registered custom fields alongside standard Lightroom fields (filename, folder, title, caption).
+  
+---
+
+  ### Bug Fixes
+
+  - **Locked folder detection** — Files in non-writable folders are now detected and treated as read-only, rather than surfacing an obscure XMP error (code 1000).
+  - **Premiere Pro / InDesign "file locked" error** — Resolved an issue where saving metadata in Premiere Pro and InDesign could falsely report the file as locked.
+  - **UI warning for `https://` XMP URIs** — Added a visible warning when a View is configured with an `https://` URI, which is not supported by the XMP SDK.
+
+  ### Improvements
+
+  - **Crash hardening** — Null guards and proper error propagation added across the ExtendScript host and CEP JavaScript layers to address a range of edge cases that could silently fail or crash the panel.
+  - **Cleaner error messages** — XMP errors no longer include the full ExtendScript source listing; only the file name and line number are reported.
+  - **Settings page layout** — Preferences footer is now properly anchored with a two-column layout (checkboxes left, action buttons right-aligned), fixing a layout anomaly in Premiere Pro.
+
 ## Changes for 2.0.17
 **Quality of life improvements including:**
 - Close and Save buttons to Tab and View editors. These are contextually aware and will prompt the user if they have unsaved changes
