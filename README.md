@@ -39,6 +39,25 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
+## Changes for 2.0.20
+### Lightroom Classic Update
+
+  This release improves the multi-text field in Lightroom Classic. It now shows all of the current values in a scrollable list. Users can select items for reordering, updating and deleting. 
+
+### Hierarchical Keywords support
+
+Custom Metadata now supports hierarchical keywords in Bridge and Lightroom Classic. Users can create hierarchical values using the pipe character `|` to separate levels in the hierarchy.
+  
+---
+
+  ### Bug Fixes
+
+  - **Lightroom Loading Loop** — If you select a View that has no Fields that Lightroom supports, the panel no longer goes into an inescapable loading loop.
+
+  ### Improvements
+
+  - **Crash hardening** — Trapping more rare error conditions.
+
 ## Changes for 2.0.19
 ### Lightroom Classic Support
 
