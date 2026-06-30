@@ -22,6 +22,12 @@ Form fields include:
 * Calculation Fields
 * Hidden fields
 * AEM Tags (special case just for Adobe Experience Manager)
+* _NEW IN 2.0.21_ Maps
+* _NEW IN 2.0.21_ Links
+* _NEW IN 2.0.21_ Swatches
+* _NEW IN 2.0.21_ Plates (inks)
+* _NEW IN 2.0.21_ Fonts
+* _NEW IN 2.0.21_ **Filter mode** lets you quickly filter your files in Bridge by any property in your Views!
 
 Other features include a read-only entries, synced field values, section dividers, a built-in form editor, form definition file import and export, metadata Preset import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest. For full docuentation, please see our [user guide](https://github.com/adobe-dmeservices/custom-metadata/wiki).
 
@@ -38,6 +44,59 @@ See a video tour at [https://youtu.be/48T_xxx_i6Y](https://youtu.be/48T_xxx_i6Y)
 Special thanks to the following, who graciously created example Views that you can use when creating a new Tab:
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
+
+## Changes for 2.0.21
+## New Field Types (read-only, Bridge/InDesign/Photoshop/Illustrator/Premiere Pro only)
+
+### Map (`MetadataMap.js`)
+Displays an interactive map using the file's EXIF GPS coordinates (`exif:GPSLatitude`, `exif:GPSLongitude`, `exif:GPSAltitude`). The map is rendered via Leaflet/OpenStreetMap and shows a pin at the captured location. Configurable map height.
+
+### Swatches & Plates (`MetadataSwatches.js`, `MetadataPlates.js`)
+Reads the color swatches and ink plates embedded in the file (InDesign, Illustrator). Swatches are displayed as color chips with their names. Selected swatches can be exported to an `.ase` file. Plates shows the underlying ink separations.
+
+### History (`MetadataHistory.js`)
+Displays the modification history of the file from XMP history metadata (`xmpMM:History`). Shows each history entry with its action, timestamp, and software agent.
+
+### Links (`MetadataLinks.js`)
+Displays the linked items embedded in the file (InDesign, Illustrator). Each link shows its path, status, and modification date. Links can be opened in the file system and a links report can be exported.
+
+### Fonts (`MetadataFonts.js`)
+Displays the fonts used in the file. Each font entry shows the font name, type, and whether it is embedded. A fonts report can be exported.
+
+---
+
+## New Feature: Filter Mode
+
+Views can now include a Search field that filters all visible fields by their current values. This allows users to quickly find properties by value within a large View.
+
+---
+
+## New Number Field Options
+
+### EXIF Rational Format (`rational`)
+Number and MultiNumber fields can be configured with `rational: true`. When enabled:
+- XMP stores values as EXIF rational strings (e.g. `169/1`, `12/5`)
+- The field displays the equivalent decimal (e.g. `169`, `2.4`)
+- On write, decimal input is converted back to a rational string using GCD simplification
+- Useful for `exif:GPSAltitude`, `exif:FNumber`, `exif:FocalLength`, and similar EXIF properties
+
+### Rational Decimal Precision (`rationalPrecision`)
+Optional companion to `rational`. When set (0–10), limits the decimal display to that many places (e.g. `168.1234` → `168.12` with precision 2). Leave blank to show all digits.
+
+### Display Unit (`unit`)
+All Number, MultiNumber, and Table Number columns can have an optional unit label (e.g. `m`, `°`, `fps`):
+- Appears inline with the value when the field is idle (`168 m`)
+- Hides when the field is focused for editing (only the number is shown)
+- Display-only — not stored in metadata
+
+---
+
+## What's New Panel
+
+- **Layout**: Heading, carousel, and pip navigation now use a proper flex column layout filling `100vh`. The page no longer scrolls vertically.
+- **Scrollable description**: Only the text description area scrolls; the screenshot image stays fixed above it.
+- **Pip navigation**: Replaced `StepList` (a wizard-style component that rendered connector dashes between each step) with simple circular dot indicators. Dots are 8px, with 8px gap, opacity-based active/inactive states, and click-to-navigate.
+
 
 ## Changes for 2.0.20
 ### Lightroom Classic Update
