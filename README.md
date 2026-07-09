@@ -48,20 +48,20 @@ Special thanks to the following, who graciously created example Views that you c
 ## Changes for 2.0.21
 ## New Field Types (read-only, Bridge/InDesign/Photoshop/Illustrator/Premiere Pro only)
 
-### Map (`MetadataMap.js`)
-Displays an interactive map using the file's EXIF GPS coordinates (`exif:GPSLatitude`, `exif:GPSLongitude`, `exif:GPSAltitude`). The map is rendered via Leaflet/OpenStreetMap and shows a pin at the captured location. Configurable map height.
+### Map
+Read Only. Displays an interactive map using the file's EXIF GPS coordinates (`exif:GPSLatitude`, `exif:GPSLongitude`, `exif:GPSAltitude`). The map is rendered via Leaflet/OpenStreetMap and shows a pin at the captured location. Configurable map height.
 
-### Swatches & Plates (`MetadataSwatches.js`, `MetadataPlates.js`)
-Reads the color swatches and ink plates embedded in the file (InDesign, Illustrator). Swatches are displayed as color chips with their names. Selected swatches can be exported to an `.ase` file. Plates shows the underlying ink separations.
+### Swatches & Plates
+Read Only. Reads the color swatches and ink plates embedded in the file (InDesign, Illustrator). Swatches are displayed as color chips with their names. Selected swatches can be exported to an `.ase` file. Plates shows the underlying ink separations.
 
-### History (`MetadataHistory.js`)
-Displays the modification history of the file from XMP history metadata (`xmpMM:History`). Shows each history entry with its action, timestamp, and software agent.
+### History
+Read Only. Displays the modification history of the file from XMP history metadata (`xmpMM:History`). Shows each history entry with its action, timestamp, and software agent.
 
-### Links (`MetadataLinks.js`)
-Displays the linked items embedded in the file (InDesign, Illustrator). Each link shows its path, status, and modification date. Links can be opened in the file system and a links report can be exported.
+### Links
+Read Only. Displays the linked items embedded in the file (InDesign, Illustrator). Each link shows its path, status, and modification date. Links can be opened in the file system and a links report can be exported.
 
-### Fonts (`MetadataFonts.js`)
-Displays the fonts used in the file. Each font entry shows the font name, type, and whether it is embedded. A fonts report can be exported.
+### Fonts
+Read Only. Displays the fonts used in the file. Each font entry shows the font name, type, and whether it is embedded. A fonts report can be exported.
 
 ---
 
