@@ -1,0 +1,297 @@
+[
+  {
+    "id": "prismusage-divider",
+    "displayName": "PRISM Usage Rights Metadata (version 3.0)",
+    "type": "Divider",
+    "sectionLink": "https://www.w3.org/submissions/2020/SUBM-prism-20200910/prism-usage.html",
+    "disabled": false,
+    "dependencies": []
+  },
+
+  {
+    "id": "prismusage-section-rights",
+    "displayName": "Rights & Ownership",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "prismusage-rightsOwner",
+    "displayName": "Rights Owner",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "rightsOwner",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Name, and possibly contact information, for the person(s) or organization(s) that owns the rights to use this resource. May differ from the Rights Agent. The full spec also supports an agreementID attribute per entry, not modeled here."
+  },
+  {
+    "id": "prismusage-rightsAgent",
+    "displayName": "Rights Agent",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "rightsAgent",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Name, and possibly contact information, for the person or organization that should be contacted to license the rights to use this resource. The full spec also supports an agreementID attribute per entry, not modeled here."
+  },
+  {
+    "id": "prismusage-copyright",
+    "displayName": "Copyright",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "copyright",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Copyright statement for the resource."
+  },
+  {
+    "id": "prismusage-reuseProhibited",
+    "displayName": "Reuse Prohibited",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "reuseProhibited",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "options": [
+      { "value": "yes", "label": "Yes -- no reuse rights" },
+      { "value": "no", "label": "No -- reuse is allowed" },
+      { "value": "provisional", "label": "Provisional" },
+      { "value": "ask", "label": "Ask -- check before reuse" }
+    ],
+    "customToolTip": "Specifies whether there are any rights to reuse this resource."
+  },
+  {
+    "id": "prismusage-creditLine",
+    "displayName": "Credit Line",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "creditLine",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "The credit line to use for this resource. The full spec also supports required (boolean), agreementID, and distributionChannel attributes per entry, not modeled here."
+  },
+
+  {
+    "id": "prismusage-section-agreements",
+    "displayName": "Agreements",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "prismusage-agreement",
+    "displayName": "Agreement",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "agreement",
+    "type": "Structure",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "prismusage-agreement-type",
+          "displayName": "Agreement Type",
+          "prefix": "pur",
+          "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+          "propertyName": "agreementType",
+          "type": "Dropdown",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            { "value": "property release", "label": "Property Release" },
+            { "value": "subject release", "label": "Subject Release" },
+            { "value": "event release", "label": "Event Release" },
+            { "value": "object release", "label": "Object Release" },
+            { "value": "agency agreement", "label": "Agency Agreement" },
+            { "value": "photographer contract", "label": "Photographer Contract" },
+            { "value": "illustrator contract", "label": "Illustrator Contract" },
+            { "value": "writer contract", "label": "Writer Contract" }
+          ]
+        },
+        {
+          "id": "prismusage-agreement-status",
+          "displayName": "Status",
+          "prefix": "pur",
+          "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+          "propertyName": "status",
+          "type": "Dropdown",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            { "value": "limited", "label": "Limited" },
+            { "value": "unlimited", "label": "Unlimited" },
+            { "value": "unknown", "label": "Unknown" },
+            { "value": "NA", "label": "Not Applicable" },
+            { "value": "none", "label": "None" }
+          ]
+        },
+        {
+          "id": "prismusage-agreement-id",
+          "displayName": "Agreement ID",
+          "prefix": "pur",
+          "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+          "propertyName": "agreementID",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "prismusage-agreement-desc",
+          "displayName": "Description",
+          "prefix": "pur",
+          "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+          "propertyName": "value",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": true
+        }
+      ]
+    },
+    "customToolTip": "Identifies a contract or release governing use of this resource -- for example, a model or property release, or a contributor contract."
+  },
+  {
+    "id": "prismusage-imageSizeRestriction",
+    "displayName": "Image Size Restriction",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "imageSizeRestriction",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "disabled": false,
+    "customToolTip": "Specifies a usage restriction on image size (for example, exact dimensions, or a text description such as \"full page\" or \"spread\")."
+  },
+  {
+    "id": "prismusage-permissions",
+    "displayName": "Permissions",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "permissions",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Special usage permissions granted for this resource, typically qualified by distribution channel in the full spec (not modeled here)."
+  },
+  {
+    "id": "prismusage-restrictions",
+    "displayName": "Restrictions",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "restrictions",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Special usage restrictions on this resource, typically qualified by distribution channel in the full spec (not modeled here)."
+  },
+  {
+    "id": "prismusage-adultContentWarning",
+    "displayName": "Adult Content Warning",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "adultContentWarning",
+    "type": "MultiText",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Warning(s) that must be used in conjunction with this resource due to the presence of adult content."
+  },
+
+  {
+    "id": "prismusage-section-dates",
+    "displayName": "Rights Dates",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "prismusage-embargoDate",
+    "displayName": "Embargo Date",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "embargoDate",
+    "type": "MultiDate",
+    "arrayType": "seq",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "hideTime": "datetime",
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "customToolTip": "Earliest date (and optionally time) the resource may be made available to users or customers according to the rights agreement."
+  },
+  {
+    "id": "prismusage-optionEndDate",
+    "displayName": "Option End Date",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "optionEndDate",
+    "type": "MultiDate",
+    "arrayType": "seq",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "hideTime": "datetime",
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "customToolTip": "Date (and optionally time) by which the resource must be used according to the rights agreement."
+  },
+  {
+    "id": "prismusage-exclusivityEndDate",
+    "displayName": "Exclusivity End Date",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "exclusivityEndDate",
+    "type": "MultiDate",
+    "arrayType": "seq",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "hideTime": "datetime",
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "customToolTip": "Date (and optionally time) when exclusive use of the resource ends according to a rights agreement."
+  },
+  {
+    "id": "prismusage-expirationDate",
+    "displayName": "Expiration Date",
+    "prefix": "pur",
+    "namespace": "http://prismstandard.org/namespaces/pur/3.0/",
+    "propertyName": "expirationDate",
+    "type": "MultiDate",
+    "arrayType": "seq",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "hideTime": "datetime",
+    "timeFormat": "hh:mm a",
+    "dateFormat": "YYYY-MM-DD",
+    "customToolTip": "Date (and optionally time) by which the resource must be removed from availability to users or customers according to a rights agreement."
+  }
+]

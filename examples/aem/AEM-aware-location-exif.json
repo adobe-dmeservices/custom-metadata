@@ -1,0 +1,220 @@
+[
+  {
+    "id": "aem-divider-1",
+    "displayName": "AEM-aware: Location & EXIF (linked assets)",
+    "type": "Divider",
+    "sectionLink": "https://github.com/adobe-dmeservices/custom-metadata-cep",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "aem-note-1",
+    "displayName": "Enable Preferences → \"Use AEM as the source of truth…\". Editorial + GPS fields are editable (GPS writes mirror to flat exif:GPS*). Use AI promote fields to copy autogen:* into dc:* — autogen is read-only. Camera EXIF below is read-only — AEM may overwrite extracted values on reprocess.",
+    "type": "Divider",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "aem-ai-title",
+    "displayName": "AI Title (promote to dc:title)",
+    "type": "AITitle",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-ai-desc",
+    "displayName": "AI Description (promote to dc:description)",
+    "type": "AIDescription",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-ai-kw",
+    "displayName": "AI Keywords (promote to dc:subject)",
+    "type": "AIKeywords",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-dc-title",
+    "displayName": "Title (dc:title)",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "title",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false
+  },
+  {
+    "id": "aem-dc-desc",
+    "displayName": "Description (dc:description)",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "description",
+    "type": "Text",
+    "multiLine": true,
+    "altLangEnabled": true,
+    "altLang": [],
+    "altLangDefault": "x-default",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false
+  },
+  {
+    "id": "aem-map",
+    "displayName": "GPS Map",
+    "type": "Map",
+    "mapHeight": 280,
+    "hideWhenEmpty": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-exif-div",
+    "displayName": "Flat EXIF GPS (editable — writes AEM node root exif:GPS*)",
+    "type": "Divider",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "aem-gps-lat",
+    "displayName": "GPS Latitude",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "GPSLatitude",
+    "type": "Text",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-gps-lng",
+    "displayName": "GPS Longitude",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "GPSLongitude",
+    "type": "Text",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-gps-alt",
+    "displayName": "GPS Altitude",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "GPSAltitude",
+    "type": "Text",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-camera-div",
+    "displayName": "Camera EXIF (read-only — extracted from binary, may reset on AEM reprocess)",
+    "type": "Divider",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "aem-tiff-make",
+    "displayName": "Camera Make",
+    "prefix": "tiff",
+    "namespace": "http://ns.adobe.com/tiff/1.0/",
+    "propertyName": "Make",
+    "type": "Text",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-tiff-model",
+    "displayName": "Camera Model",
+    "prefix": "tiff",
+    "namespace": "http://ns.adobe.com/tiff/1.0/",
+    "propertyName": "Model",
+    "type": "Text",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-exif-fn",
+    "displayName": "F-Number",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "FNumber",
+    "type": "Text",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-exif-exp",
+    "displayName": "Exposure Time",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "ExposureTime",
+    "type": "Text",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-exif-iso",
+    "displayName": "ISO",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "ISOSpeedRatings",
+    "type": "MultiText",
+    "arrayType": "seq",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-exif-lens",
+    "displayName": "Lens Model",
+    "prefix": "exifEX",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "LensModel",
+    "type": "Text",
+    "readOnly": true,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-date-div",
+    "displayName": "Dates (editable; reads fall back across xmp/exif/photoshop date keys)",
+    "type": "Divider",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "aem-xmp-created",
+    "displayName": "Date Created (xmp:CreateDate)",
+    "prefix": "xmp",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "propertyName": "CreateDate",
+    "type": "Date",
+    "dateFormat": "YYYY-MM-DD",
+    "hideTime": "datetime",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "aem-exif-dto",
+    "displayName": "Date Time Original (exif:DateTimeOriginal)",
+    "prefix": "exif",
+    "namespace": "http://ns.adobe.com/exif/1.0/",
+    "propertyName": "DateTimeOriginal",
+    "type": "Date",
+    "dateFormat": "YYYY-MM-DD",
+    "hideTime": "datetime",
+    "readOnly": false,
+    "dependencies": [],
+    "disabled": false
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "office-section-core",
+    "type": "Divider",
+    "displayName": "Core Document Properties",
+    "customToolTip": "Standard document properties defined in Office Open XML core properties (docProps/core.xml)"
+  },
+  {
+    "id": "office-title",
+    "type": "OfficeMetadata",
+    "displayName": "Document Title",
+    "officeProperty": "title",
+    "customToolTip": "The title of the Office document",
+    "readOnly": false
+  },
+  {
+    "id": "office-subject",
+    "type": "OfficeMetadata",
+    "displayName": "Subject",
+    "officeProperty": "subject",
+    "customToolTip": "A brief description of the document's subject matter",
+    "readOnly": false
+  },
+  {
+    "id": "office-creator",
+    "type": "OfficeMetadata",
+    "displayName": "Author/Creator",
+    "officeProperty": "creator",
+    "customToolTip": "The name of the person who created the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-description",
+    "type": "OfficeMetadata",
+    "displayName": "Description",
+    "officeProperty": "description",
+    "customToolTip": "A detailed description or abstract of the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-keywords",
+    "type": "OfficeMetadata",
+    "displayName": "Keywords",
+    "officeProperty": "keywords",
+    "customToolTip": "Keywords or tags for searching and organizing the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-category",
+    "type": "OfficeMetadata",
+    "displayName": "Category",
+    "officeProperty": "category",
+    "customToolTip": "The category or classification of the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-section-dates",
+    "type": "Divider",
+    "displayName": "Document Dates",
+    "customToolTip": "Creation and modification dates (read-only)"
+  },
+  {
+    "id": "office-created",
+    "type": "OfficeMetadata",
+    "displayName": "Created Date",
+    "officeProperty": "created",
+    "customToolTip": "The date and time when the document was created",
+    "readOnly": true
+  },
+  {
+    "id": "office-modified",
+    "type": "OfficeMetadata",
+    "displayName": "Modified Date",
+    "officeProperty": "modified",
+    "customToolTip": "The date and time when the document was last modified",
+    "readOnly": true
+  },
+  {
+    "id": "office-lastModifiedBy",
+    "type": "OfficeMetadata",
+    "displayName": "Last Modified By",
+    "officeProperty": "lastModifiedBy",
+    "customToolTip": "The name of the person who last modified the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-revision",
+    "type": "OfficeMetadata",
+    "displayName": "Revision Number",
+    "officeProperty": "revision",
+    "customToolTip": "The revision number of the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-section-app",
+    "type": "Divider",
+    "displayName": "Application Properties",
+    "customToolTip": "Properties specific to the application (docProps/app.xml)"
+  },
+  {
+    "id": "office-company",
+    "type": "OfficeMetadata",
+    "displayName": "Company",
+    "officeProperty": "company",
+    "customToolTip": "The company or organization name",
+    "readOnly": false
+  },
+  {
+    "id": "office-manager",
+    "type": "OfficeMetadata",
+    "displayName": "Manager",
+    "officeProperty": "manager",
+    "customToolTip": "The manager responsible for the document",
+    "readOnly": false
+  },
+  {
+    "id": "office-application",
+    "type": "OfficeMetadata",
+    "displayName": "Application",
+    "officeProperty": "application",
+    "customToolTip": "The application used to create the document",
+    "readOnly": true
+  },
+  {
+    "id": "office-section-custom",
+    "type": "Divider",
+    "displayName": "Custom Properties",
+    "customToolTip": "Custom properties for your organization's workflow (docProps/custom.xml)"
+  },
+  {
+    "id": "office-custom-project",
+    "type": "OfficeMetadata",
+    "displayName": "Project Name",
+    "officeProperty": "custom_ProjectName",
+    "customToolTip": "Custom property for tracking the project name",
+    "readOnly": false
+  },
+  {
+    "id": "office-custom-status",
+    "type": "OfficeMetadata",
+    "displayName": "Document Status",
+    "officeProperty": "custom_Status",
+    "customToolTip": "Custom property for document workflow status (e.g., Draft, Review, Final)",
+    "readOnly": false
+  },
+  {
+    "id": "office-custom-department",
+    "type": "OfficeMetadata",
+    "displayName": "Department",
+    "officeProperty": "custom_Department",
+    "customToolTip": "Custom property for the department that owns this document",
+    "readOnly": false
+  },
+  {
+    "id": "office-custom-client",
+    "type": "OfficeMetadata",
+    "displayName": "Client Name",
+    "officeProperty": "custom_ClientName",
+    "customToolTip": "Custom property for the client associated with this document",
+    "readOnly": false
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "id": "prismrs-divider",
+    "displayName": "PRISM Rights Summary Metadata (version 3.1)",
+    "type": "Divider",
+    "sectionLink": "https://www.w3.org/submissions/2020/SUBM-prism-20200910/prism-rights-summary.html",
+    "disabled": false,
+    "dependencies": []
+  },
+
+  {
+    "id": "prismrs-section-general",
+    "displayName": "General",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "prismrs-rightsOwner",
+    "displayName": "Rights Owner",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "rightsOwner",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "disabled": false,
+    "customToolTip": "Contact information for the person or organization with the legal right to license use of this resource."
+  },
+  {
+    "id": "prismrs-rightsAgent",
+    "displayName": "Rights Agent",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "rightsAgent",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "disabled": false,
+    "customToolTip": "Contact information for the person or organization to approach to license use of this resource (may be the same as, or different from, the Rights Owner)."
+  },
+  {
+    "id": "prismrs-assetLink",
+    "displayName": "Asset Link",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "assetLink",
+    "type": "MultiURL",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Link(s) to the content/media asset(s) being described by this Rights Summary."
+  },
+  {
+    "id": "prismrs-agreementLink",
+    "displayName": "Agreement Link",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "agreementLink",
+    "type": "MultiURL",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "customToolTip": "Link(s) to an agreement or contract governing the use of the asset(s) described here."
+  },
+
+  {
+    "id": "prismrs-section-parties",
+    "displayName": "Parties",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "prismrs-party",
+    "displayName": "Party",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "party",
+    "type": "Structure",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "prismrs-party-function",
+          "displayName": "Function",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "function",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "This party's role, per the PRISM Party Function controlled vocabulary (for example, \"licensor\" or \"licensee\")."
+        },
+        {
+          "id": "prismrs-party-name",
+          "displayName": "Name",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "partyName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "prismrs-party-email",
+          "displayName": "Email",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "partyEmail",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "prismrs-party-phone",
+          "displayName": "Phone",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "partyPhone",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false
+        },
+        {
+          "id": "prismrs-party-address",
+          "displayName": "Address",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "partyAddress",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": true
+        },
+        {
+          "id": "prismrs-party-link",
+          "displayName": "Link",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "partyLink",
+          "type": "URL",
+          "dependencies": [],
+          "readOnly": false,
+          "customToolTip": "Links this party to a record in a contracts or contacts database."
+        }
+      ]
+    },
+    "customToolTip": "A party (person or organization) associated with a permission or restriction on the use of this resource -- for example, the licensor, licensee, or a party owed a duty such as credit or compensation."
+  },
+
+  {
+    "id": "prismrs-section-permissions",
+    "displayName": "Permissions & Prohibitions",
+    "type": "Subsection",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "prismrs-permission",
+    "displayName": "Permission",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "permission",
+    "type": "Structure",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "prismrs-permission-action",
+          "displayName": "Action",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "action",
+          "type": "MultiDropdown",
+          "arrayType": "bag",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            { "value": "use", "label": "Use" },
+            { "value": "presentDisplay", "label": "Present -- Display" },
+            { "value": "presentPlay", "label": "Present -- Play" },
+            { "value": "presentPrint", "label": "Present -- Print" },
+            { "value": "presentTextToSpeech", "label": "Present -- Text to Speech" },
+            { "value": "aggregate", "label": "Aggregate" },
+            { "value": "translate", "label": "Translate" },
+            { "value": "transform", "label": "Transform" }
+          ],
+          "customToolTip": "The action(s) this permission grants."
+        },
+        {
+          "id": "prismrs-permission-duty",
+          "displayName": "Duty",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "duty",
+          "type": "MultiDropdown",
+          "arrayType": "bag",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            { "value": "credit", "label": "Credit" },
+            { "value": "compensate", "label": "Compensate" },
+            { "value": "inform", "label": "Inform" },
+            { "value": "include", "label": "Include" }
+          ],
+          "customToolTip": "Action(s) a publisher must take in order to have permission to use the asset (for example, giving credit)."
+        },
+        {
+          "id": "prismrs-permission-constraintName",
+          "displayName": "Constraint Name",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "constraintName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The name of a limit placed on this permission's action (for example, \"dateTime\" or \"industry\")."
+        },
+        {
+          "id": "prismrs-permission-constraintOperator",
+          "displayName": "Constraint Operator",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "constraintOperator",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The comparison operator for the constraint (for example, \"lt\", \"gt\", \"eq\")."
+        },
+        {
+          "id": "prismrs-permission-rightOperand",
+          "displayName": "Right Operand",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "rightOperand",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The value the constraint is compared against."
+        },
+        {
+          "id": "prismrs-permission-datatype",
+          "displayName": "Datatype",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "datatype",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The datatype of the Right Operand value (for example, \"date\" or \"string\")."
+        }
+      ]
+    },
+    "customToolTip": "A permission statement indicating the action(s) permitted, any constraints that must be applied, and any duties that must be performed. The full spec also allows associating one or more Parties with each duty -- add matching entries under Party above and cross-reference them by name."
+  },
+  {
+    "id": "prismrs-prohibition",
+    "displayName": "Prohibition",
+    "prefix": "prs",
+    "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+    "propertyName": "prohibition",
+    "type": "Structure",
+    "arrayType": "bag",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false,
+    "structure": {
+      "isArray": true,
+      "fields": [
+        {
+          "id": "prismrs-prohibition-action",
+          "displayName": "Action",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "action",
+          "type": "MultiDropdown",
+          "arrayType": "bag",
+          "dependencies": [],
+          "readOnly": false,
+          "options": [
+            { "value": "use", "label": "Use" },
+            { "value": "presentDisplay", "label": "Present -- Display" },
+            { "value": "presentPlay", "label": "Present -- Play" },
+            { "value": "presentPrint", "label": "Present -- Print" },
+            { "value": "presentTextToSpeech", "label": "Present -- Text to Speech" },
+            { "value": "aggregate", "label": "Aggregate" },
+            { "value": "translate", "label": "Translate" },
+            { "value": "transform", "label": "Transform" }
+          ],
+          "customToolTip": "The action(s) this prohibition forbids."
+        },
+        {
+          "id": "prismrs-prohibition-constraintName",
+          "displayName": "Constraint Name",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "constraintName",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The name of a limit placed on this prohibition's action."
+        },
+        {
+          "id": "prismrs-prohibition-constraintOperator",
+          "displayName": "Constraint Operator",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "constraintOperator",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The comparison operator for the constraint (for example, \"lt\", \"gt\", \"eq\")."
+        },
+        {
+          "id": "prismrs-prohibition-rightOperand",
+          "displayName": "Right Operand",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "rightOperand",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The value the constraint is compared against."
+        },
+        {
+          "id": "prismrs-prohibition-datatype",
+          "displayName": "Datatype",
+          "prefix": "prs",
+          "namespace": "http://prismstandard.org/namespaces/prs/3.1",
+          "propertyName": "datatype",
+          "type": "Text",
+          "dependencies": [],
+          "readOnly": false,
+          "multiLine": false,
+          "customToolTip": "The datatype of the Right Operand value (for example, \"date\" or \"string\")."
+        }
+      ]
+    },
+    "customToolTip": "A prohibition made up of action(s) and constraint(s) that map into ODRL to drive right-to-use decision policies -- the action(s) forbidden, and any constraints on that prohibition."
+  }
+]

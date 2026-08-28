@@ -6,6 +6,24 @@
     "path": "/Adobe/default_view.json"
   },
   {
+    "name": "Camera Metadata Example",
+    "author": "Adobe",
+    "type": "Example Views",
+    "path": "/Adobe/Camera_Metadata_Example.json"
+  },
+  {
+    "name": "Office Metadata Example",
+    "author": "Adobe",
+    "type": "Example Views",
+    "path": "/Adobe/Office_Metadata_Example.json"
+  },
+  {
+    "name": "AEM Properties",
+    "author": "AEM",
+    "type": "Example Views",
+    "path": "/aem/aemExample.json"
+  },
+  {
     "name": "PLUS LDF Example",
     "author": "PLUS",
     "type": "Example Views",
@@ -26,6 +44,22 @@
     "author": "IPTC",
     "type": "Example Views",
     "path": "/IPTC/iptc-vmhub-core-1.0.json"
+  },
+  {
+    "name": "IPTC Genre Tags",
+    "author": "IPTC",
+    "type": "Example Views",
+    "path": "/IPTC/IPTC-Genre_POC.json"
+  },{
+    "name": "IPTC Media Topics Flat Tags",
+    "author": "IPTC",
+    "type": "Example Views",
+    "path": "/IPTC/IPTC-MediaTopics_POC.json"
+  },{
+    "name": "IPTC Media Topics Hierarchical Tags",
+    "author": "IPTC",
+    "type": "Example Views",
+    "path": "/IPTC/IPTC-MediaTopics-Hierarchical_POC.json"
   },
   {
     "name": "Creative Commons Properties",
@@ -116,5 +150,36 @@
     "author": "AVM",
     "type": "Example Views",
     "path": "/avm/avmExample.json"
+  }
+  ,
+  {
+    "name": "PRISM Basic metadata",
+    "author": "PRISM",
+    "type": "Example Views",
+    "path": "/prism/prismExample.json"
+  },
+  {
+    "name": "PRISM Image metadata",
+    "author": "PRISM",
+    "type": "Example Views",
+    "path": "/prism/prismImageExample.json"
+  },
+  {
+    "name": "PRISM Usage Rights metadata",
+    "author": "PRISM",
+    "type": "Example Views",
+    "path": "/prism/prismUsageRightsExample.json"
+  },
+  {
+    "name": "PRISM Rights Summary metadata",
+    "author": "PRISM",
+    "type": "Example Views",
+    "path": "/prism/prismRightsSummaryExample.json"
+  },
+  {
+    "name": "Cultural Heritage Imaging software (proposed)",
+    "author": "DOAWG",
+    "type": "Example Views",
+    "path": "/DOAWG/CulturalHeritageImagingExample.json"
   }
 ]

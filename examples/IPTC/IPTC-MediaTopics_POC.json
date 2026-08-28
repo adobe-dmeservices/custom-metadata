@@ -1,0 +1,4363 @@
+[
+ {
+  "id": "w5rPc6JZ3TPwzha3jPWYPgBsKx79Nz",
+  "displayName": "*** IPTC Media Topics (Flat Tags)",
+  "type": "Divider",
+  "sectionLink": "https://iptc.org/standards/media-topics/",
+  "disabled": false,
+  "dependencies": []
+ },
+ {
+  "id": "TdASnO59ssK5ctiofRaOiRzTKPtoVA",
+  "displayName": "Media Topics",
+  "prefix": "medtop",
+  "namespace": "http://cv.iptc.org/newscodes/mediatopic/",
+  "propertyName": "MediaTopic",
+  "customToolTip": "IPTC Media Topics constrained vocabulary (cv.iptc.org). Stored as stable medtop: QCodes; the label shows the full hierarchy path with ' | ' separators. Autocomplete matches on the path text.",
+  "customDefaultText": "Start typing a topic, e.g. 'prison', 'football', 'inflation'",
+  "type": "Tags",
+  "dependencies": [],
+  "syncToFile": [],
+  "readOnly": false,
+  "allowCreate": false,
+  "options": [
+   {
+    "label": "arts, culture, entertainment and media",
+    "value": "medtop:01000000"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment",
+    "value": "medtop:20000002"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | animation",
+    "value": "medtop:20000003"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | cartoon",
+    "value": "medtop:20000004"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | cinema",
+    "value": "medtop:20000005"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | dance",
+    "value": "medtop:20000007"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | dance | ballet",
+    "value": "medtop:20000008"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | dance | modern dance",
+    "value": "medtop:20000009"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | dance | traditional dance",
+    "value": "medtop:20000010"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | fashion",
+    "value": "medtop:20000011"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | fashion | cosmetics",
+    "value": "medtop:20001248"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | fashion | hairstyles",
+    "value": "medtop:20001249"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | fashion | jewellery",
+    "value": "medtop:20000012"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | festival",
+    "value": "medtop:20001181"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | festival | film festival",
+    "value": "medtop:20000006"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | literature",
+    "value": "medtop:20000013"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | literature | drama (literature)",
+    "value": "medtop:20000014"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | literature | fiction",
+    "value": "medtop:20000015"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | literature | non-fiction",
+    "value": "medtop:20000016"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | literature | poetry",
+    "value": "medtop:20000017"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music",
+    "value": "medtop:20000018"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre",
+    "value": "medtop:20000021"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | children's music",
+    "value": "medtop:20001189"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | classical music",
+    "value": "medtop:20000022"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | country music",
+    "value": "medtop:20000023"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | dance band music",
+    "value": "medtop:20001187"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | electronic dance music",
+    "value": "medtop:20001188"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | folk music",
+    "value": "medtop:20000024"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | heavy metal",
+    "value": "medtop:20001186"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | hip hop",
+    "value": "medtop:20001184"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | jazz music",
+    "value": "medtop:20000025"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | popular music",
+    "value": "medtop:20000026"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | r&b",
+    "value": "medtop:20001185"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical genre | rock and roll music",
+    "value": "medtop:20000027"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical instrument",
+    "value": "medtop:20000019"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | music | musical performance",
+    "value": "medtop:20000020"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | series",
+    "value": "medtop:20001179"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre",
+    "value": "medtop:20000029"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre | cabaret",
+    "value": "medtop:20001191"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre | drama (theatre)",
+    "value": "medtop:20001180"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre | musical",
+    "value": "medtop:20001133"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre | opera",
+    "value": "medtop:20000028"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre | operetta",
+    "value": "medtop:20001134"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | theatre | stand-up comedy",
+    "value": "medtop:20001190"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts",
+    "value": "medtop:20000031"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | architecture",
+    "value": "medtop:20000032"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | design (visual arts)",
+    "value": "medtop:20000033"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | drawing",
+    "value": "medtop:20000034"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | forging",
+    "value": "medtop:20001205"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | painting",
+    "value": "medtop:20000035"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | photography",
+    "value": "medtop:20000036"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | sculpture",
+    "value": "medtop:20000037"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | textile arts",
+    "value": "medtop:20001203"
+   },
+   {
+    "label": "arts, culture, entertainment and media | arts and entertainment | visual arts | woodworking",
+    "value": "medtop:20001204"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture",
+    "value": "medtop:20000038"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | art exhibition",
+    "value": "medtop:20001135"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | cultural development",
+    "value": "medtop:20000039"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | customs and tradition",
+    "value": "medtop:20000040"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | festive event (culture)",
+    "value": "medtop:20000041"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | language",
+    "value": "medtop:20000042"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | library and museum",
+    "value": "medtop:20000043"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | monument and heritage site",
+    "value": "medtop:20000044"
+   },
+   {
+    "label": "arts, culture, entertainment and media | culture | monument and heritage site | restoration",
+    "value": "medtop:20000242"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media",
+    "value": "medtop:20000045"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | disinformation and misinformation",
+    "value": "medtop:20001319"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | news media",
+    "value": "medtop:20000046"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | newspaper",
+    "value": "medtop:20000047"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | online media outlet",
+    "value": "medtop:20000048"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | periodical",
+    "value": "medtop:20000049"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | radio",
+    "value": "medtop:20000050"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | social media",
+    "value": "medtop:20001182"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | social media | influencers",
+    "value": "medtop:20001192"
+   },
+   {
+    "label": "arts, culture, entertainment and media | mass media | television",
+    "value": "medtop:20000051"
+   },
+   {
+    "label": "conflict, war and peace",
+    "value": "medtop:16000000"
+   },
+   {
+    "label": "conflict, war and peace | act of terror",
+    "value": "medtop:20000053"
+   },
+   {
+    "label": "conflict, war and peace | act of terror | act of bioterrorism",
+    "value": "medtop:20000054"
+   },
+   {
+    "label": "conflict, war and peace | act of terror | terrorist bombings",
+    "value": "medtop:20000055"
+   },
+   {
+    "label": "conflict, war and peace | armed conflict",
+    "value": "medtop:20000056"
+   },
+   {
+    "label": "conflict, war and peace | armed conflict | guerrilla activity",
+    "value": "medtop:20000057"
+   },
+   {
+    "label": "conflict, war and peace | armed conflict | international military intervention",
+    "value": "medtop:20000058"
+   },
+   {
+    "label": "conflict, war and peace | armed conflict | military occupation",
+    "value": "medtop:20000060"
+   },
+   {
+    "label": "conflict, war and peace | armed conflict | war",
+    "value": "medtop:20000062"
+   },
+   {
+    "label": "conflict, war and peace | armed conflict | war | civil war",
+    "value": "medtop:20000063"
+   },
+   {
+    "label": "conflict, war and peace | civil unrest",
+    "value": "medtop:20000065"
+   },
+   {
+    "label": "conflict, war and peace | civil unrest | protests and demonstrations",
+    "value": "medtop:20000066"
+   },
+   {
+    "label": "conflict, war and peace | civil unrest | rebellion",
+    "value": "medtop:20000067"
+   },
+   {
+    "label": "conflict, war and peace | civil unrest | revolution",
+    "value": "medtop:20000068"
+   },
+   {
+    "label": "conflict, war and peace | civil unrest | riot",
+    "value": "medtop:20000069"
+   },
+   {
+    "label": "conflict, war and peace | coup d'etat",
+    "value": "medtop:20000070"
+   },
+   {
+    "label": "conflict, war and peace | cyber warfare",
+    "value": "medtop:20001361"
+   },
+   {
+    "label": "conflict, war and peace | massacre",
+    "value": "medtop:20000071"
+   },
+   {
+    "label": "conflict, war and peace | peace process",
+    "value": "medtop:20000073"
+   },
+   {
+    "label": "conflict, war and peace | peace process | disarmament",
+    "value": "medtop:20000078"
+   },
+   {
+    "label": "conflict, war and peace | peace process | peace envoy",
+    "value": "medtop:20000074"
+   },
+   {
+    "label": "conflict, war and peace | peace process | peace plan",
+    "value": "medtop:20000075"
+   },
+   {
+    "label": "conflict, war and peace | peace process | peace talks",
+    "value": "medtop:20000076"
+   },
+   {
+    "label": "conflict, war and peace | peace process | peacekeeping force",
+    "value": "medtop:20000059"
+   },
+   {
+    "label": "conflict, war and peace | post-war reconstruction",
+    "value": "medtop:20000077"
+   },
+   {
+    "label": "conflict, war and peace | post-war reconstruction | ordnance clearance",
+    "value": "medtop:20000079"
+   },
+   {
+    "label": "conflict, war and peace | war victims",
+    "value": "medtop:20001377"
+   },
+   {
+    "label": "conflict, war and peace | war victims | missing in action",
+    "value": "medtop:20000061"
+   },
+   {
+    "label": "conflict, war and peace | war victims | prisoners of war",
+    "value": "medtop:20000080"
+   },
+   {
+    "label": "crime, law and justice",
+    "value": "medtop:02000000"
+   },
+   {
+    "label": "crime, law and justice | crime",
+    "value": "medtop:20000082"
+   },
+   {
+    "label": "crime, law and justice | crime | animal abuse",
+    "value": "medtop:20001314"
+   },
+   {
+    "label": "crime, law and justice | crime | arson",
+    "value": "medtop:20000083"
+   },
+   {
+    "label": "crime, law and justice | crime | assault",
+    "value": "medtop:20000084"
+   },
+   {
+    "label": "crime, law and justice | crime | assault | sex crime",
+    "value": "medtop:20000085"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime",
+    "value": "medtop:20000087"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime | accounting crime",
+    "value": "medtop:20001194"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime | anti-trust crime",
+    "value": "medtop:20000088"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime | breach of contract",
+    "value": "medtop:20000089"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime | embezzlement",
+    "value": "medtop:20000090"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime | insider trading",
+    "value": "medtop:20000091"
+   },
+   {
+    "label": "crime, law and justice | crime | corporate crime | restraint of trade",
+    "value": "medtop:20000092"
+   },
+   {
+    "label": "crime, law and justice | crime | corruption",
+    "value": "medtop:20000093"
+   },
+   {
+    "label": "crime, law and justice | crime | corruption | bribery",
+    "value": "medtop:20000094"
+   },
+   {
+    "label": "crime, law and justice | crime | cyber crime",
+    "value": "medtop:20000086"
+   },
+   {
+    "label": "crime, law and justice | crime | drug related crimes",
+    "value": "medtop:20000095"
+   },
+   {
+    "label": "crime, law and justice | crime | drug related crimes | drug trafficking",
+    "value": "medtop:20000096"
+   },
+   {
+    "label": "crime, law and justice | crime | fraud",
+    "value": "medtop:20000097"
+   },
+   {
+    "label": "crime, law and justice | crime | fraud | tax evasion",
+    "value": "medtop:20001195"
+   },
+   {
+    "label": "crime, law and justice | crime | genocide",
+    "value": "medtop:20000072"
+   },
+   {
+    "label": "crime, law and justice | crime | hijacking",
+    "value": "medtop:20000098"
+   },
+   {
+    "label": "crime, law and justice | crime | homicide",
+    "value": "medtop:20000099"
+   },
+   {
+    "label": "crime, law and justice | crime | human smuggling and trafficking",
+    "value": "medtop:20001283"
+   },
+   {
+    "label": "crime, law and justice | crime | kidnapping",
+    "value": "medtop:20000100"
+   },
+   {
+    "label": "crime, law and justice | crime | organised crime",
+    "value": "medtop:20000101"
+   },
+   {
+    "label": "crime, law and justice | crime | organised crime | gang activity",
+    "value": "medtop:20000102"
+   },
+   {
+    "label": "crime, law and justice | crime | reckless driving",
+    "value": "medtop:20001196"
+   },
+   {
+    "label": "crime, law and justice | crime | robbery and theft",
+    "value": "medtop:20000104"
+   },
+   {
+    "label": "crime, law and justice | crime | shootings",
+    "value": "medtop:20001313"
+   },
+   {
+    "label": "crime, law and justice | crime | terrorism",
+    "value": "medtop:20000103"
+   },
+   {
+    "label": "crime, law and justice | crime | torture",
+    "value": "medtop:20001320"
+   },
+   {
+    "label": "crime, law and justice | crime | vandalism",
+    "value": "medtop:20001285"
+   },
+   {
+    "label": "crime, law and justice | crime | war crime",
+    "value": "medtop:20000105"
+   },
+   {
+    "label": "crime, law and justice | judiciary",
+    "value": "medtop:20000106"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court",
+    "value": "medtop:20000107"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | appeal (court)",
+    "value": "medtop:20000108"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | judge",
+    "value": "medtop:20000110"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | supreme and high court",
+    "value": "medtop:20001287"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court)",
+    "value": "medtop:20000111"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | litigation",
+    "value": "medtop:20000114"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | pre-trial",
+    "value": "medtop:20000112"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | sentencing (criminal)",
+    "value": "medtop:20000134"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | sentencing (criminal) | capital punishment",
+    "value": "medtop:20000135"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | sentencing (criminal) | court-ordered psychiatric treatment",
+    "value": "medtop:20001198"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | sentencing (criminal) | fine (penalty)",
+    "value": "medtop:20000136"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | sentencing (criminal) | prison",
+    "value": "medtop:20000137"
+   },
+   {
+    "label": "crime, law and justice | judiciary | court | trial (court) | sentencing (criminal) | suspended sentence",
+    "value": "medtop:20001199"
+   },
+   {
+    "label": "crime, law and justice | judiciary | out of court procedures",
+    "value": "medtop:20000116"
+   },
+   {
+    "label": "crime, law and justice | judiciary | out of court procedures | arbitration and mediation",
+    "value": "medtop:20000117"
+   },
+   {
+    "label": "crime, law and justice | judiciary | prosecution and prosecutors",
+    "value": "medtop:20000118"
+   },
+   {
+    "label": "crime, law and justice | law",
+    "value": "medtop:20000121"
+   },
+   {
+    "label": "crime, law and justice | law enforcement",
+    "value": "medtop:20000129"
+   },
+   {
+    "label": "crime, law and justice | law enforcement | arrest",
+    "value": "medtop:20000130"
+   },
+   {
+    "label": "crime, law and justice | law enforcement | investigation (criminal)",
+    "value": "medtop:20000131"
+   },
+   {
+    "label": "crime, law and justice | law enforcement | investigation (criminal) | dropped criminal investigation",
+    "value": "medtop:20001200"
+   },
+   {
+    "label": "crime, law and justice | law enforcement | investigation (criminal) | missing person",
+    "value": "medtop:20000132"
+   },
+   {
+    "label": "crime, law and justice | law enforcement | police",
+    "value": "medtop:20000133"
+   },
+   {
+    "label": "crime, law and justice | law enforcement | surveillance",
+    "value": "medtop:20001299"
+   },
+   {
+    "label": "crime, law and justice | law | administrative law",
+    "value": "medtop:20001197"
+   },
+   {
+    "label": "crime, law and justice | law | civil law",
+    "value": "medtop:20000122"
+   },
+   {
+    "label": "crime, law and justice | law | civil law | regulations",
+    "value": "medtop:20000124"
+   },
+   {
+    "label": "crime, law and justice | law | civil law | regulations | antitrust regulations",
+    "value": "medtop:20000123"
+   },
+   {
+    "label": "crime, law and justice | law | criminal law",
+    "value": "medtop:20000125"
+   },
+   {
+    "label": "crime, law and justice | law | international law",
+    "value": "medtop:20000126"
+   },
+   {
+    "label": "crime, law and justice | law | international law | extradition",
+    "value": "medtop:20000127"
+   },
+   {
+    "label": "crime, law and justice | law | international law | international court and tribunal",
+    "value": "medtop:20000128"
+   },
+   {
+    "label": "disaster, accident and emergency incident",
+    "value": "medtop:03000000"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident",
+    "value": "medtop:20000139"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | drowning",
+    "value": "medtop:20001321"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | explosion accident and incident",
+    "value": "medtop:20000140"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | industrial accident and incident",
+    "value": "medtop:20000141"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | industrial accident and incident | nuclear accident and incident",
+    "value": "medtop:20000142"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | structural failure",
+    "value": "medtop:20000161"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | transportation accident and incident",
+    "value": "medtop:20000143"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | transportation accident and incident | air and space accident and incident",
+    "value": "medtop:20000144"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | transportation accident and incident | maritime accident and incident",
+    "value": "medtop:20000145"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | transportation accident and incident | railway accident and incident",
+    "value": "medtop:20000146"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | transportation accident and incident | road accident and incident",
+    "value": "medtop:20000147"
+   },
+   {
+    "label": "disaster, accident and emergency incident | accident and emergency incident | transportation accident and incident | road accident and incident | wildlife traffic accident",
+    "value": "medtop:20001201"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster",
+    "value": "medtop:20000148"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | famine",
+    "value": "medtop:20000149"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | fire",
+    "value": "medtop:20000150"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | fire | wildfire",
+    "value": "medtop:20001202"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster",
+    "value": "medtop:20000151"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | drought",
+    "value": "medtop:20000152"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | earthquake",
+    "value": "medtop:20000153"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | flood",
+    "value": "medtop:20000154"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | landslide",
+    "value": "medtop:20000155"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | landslide | avalanche",
+    "value": "medtop:20000156"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | meteorological disaster",
+    "value": "medtop:20000157"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | meteorological disaster | hurricane",
+    "value": "medtop:20001280"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | meteorological disaster | windstorms",
+    "value": "medtop:20000158"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | tsunami",
+    "value": "medtop:20001353"
+   },
+   {
+    "label": "disaster, accident and emergency incident | disaster | natural disaster | volcanic eruption",
+    "value": "medtop:20000159"
+   },
+   {
+    "label": "disaster, accident and emergency incident | emergency response",
+    "value": "medtop:20000168"
+   },
+   {
+    "label": "economy, business and finance",
+    "value": "medtop:04000000"
+   },
+   {
+    "label": "economy, business and finance | business enterprise",
+    "value": "medtop:20000349"
+   },
+   {
+    "label": "economy, business and finance | business enterprise | cooperative",
+    "value": "medtop:20001278"
+   },
+   {
+    "label": "economy, business and finance | business enterprise | small and medium enterprise",
+    "value": "medtop:20001172"
+   },
+   {
+    "label": "economy, business and finance | business enterprise | start-up and entrepreneurial business",
+    "value": "medtop:20001158"
+   },
+   {
+    "label": "economy, business and finance | business information",
+    "value": "medtop:20000170"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing",
+    "value": "medtop:20000183"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | bankruptcy",
+    "value": "medtop:20000174"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | corporate bond",
+    "value": "medtop:20001376"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | crowdfunding",
+    "value": "medtop:20001294"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | financially distressed company",
+    "value": "medtop:20000182"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | stocks and securities",
+    "value": "medtop:20000396"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | stocks and securities | corporate dividends",
+    "value": "medtop:20000177"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | stocks and securities | derivatives",
+    "value": "medtop:20000395"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | stocks and securities | stock activity",
+    "value": "medtop:20000186"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | stocks and securities | stock buyback",
+    "value": "medtop:20000175"
+   },
+   {
+    "label": "economy, business and finance | business information | business financing | stocks and securities | stock flotation",
+    "value": "medtop:20000187"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance",
+    "value": "medtop:20000199"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance | annual and special corporate meeting",
+    "value": "medtop:20000193"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance | annual report",
+    "value": "medtop:20000194"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance | board of directors",
+    "value": "medtop:20000195"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance | environmental, social and governance policy (ESG)",
+    "value": "medtop:20001230"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance | proxy filing",
+    "value": "medtop:20000181"
+   },
+   {
+    "label": "economy, business and finance | business information | business governance | shareholder activity",
+    "value": "medtop:20000185"
+   },
+   {
+    "label": "economy, business and finance | business information | business reporting and performance",
+    "value": "medtop:20001365"
+   },
+   {
+    "label": "economy, business and finance | business information | business reporting and performance | corporate earnings",
+    "value": "medtop:20000178"
+   },
+   {
+    "label": "economy, business and finance | business information | business reporting and performance | credit rating",
+    "value": "medtop:20000176"
+   },
+   {
+    "label": "economy, business and finance | business information | business reporting and performance | financial statement",
+    "value": "medtop:20000180"
+   },
+   {
+    "label": "economy, business and finance | business information | business restructuring",
+    "value": "medtop:20001366"
+   },
+   {
+    "label": "economy, business and finance | business information | business restructuring | company spin-off",
+    "value": "medtop:20000197"
+   },
+   {
+    "label": "economy, business and finance | business information | business restructuring | joint venture",
+    "value": "medtop:20000200"
+   },
+   {
+    "label": "economy, business and finance | business information | business restructuring | leveraged buyout",
+    "value": "medtop:20000201"
+   },
+   {
+    "label": "economy, business and finance | business information | business restructuring | management buyout",
+    "value": "medtop:20000203"
+   },
+   {
+    "label": "economy, business and finance | business information | business restructuring | merger or acquisition",
+    "value": "medtop:20000204"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing",
+    "value": "medtop:20000192"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | client relationship management",
+    "value": "medtop:20001163"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | commercial contract",
+    "value": "medtop:20000196"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | economic globalisation",
+    "value": "medtop:20000198"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | market research",
+    "value": "medtop:20000283"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | market trend",
+    "value": "medtop:20000284"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | new product or service",
+    "value": "medtop:20000205"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | outsourcing",
+    "value": "medtop:20001295"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | patent, copyright and trademark",
+    "value": "medtop:20000206"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | product recall",
+    "value": "medtop:20000207"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | public contract",
+    "value": "medtop:20001159"
+   },
+   {
+    "label": "economy, business and finance | business information | business strategy and marketing | research and development",
+    "value": "medtop:20000208"
+   },
+   {
+    "label": "economy, business and finance | business information | human resources",
+    "value": "medtop:20000188"
+   },
+   {
+    "label": "economy, business and finance | business information | human resources | executive officer",
+    "value": "medtop:20000190"
+   },
+   {
+    "label": "economy, business and finance | business information | human resources | layoffs and downsizing",
+    "value": "medtop:20000189"
+   },
+   {
+    "label": "economy, business and finance | economy",
+    "value": "medtop:20000344"
+   },
+   {
+    "label": "economy, business and finance | economy | central bank",
+    "value": "medtop:20000350"
+   },
+   {
+    "label": "economy, business and finance | economy | currency",
+    "value": "medtop:20000355"
+   },
+   {
+    "label": "economy, business and finance | economy | currency | cryptocurrency",
+    "value": "medtop:20001279"
+   },
+   {
+    "label": "economy, business and finance | economy | economic organisation",
+    "value": "medtop:20000363"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators",
+    "value": "medtop:20000346"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | consumer confidence",
+    "value": "medtop:20000352"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | deflation",
+    "value": "medtop:20000356"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | economic growth",
+    "value": "medtop:20000357"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | employment statistics",
+    "value": "medtop:20000365"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | exporting",
+    "value": "medtop:20000366"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | government debt",
+    "value": "medtop:20000368"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | gross domestic product",
+    "value": "medtop:20000359"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | importing",
+    "value": "medtop:20000369"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | industrial production",
+    "value": "medtop:20000360"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | inflation",
+    "value": "medtop:20000370"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | inventories",
+    "value": "medtop:20000361"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | mortgages",
+    "value": "medtop:20000380"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | productivity",
+    "value": "medtop:20000362"
+   },
+   {
+    "label": "economy, business and finance | economy | economic trends and indicators | recession",
+    "value": "medtop:20000383"
+   },
+   {
+    "label": "economy, business and finance | economy | emerging market",
+    "value": "medtop:20000364"
+   },
+   {
+    "label": "economy, business and finance | economy | international economic institution",
+    "value": "medtop:20000372"
+   },
+   {
+    "label": "economy, business and finance | economy | international trade",
+    "value": "medtop:20000373"
+   },
+   {
+    "label": "economy, business and finance | economy | international trade | balance of trade",
+    "value": "medtop:20000375"
+   },
+   {
+    "label": "economy, business and finance | economy | international trade | tariff",
+    "value": "medtop:20000384"
+   },
+   {
+    "label": "economy, business and finance | economy | international trade | trade agreements",
+    "value": "medtop:20000374"
+   },
+   {
+    "label": "economy, business and finance | economy | international trade | trade dispute",
+    "value": "medtop:20000376"
+   },
+   {
+    "label": "economy, business and finance | economy | international trade | trade policy",
+    "value": "medtop:20000377"
+   },
+   {
+    "label": "economy, business and finance | economy | monetary policy",
+    "value": "medtop:20000379"
+   },
+   {
+    "label": "economy, business and finance | economy | monetary policy | interest rates",
+    "value": "medtop:20000371"
+   },
+   {
+    "label": "economy, business and finance | economy | mutual funds",
+    "value": "medtop:20000381"
+   },
+   {
+    "label": "economy, business and finance | economy | sharing economy",
+    "value": "medtop:20001171"
+   },
+   {
+    "label": "economy, business and finance | market and exchange",
+    "value": "medtop:20000385"
+   },
+   {
+    "label": "economy, business and finance | market and exchange | commodities market",
+    "value": "medtop:20000386"
+   },
+   {
+    "label": "economy, business and finance | market and exchange | commodities market | energy market",
+    "value": "medtop:20000387"
+   },
+   {
+    "label": "economy, business and finance | market and exchange | commodities market | metal",
+    "value": "medtop:20000388"
+   },
+   {
+    "label": "economy, business and finance | market and exchange | debt market",
+    "value": "medtop:20000390"
+   },
+   {
+    "label": "economy, business and finance | market and exchange | foreign exchange market",
+    "value": "medtop:20000391"
+   },
+   {
+    "label": "economy, business and finance | market and exchange | loan market",
+    "value": "medtop:20000392"
+   },
+   {
+    "label": "economy, business and finance | products and services",
+    "value": "medtop:20000209"
+   },
+   {
+    "label": "economy, business and finance | products and services | agriculture",
+    "value": "medtop:20000210"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service",
+    "value": "medtop:20001371"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | consultancy",
+    "value": "medtop:20000275"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | employment agency",
+    "value": "medtop:20000276"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | legal service",
+    "value": "medtop:20000282"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | payment service",
+    "value": "medtop:20001164"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | physical security",
+    "value": "medtop:20001395"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | rental service",
+    "value": "medtop:20000290"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | shipping and postal service",
+    "value": "medtop:20000291"
+   },
+   {
+    "label": "economy, business and finance | products and services | business service | trade show or expo",
+    "value": "medtop:20001136"
+   },
+   {
+    "label": "economy, business and finance | products and services | chemicals",
+    "value": "medtop:20000217"
+   },
+   {
+    "label": "economy, business and finance | products and services | commercial fishing",
+    "value": "medtop:20000213"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology",
+    "value": "medtop:20000225"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology | computer and telecommunications hardware",
+    "value": "medtop:20000226"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology | satellite technology",
+    "value": "medtop:20000228"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology | semiconductor and electronic component",
+    "value": "medtop:20000230"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology | software and applications",
+    "value": "medtop:20000231"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology | telecommunication service",
+    "value": "medtop:20000233"
+   },
+   {
+    "label": "economy, business and finance | products and services | computing and information technology | wireless technology",
+    "value": "medtop:20000234"
+   },
+   {
+    "label": "economy, business and finance | products and services | construction and property",
+    "value": "medtop:20000235"
+   },
+   {
+    "label": "economy, business and finance | products and services | construction and property | building material",
+    "value": "medtop:20000317"
+   },
+   {
+    "label": "economy, business and finance | products and services | construction and property | commercial real estate",
+    "value": "medtop:20001367"
+   },
+   {
+    "label": "economy, business and finance | products and services | construction and property | infrastructure projects",
+    "value": "medtop:20001245"
+   },
+   {
+    "label": "economy, business and finance | products and services | construction and property | residential real estate",
+    "value": "medtop:20001368"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods",
+    "value": "medtop:20000243"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | beverage and grocery",
+    "value": "medtop:20000324"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | clothing",
+    "value": "medtop:20000245"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | consumer electronics",
+    "value": "medtop:20001258"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | furnishings and furniture",
+    "value": "medtop:20000325"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | handicrafts",
+    "value": "medtop:20001160"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | luxury good",
+    "value": "medtop:20000249"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | pet product and service",
+    "value": "medtop:20001168"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | tobacco and nicotine",
+    "value": "medtop:20000330"
+   },
+   {
+    "label": "economy, business and finance | products and services | consumer goods | toy and game",
+    "value": "medtop:20000254"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource",
+    "value": "medtop:20000256"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | biofuel",
+    "value": "medtop:20001207"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | coal",
+    "value": "medtop:20000258"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | nuclear power",
+    "value": "medtop:20000265"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | oil and gas",
+    "value": "medtop:20001243"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | oil and gas | diesel fuel",
+    "value": "medtop:20000259"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | oil and gas | natural gas",
+    "value": "medtop:20000263"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | oil and gas | petrol",
+    "value": "medtop:20000268"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | renewable energy",
+    "value": "medtop:20000257"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | renewable energy | geothermal power",
+    "value": "medtop:20001208"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | renewable energy | hydroelectric power",
+    "value": "medtop:20001210"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | renewable energy | solar power",
+    "value": "medtop:20001209"
+   },
+   {
+    "label": "economy, business and finance | products and services | energy and resource | renewable energy | wind power",
+    "value": "medtop:20001211"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service",
+    "value": "medtop:20001370"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | accountancy and auditing",
+    "value": "medtop:20000272"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | asset management",
+    "value": "medtop:20001162"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | banking",
+    "value": "medtop:20000274"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | financial advisory service",
+    "value": "medtop:20000280"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | insurance",
+    "value": "medtop:20000279"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | loans and lending",
+    "value": "medtop:20000393"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | personal finance and investment",
+    "value": "medtop:20000287"
+   },
+   {
+    "label": "economy, business and finance | products and services | financial service | stock broking",
+    "value": "medtop:20000292"
+   },
+   {
+    "label": "economy, business and finance | products and services | forestry and timber",
+    "value": "medtop:20000214"
+   },
+   {
+    "label": "economy, business and finance | products and services | healthcare industry",
+    "value": "medtop:20001354"
+   },
+   {
+    "label": "economy, business and finance | products and services | healthcare industry | biotechnology business",
+    "value": "medtop:20000218"
+   },
+   {
+    "label": "economy, business and finance | products and services | healthcare industry | health care provider",
+    "value": "medtop:20000278"
+   },
+   {
+    "label": "economy, business and finance | products and services | healthcare industry | medical equipment",
+    "value": "medtop:20001167"
+   },
+   {
+    "label": "economy, business and finance | products and services | healthcare industry | pharmaceutical",
+    "value": "medtop:20000223"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering",
+    "value": "medtop:20000294"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | aerospace",
+    "value": "medtop:20000295"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | automotive",
+    "value": "medtop:20000296"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | defence equipment",
+    "value": "medtop:20000297"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | electrical appliance",
+    "value": "medtop:20000298"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | heavy engineering",
+    "value": "medtop:20000299"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | machine manufacturing",
+    "value": "medtop:20000302"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | railway manufacturing",
+    "value": "medtop:20001166"
+   },
+   {
+    "label": "economy, business and finance | products and services | manufacturing and engineering | shipbuilding",
+    "value": "medtop:20000303"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry",
+    "value": "medtop:20000304"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | advertising",
+    "value": "medtop:20000305"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | books and publishing",
+    "value": "medtop:20000306"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | film industry",
+    "value": "medtop:20000307"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | music industry",
+    "value": "medtop:20000308"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | news industry",
+    "value": "medtop:20001372"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | podcast",
+    "value": "medtop:20001369"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | public relations",
+    "value": "medtop:20000312"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | radio industry",
+    "value": "medtop:20000313"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | satellite and cable service",
+    "value": "medtop:20000314"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | streaming service",
+    "value": "medtop:20001293"
+   },
+   {
+    "label": "economy, business and finance | products and services | media and entertainment industry | television industry",
+    "value": "medtop:20000315"
+   },
+   {
+    "label": "economy, business and finance | products and services | metal and mineral mining and refining",
+    "value": "medtop:20000316"
+   },
+   {
+    "label": "economy, business and finance | products and services | metal and mineral mining and refining | precious material",
+    "value": "medtop:20000318"
+   },
+   {
+    "label": "economy, business and finance | products and services | plastic",
+    "value": "medtop:20000224"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel",
+    "value": "medtop:20001289"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | auction",
+    "value": "medtop:20000273"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | retail",
+    "value": "medtop:20000252"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | retail | department store",
+    "value": "medtop:20000246"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | retail | online shopping",
+    "value": "medtop:20000247"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | retail | shopping district and high street",
+    "value": "medtop:20001297"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | retail | shopping mall",
+    "value": "medtop:20001296"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | retail | specialty store",
+    "value": "medtop:20000253"
+   },
+   {
+    "label": "economy, business and finance | products and services | sales channel | wholesale",
+    "value": "medtop:20000255"
+   },
+   {
+    "label": "economy, business and finance | products and services | tourism and leisure industry",
+    "value": "medtop:20000331"
+   },
+   {
+    "label": "economy, business and finance | products and services | tourism and leisure industry | casinos and gambling",
+    "value": "medtop:20000332"
+   },
+   {
+    "label": "economy, business and finance | products and services | tourism and leisure industry | hotel and accommodation",
+    "value": "medtop:20000333"
+   },
+   {
+    "label": "economy, business and finance | products and services | tourism and leisure industry | recreational and sporting goods",
+    "value": "medtop:20000334"
+   },
+   {
+    "label": "economy, business and finance | products and services | tourism and leisure industry | restaurant and catering",
+    "value": "medtop:20000335"
+   },
+   {
+    "label": "economy, business and finance | products and services | tourism and leisure industry | tour operator",
+    "value": "medtop:20000336"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport",
+    "value": "medtop:20000337"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | air transport",
+    "value": "medtop:20000338"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | logistics",
+    "value": "medtop:20001170"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | public transport",
+    "value": "medtop:20001362"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | railway transport",
+    "value": "medtop:20000340"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | road transport",
+    "value": "medtop:20000341"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | shared transport",
+    "value": "medtop:20001364"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | taxi and ride-hailing",
+    "value": "medtop:20001363"
+   },
+   {
+    "label": "economy, business and finance | products and services | transport | waterway and maritime transport",
+    "value": "medtop:20000343"
+   },
+   {
+    "label": "economy, business and finance | products and services | utilities",
+    "value": "medtop:20001244"
+   },
+   {
+    "label": "economy, business and finance | products and services | utilities | electricity",
+    "value": "medtop:20000260"
+   },
+   {
+    "label": "economy, business and finance | products and services | utilities | heating and cooling",
+    "value": "medtop:20001291"
+   },
+   {
+    "label": "economy, business and finance | products and services | utilities | waste management",
+    "value": "medtop:20000269"
+   },
+   {
+    "label": "economy, business and finance | products and services | utilities | water supply",
+    "value": "medtop:20000270"
+   },
+   {
+    "label": "education",
+    "value": "medtop:05000000"
+   },
+   {
+    "label": "education | curriculum",
+    "value": "medtop:20000412"
+   },
+   {
+    "label": "education | educational grading",
+    "value": "medtop:20001217"
+   },
+   {
+    "label": "education | educational testing and examinations",
+    "value": "medtop:20000413"
+   },
+   {
+    "label": "education | entrance examination",
+    "value": "medtop:20000414"
+   },
+   {
+    "label": "education | online and remote learning",
+    "value": "medtop:20001337"
+   },
+   {
+    "label": "education | parents group",
+    "value": "medtop:20000398"
+   },
+   {
+    "label": "education | religious education",
+    "value": "medtop:20000399"
+   },
+   {
+    "label": "education | school",
+    "value": "medtop:20000400"
+   },
+   {
+    "label": "education | school | adult and continuing education",
+    "value": "medtop:20000403"
+   },
+   {
+    "label": "education | school | college and university",
+    "value": "medtop:20000405"
+   },
+   {
+    "label": "education | school | early childhood education",
+    "value": "medtop:20000409"
+   },
+   {
+    "label": "education | school | independent school",
+    "value": "medtop:20001215"
+   },
+   {
+    "label": "education | school | lower secondary education",
+    "value": "medtop:20000408"
+   },
+   {
+    "label": "education | school | primary education",
+    "value": "medtop:20000401"
+   },
+   {
+    "label": "education | school | private school",
+    "value": "medtop:20001214"
+   },
+   {
+    "label": "education | school | religious school",
+    "value": "medtop:20001212"
+   },
+   {
+    "label": "education | school | state school",
+    "value": "medtop:20001213"
+   },
+   {
+    "label": "education | school | upper secondary education",
+    "value": "medtop:20000404"
+   },
+   {
+    "label": "education | social learning",
+    "value": "medtop:20000410"
+   },
+   {
+    "label": "education | students",
+    "value": "medtop:20000415"
+   },
+   {
+    "label": "education | teachers",
+    "value": "medtop:20000416"
+   },
+   {
+    "label": "education | vocational education",
+    "value": "medtop:20001216"
+   },
+   {
+    "label": "environment",
+    "value": "medtop:06000000"
+   },
+   {
+    "label": "environment | climate change",
+    "value": "medtop:20000418"
+   },
+   {
+    "label": "environment | conservation",
+    "value": "medtop:20000420"
+   },
+   {
+    "label": "environment | conservation | nature preserve",
+    "value": "medtop:20000422"
+   },
+   {
+    "label": "environment | environmental pollution",
+    "value": "medtop:20000424"
+   },
+   {
+    "label": "environment | environmental pollution | air pollution",
+    "value": "medtop:20000425"
+   },
+   {
+    "label": "environment | environmental pollution | environmental clean-up",
+    "value": "medtop:20000426"
+   },
+   {
+    "label": "environment | environmental pollution | hazardous material",
+    "value": "medtop:20000427"
+   },
+   {
+    "label": "environment | environmental pollution | waste material",
+    "value": "medtop:20000428"
+   },
+   {
+    "label": "environment | environmental pollution | water pollution",
+    "value": "medtop:20000429"
+   },
+   {
+    "label": "environment | natural resource",
+    "value": "medtop:20000430"
+   },
+   {
+    "label": "environment | nature",
+    "value": "medtop:20000441"
+   },
+   {
+    "label": "environment | nature | animal",
+    "value": "medtop:20000500"
+   },
+   {
+    "label": "environment | nature | animal | animal disease",
+    "value": "medtop:20000494"
+   },
+   {
+    "label": "environment | nature | animal | pest and pest control",
+    "value": "medtop:20001318"
+   },
+   {
+    "label": "environment | nature | ecosystem",
+    "value": "medtop:20000442"
+   },
+   {
+    "label": "environment | nature | endangered species",
+    "value": "medtop:20000443"
+   },
+   {
+    "label": "environment | nature | flowers and plants",
+    "value": "medtop:20000507"
+   },
+   {
+    "label": "environment | nature | flowers and plants | plant disease",
+    "value": "medtop:20000495"
+   },
+   {
+    "label": "environment | nature | forest",
+    "value": "medtop:20000433"
+   },
+   {
+    "label": "environment | nature | invasive species",
+    "value": "medtop:20000444"
+   },
+   {
+    "label": "environment | nature | mountain",
+    "value": "medtop:20000434"
+   },
+   {
+    "label": "environment | nature | ocean",
+    "value": "medtop:20000438"
+   },
+   {
+    "label": "environment | nature | river",
+    "value": "medtop:20000439"
+   },
+   {
+    "label": "environment | nature | wetland",
+    "value": "medtop:20000440"
+   },
+   {
+    "label": "environment | sustainability",
+    "value": "medtop:20001374"
+   },
+   {
+    "label": "health",
+    "value": "medtop:07000000"
+   },
+   {
+    "label": "health | disease and condition",
+    "value": "medtop:20000446"
+   },
+   {
+    "label": "health | disease and condition | cancer",
+    "value": "medtop:20000447"
+   },
+   {
+    "label": "health | disease and condition | communicable disease",
+    "value": "medtop:20000448"
+   },
+   {
+    "label": "health | disease and condition | communicable disease | epidemic and pandemic",
+    "value": "medtop:20000449"
+   },
+   {
+    "label": "health | disease and condition | communicable disease | viral disease",
+    "value": "medtop:20000451"
+   },
+   {
+    "label": "health | disease and condition | communicable disease | viral disease | HIV and AIDS",
+    "value": "medtop:20000452"
+   },
+   {
+    "label": "health | disease and condition | developmental disorder",
+    "value": "medtop:20001355"
+   },
+   {
+    "label": "health | disease and condition | heart disease",
+    "value": "medtop:20000454"
+   },
+   {
+    "label": "health | disease and condition | injury",
+    "value": "medtop:20000456"
+   },
+   {
+    "label": "health | disease and condition | medical condition",
+    "value": "medtop:20000457"
+   },
+   {
+    "label": "health | disease and condition | medical condition | obesity",
+    "value": "medtop:20000460"
+   },
+   {
+    "label": "health | disease and condition | mental health and disorder",
+    "value": "medtop:20000458"
+   },
+   {
+    "label": "health | disease and condition | mental health and disorder | anxiety and stress",
+    "value": "medtop:20001357"
+   },
+   {
+    "label": "health | disease and condition | mental health and disorder | depression",
+    "value": "medtop:20001356"
+   },
+   {
+    "label": "health | disease and condition | mental health and disorder | eating disorder",
+    "value": "medtop:20000459"
+   },
+   {
+    "label": "health | disease and condition | poisoning",
+    "value": "medtop:20001322"
+   },
+   {
+    "label": "health | government health care",
+    "value": "medtop:20000480"
+   },
+   {
+    "label": "health | health facility",
+    "value": "medtop:20000461"
+   },
+   {
+    "label": "health | health facility | healthcare clinic",
+    "value": "medtop:20001229"
+   },
+   {
+    "label": "health | health facility | hospital",
+    "value": "medtop:20000462"
+   },
+   {
+    "label": "health | health insurance",
+    "value": "medtop:20000483"
+   },
+   {
+    "label": "health | health organisation",
+    "value": "medtop:20000463"
+   },
+   {
+    "label": "health | health treatment and procedure",
+    "value": "medtop:20000464"
+   },
+   {
+    "label": "health | health treatment and procedure | diet",
+    "value": "medtop:20000465"
+   },
+   {
+    "label": "health | health treatment and procedure | diet | dietary supplement",
+    "value": "medtop:20000466"
+   },
+   {
+    "label": "health | health treatment and procedure | drug rehabilitation",
+    "value": "medtop:20001219"
+   },
+   {
+    "label": "health | health treatment and procedure | emergency care",
+    "value": "medtop:20001221"
+   },
+   {
+    "label": "health | health treatment and procedure | health care approach",
+    "value": "medtop:20000470"
+   },
+   {
+    "label": "health | health treatment and procedure | health care approach | conventional medicine",
+    "value": "medtop:20000474"
+   },
+   {
+    "label": "health | health treatment and procedure | health care approach | herbal medicine",
+    "value": "medtop:20000471"
+   },
+   {
+    "label": "health | health treatment and procedure | health care approach | holistic medicine",
+    "value": "medtop:20000472"
+   },
+   {
+    "label": "health | health treatment and procedure | health care approach | traditional Chinese medicine",
+    "value": "medtop:20000473"
+   },
+   {
+    "label": "health | health treatment and procedure | medical test",
+    "value": "medtop:20000469"
+   },
+   {
+    "label": "health | health treatment and procedure | non-prescription drug",
+    "value": "medtop:20000467"
+   },
+   {
+    "label": "health | health treatment and procedure | prescription drug",
+    "value": "medtop:20000468"
+   },
+   {
+    "label": "health | health treatment and procedure | surgery",
+    "value": "medtop:20001228"
+   },
+   {
+    "label": "health | health treatment and procedure | therapy",
+    "value": "medtop:20000478"
+   },
+   {
+    "label": "health | health treatment and procedure | vaccine",
+    "value": "medtop:20000477"
+   },
+   {
+    "label": "health | medical profession",
+    "value": "medtop:20000485"
+   },
+   {
+    "label": "health | medical profession | medical service",
+    "value": "medtop:20000486"
+   },
+   {
+    "label": "health | medical profession | medical specialisation",
+    "value": "medtop:20000487"
+   },
+   {
+    "label": "health | medical profession | medical specialisation | dentistry",
+    "value": "medtop:20000712"
+   },
+   {
+    "label": "health | medical profession | medical specialisation | eye care",
+    "value": "medtop:20001225"
+   },
+   {
+    "label": "health | medical profession | medical specialisation | paediatrics",
+    "value": "medtop:20000490"
+   },
+   {
+    "label": "health | medical profession | medical specialisation | veterinary medicine",
+    "value": "medtop:20000714"
+   },
+   {
+    "label": "health | medical profession | medical staff",
+    "value": "medtop:20000492"
+   },
+   {
+    "label": "health | private health care",
+    "value": "medtop:20000484"
+   },
+   {
+    "label": "health | public health",
+    "value": "medtop:20001358"
+   },
+   {
+    "label": "human interest",
+    "value": "medtop:08000000"
+   },
+   {
+    "label": "human interest | anniversary",
+    "value": "medtop:20001237"
+   },
+   {
+    "label": "human interest | award and prize",
+    "value": "medtop:20000498"
+   },
+   {
+    "label": "human interest | birthday",
+    "value": "medtop:20001238"
+   },
+   {
+    "label": "human interest | celebrity",
+    "value": "medtop:20000505"
+   },
+   {
+    "label": "human interest | ceremony",
+    "value": "medtop:20000501"
+   },
+   {
+    "label": "human interest | ceremony | funeral and memorial service",
+    "value": "medtop:20001235"
+   },
+   {
+    "label": "human interest | ceremony | graduation",
+    "value": "medtop:20001234"
+   },
+   {
+    "label": "human interest | ceremony | name ceremony",
+    "value": "medtop:20001233"
+   },
+   {
+    "label": "human interest | ceremony | wedding",
+    "value": "medtop:20001236"
+   },
+   {
+    "label": "human interest | high society",
+    "value": "medtop:20000504"
+   },
+   {
+    "label": "human interest | high society | royalty",
+    "value": "medtop:20000506"
+   },
+   {
+    "label": "human interest | human mishap",
+    "value": "medtop:20000503"
+   },
+   {
+    "label": "human interest | record and achievement",
+    "value": "medtop:20000499"
+   },
+   {
+    "label": "labour",
+    "value": "medtop:09000000"
+   },
+   {
+    "label": "labour | employment",
+    "value": "medtop:20000509"
+   },
+   {
+    "label": "labour | employment legislation",
+    "value": "medtop:20000521"
+   },
+   {
+    "label": "labour | employment legislation | workplace health and safety",
+    "value": "medtop:20000522"
+   },
+   {
+    "label": "labour | employment | apprenticeship",
+    "value": "medtop:20000510"
+   },
+   {
+    "label": "labour | employment | child labour",
+    "value": "medtop:20000511"
+   },
+   {
+    "label": "labour | employment | commuting",
+    "value": "medtop:20000339"
+   },
+   {
+    "label": "labour | employment | employee",
+    "value": "medtop:20000512"
+   },
+   {
+    "label": "labour | employment | employer",
+    "value": "medtop:20000513"
+   },
+   {
+    "label": "labour | employment | employment training",
+    "value": "medtop:20000514"
+   },
+   {
+    "label": "labour | employment | parental leave",
+    "value": "medtop:20001276"
+   },
+   {
+    "label": "labour | employment | self-employment",
+    "value": "medtop:20001206"
+   },
+   {
+    "label": "labour | employment | volunteering",
+    "value": "medtop:20001277"
+   },
+   {
+    "label": "labour | employment | wages and benefits",
+    "value": "medtop:20000518"
+   },
+   {
+    "label": "labour | employment | wages and benefits | profit sharing",
+    "value": "medtop:20001375"
+   },
+   {
+    "label": "labour | employment | wages and benefits | social security",
+    "value": "medtop:20000520"
+   },
+   {
+    "label": "labour | labour market",
+    "value": "medtop:20000523"
+   },
+   {
+    "label": "labour | labour market | gig economy",
+    "value": "medtop:20001275"
+   },
+   {
+    "label": "labour | labour relations",
+    "value": "medtop:20000524"
+   },
+   {
+    "label": "labour | labour relations | collective agreements",
+    "value": "medtop:20000525"
+   },
+   {
+    "label": "labour | labour relations | labour dispute",
+    "value": "medtop:20000529"
+   },
+   {
+    "label": "labour | labour relations | labour dispute | labour strike",
+    "value": "medtop:20000530"
+   },
+   {
+    "label": "labour | retirement",
+    "value": "medtop:20000531"
+   },
+   {
+    "label": "labour | retirement | pension",
+    "value": "medtop:20000532"
+   },
+   {
+    "label": "labour | unemployment",
+    "value": "medtop:20000533"
+   },
+   {
+    "label": "labour | unemployment | unemployment benefits",
+    "value": "medtop:20000535"
+   },
+   {
+    "label": "labour | unions",
+    "value": "medtop:20000536"
+   },
+   {
+    "label": "lifestyle and leisure",
+    "value": "medtop:10000000"
+   },
+   {
+    "label": "lifestyle and leisure | leisure",
+    "value": "medtop:20000538"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | club and association",
+    "value": "medtop:20000539"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game",
+    "value": "medtop:20000540"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | board game",
+    "value": "medtop:20000541"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | card game",
+    "value": "medtop:20000542"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | children's game",
+    "value": "medtop:20000543"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | dice game",
+    "value": "medtop:20000544"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | outdoor game",
+    "value": "medtop:20000545"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | puzzle",
+    "value": "medtop:20000546"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | tile game",
+    "value": "medtop:20000547"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | game | video game",
+    "value": "medtop:20000548"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | gaming and lottery",
+    "value": "medtop:20000549"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby",
+    "value": "medtop:20000550"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | automobile enthusiasm",
+    "value": "medtop:20000566"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | bicycle enthusiasm",
+    "value": "medtop:20000567"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | collecting",
+    "value": "medtop:20001247"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | food and drink enthusiasm",
+    "value": "medtop:20000568"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | food and drink enthusiasm | beer, wine and spirits",
+    "value": "medtop:20001254"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | food and drink enthusiasm | cooking and baking",
+    "value": "medtop:20001253"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | hobby | motorcycle enthusiasm",
+    "value": "medtop:20000571"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | holiday",
+    "value": "medtop:20000551"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | holiday | Halloween",
+    "value": "medtop:20001270"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | holiday | public holiday",
+    "value": "medtop:20000552"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | holiday | public holiday | Midsummer",
+    "value": "medtop:20001267"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | holiday | public holiday | National day",
+    "value": "medtop:20001268"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | holiday | public holiday | New year",
+    "value": "medtop:20001269"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue",
+    "value": "medtop:20000553"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | amusement park",
+    "value": "medtop:20000554"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | bar",
+    "value": "medtop:20000555"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | cafe",
+    "value": "medtop:20000556"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | nightclub",
+    "value": "medtop:20000557"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | park and playground",
+    "value": "medtop:20001392"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | restaurant",
+    "value": "medtop:20000558"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | leisure venue | zoo",
+    "value": "medtop:20001315"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | outdoor recreational activities",
+    "value": "medtop:20000560"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | outdoor recreational activities | fishing",
+    "value": "medtop:20000561"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | outdoor recreational activities | horseback riding",
+    "value": "medtop:20001241"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | outdoor recreational activities | hunting",
+    "value": "medtop:20000562"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | outdoor recreational activities | recreational hiking and climbing",
+    "value": "medtop:20001142"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | outdoor recreational activities | scuba diving",
+    "value": "medtop:20000917"
+   },
+   {
+    "label": "lifestyle and leisure | leisure | travel and tourism",
+    "value": "medtop:20000563"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle",
+    "value": "medtop:20000565"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | house and home",
+    "value": "medtop:20000570"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | house and home | gardening",
+    "value": "medtop:20001257"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | house and home | home renovation",
+    "value": "medtop:20001255"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | house and home | interior decoration",
+    "value": "medtop:20001256"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | organic food",
+    "value": "medtop:20000569"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | party",
+    "value": "medtop:20001143"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | trend",
+    "value": "medtop:20000572"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | trend | body modification",
+    "value": "medtop:20001250"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | trend | body modification | piercing",
+    "value": "medtop:20001252"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | trend | body modification | tattooing",
+    "value": "medtop:20001251"
+   },
+   {
+    "label": "lifestyle and leisure | lifestyle | vegetarianism and veganism",
+    "value": "medtop:20001391"
+   },
+   {
+    "label": "lifestyle and leisure | wellness",
+    "value": "medtop:20001339"
+   },
+   {
+    "label": "lifestyle and leisure | wellness | exercise and fitness",
+    "value": "medtop:20001239"
+   },
+   {
+    "label": "lifestyle and leisure | wellness | mental wellbeing",
+    "value": "medtop:20001340"
+   },
+   {
+    "label": "politics and government",
+    "value": "medtop:11000000"
+   },
+   {
+    "label": "politics and government | election",
+    "value": "medtop:20000574"
+   },
+   {
+    "label": "politics and government | election | by-election",
+    "value": "medtop:20001380"
+   },
+   {
+    "label": "politics and government | election | campaign finance",
+    "value": "medtop:20000581"
+   },
+   {
+    "label": "politics and government | election | citizens' initiative and recall",
+    "value": "medtop:20000575"
+   },
+   {
+    "label": "politics and government | election | coalition building",
+    "value": "medtop:20001382"
+   },
+   {
+    "label": "politics and government | election | intergovernmental elections",
+    "value": "medtop:20000577"
+   },
+   {
+    "label": "politics and government | election | local elections",
+    "value": "medtop:20000578"
+   },
+   {
+    "label": "politics and government | election | national elections",
+    "value": "medtop:20000579"
+   },
+   {
+    "label": "politics and government | election | political candidates",
+    "value": "medtop:20000582"
+   },
+   {
+    "label": "politics and government | election | political debates",
+    "value": "medtop:20001266"
+   },
+   {
+    "label": "politics and government | election | primary elections",
+    "value": "medtop:20000583"
+   },
+   {
+    "label": "politics and government | election | recall election",
+    "value": "medtop:20001381"
+   },
+   {
+    "label": "politics and government | election | referendum",
+    "value": "medtop:20000584"
+   },
+   {
+    "label": "politics and government | election | regional elections",
+    "value": "medtop:20000585"
+   },
+   {
+    "label": "politics and government | election | voting",
+    "value": "medtop:20000586"
+   },
+   {
+    "label": "politics and government | election | voting system",
+    "value": "medtop:20000576"
+   },
+   {
+    "label": "politics and government | government",
+    "value": "medtop:20000593"
+   },
+   {
+    "label": "politics and government | government policy",
+    "value": "medtop:20000621"
+   },
+   {
+    "label": "politics and government | government policy | cultural policy",
+    "value": "medtop:20001132"
+   },
+   {
+    "label": "politics and government | government policy | data protection policy",
+    "value": "medtop:20000627"
+   },
+   {
+    "label": "politics and government | government policy | economic policy",
+    "value": "medtop:20000345"
+   },
+   {
+    "label": "politics and government | government policy | economic policy | economic development incentive",
+    "value": "medtop:20001292"
+   },
+   {
+    "label": "politics and government | government policy | economic policy | nationalisation",
+    "value": "medtop:20000623"
+   },
+   {
+    "label": "politics and government | government policy | economic policy | privatisation",
+    "value": "medtop:20000624"
+   },
+   {
+    "label": "politics and government | government policy | economic policy | state-owned enterprise",
+    "value": "medtop:20000625"
+   },
+   {
+    "label": "politics and government | government policy | education policy",
+    "value": "medtop:20001338"
+   },
+   {
+    "label": "politics and government | government policy | environmental policy",
+    "value": "medtop:20000423"
+   },
+   {
+    "label": "politics and government | government policy | healthcare policy",
+    "value": "medtop:20000479"
+   },
+   {
+    "label": "politics and government | government policy | housing and urban planning policy",
+    "value": "medtop:20000628"
+   },
+   {
+    "label": "politics and government | government policy | immigration policy",
+    "value": "medtop:20000634"
+   },
+   {
+    "label": "politics and government | government policy | infrastructure policy",
+    "value": "medtop:20001264"
+   },
+   {
+    "label": "politics and government | government policy | local government policy",
+    "value": "medtop:20001265"
+   },
+   {
+    "label": "politics and government | government policy | nuclear policy",
+    "value": "medtop:20000635"
+   },
+   {
+    "label": "politics and government | government policy | pension and welfare policy",
+    "value": "medtop:20000630"
+   },
+   {
+    "label": "politics and government | government policy | personal weapon control policy",
+    "value": "medtop:20000632"
+   },
+   {
+    "label": "politics and government | government policy | policy towards indigenous people",
+    "value": "medtop:20000629"
+   },
+   {
+    "label": "politics and government | government policy | regional development policy",
+    "value": "medtop:20001174"
+   },
+   {
+    "label": "politics and government | government policy | regulation of industry",
+    "value": "medtop:20000636"
+   },
+   {
+    "label": "politics and government | government policy | regulation of industry | food and drink regulations",
+    "value": "medtop:20000637"
+   },
+   {
+    "label": "politics and government | government policy | sports policies",
+    "value": "medtop:20001147"
+   },
+   {
+    "label": "politics and government | government policy | taxation policy",
+    "value": "medtop:20000620"
+   },
+   {
+    "label": "politics and government | government policy | zoning policy",
+    "value": "medtop:20001383"
+   },
+   {
+    "label": "politics and government | government | constitution (law)",
+    "value": "medtop:20000597"
+   },
+   {
+    "label": "politics and government | government | executive (government)",
+    "value": "medtop:20000606"
+   },
+   {
+    "label": "politics and government | government | government budget",
+    "value": "medtop:20000607"
+   },
+   {
+    "label": "politics and government | government | government employee",
+    "value": "medtop:20000595"
+   },
+   {
+    "label": "politics and government | government | head of government",
+    "value": "medtop:20001261"
+   },
+   {
+    "label": "politics and government | government | head of state",
+    "value": "medtop:20000610"
+   },
+   {
+    "label": "politics and government | government | impeachment",
+    "value": "medtop:20000611"
+   },
+   {
+    "label": "politics and government | government | legislative body",
+    "value": "medtop:20000615"
+   },
+   {
+    "label": "politics and government | government | legislative body | lower house (legislature)",
+    "value": "medtop:20000616"
+   },
+   {
+    "label": "politics and government | government | legislative body | upper house (legislature)",
+    "value": "medtop:20000617"
+   },
+   {
+    "label": "politics and government | government | lobbying",
+    "value": "medtop:20000650"
+   },
+   {
+    "label": "politics and government | government | local authority",
+    "value": "medtop:20000612"
+   },
+   {
+    "label": "politics and government | government | minister or secretary (government)",
+    "value": "medtop:20000613"
+   },
+   {
+    "label": "politics and government | government | national government",
+    "value": "medtop:20000614"
+   },
+   {
+    "label": "politics and government | government | national security",
+    "value": "medtop:20000598"
+   },
+   {
+    "label": "politics and government | government | national security | armed forces",
+    "value": "medtop:20000599"
+   },
+   {
+    "label": "politics and government | government | national security | armed forces | military service",
+    "value": "medtop:20001145"
+   },
+   {
+    "label": "politics and government | government | national security | armed forces | veterans' affairs",
+    "value": "medtop:20000600"
+   },
+   {
+    "label": "politics and government | government | national security | espionage and intelligence",
+    "value": "medtop:20000605"
+   },
+   {
+    "label": "politics and government | government | national security | military weaponry and equipment",
+    "value": "medtop:20000602"
+   },
+   {
+    "label": "politics and government | government | political committee",
+    "value": "medtop:20001260"
+   },
+   {
+    "label": "politics and government | government | political leadership",
+    "value": "medtop:20001312"
+   },
+   {
+    "label": "politics and government | government | political movement and association",
+    "value": "medtop:20001385"
+   },
+   {
+    "label": "politics and government | government | political party",
+    "value": "medtop:20001384"
+   },
+   {
+    "label": "politics and government | government | political party convention",
+    "value": "medtop:20001259"
+   },
+   {
+    "label": "politics and government | government | political system",
+    "value": "medtop:20000653"
+   },
+   {
+    "label": "politics and government | government | political system | absolute monarchy",
+    "value": "medtop:20001389"
+   },
+   {
+    "label": "politics and government | government | political system | communism",
+    "value": "medtop:20001386"
+   },
+   {
+    "label": "politics and government | government | political system | democracy",
+    "value": "medtop:20000654"
+   },
+   {
+    "label": "politics and government | government | political system | democratic socialism",
+    "value": "medtop:20001387"
+   },
+   {
+    "label": "politics and government | government | political system | dictatorship",
+    "value": "medtop:20000655"
+   },
+   {
+    "label": "politics and government | government | political system | theocracy",
+    "value": "medtop:20001388"
+   },
+   {
+    "label": "politics and government | government | public inquiry",
+    "value": "medtop:20001262"
+   },
+   {
+    "label": "politics and government | government | public officials",
+    "value": "medtop:20000596"
+   },
+   {
+    "label": "politics and government | government | regional authority",
+    "value": "medtop:20000618"
+   },
+   {
+    "label": "politics and government | international relations",
+    "value": "medtop:20000638"
+   },
+   {
+    "label": "politics and government | international relations | border dispute",
+    "value": "medtop:20001316"
+   },
+   {
+    "label": "politics and government | international relations | diplomacy",
+    "value": "medtop:20000639"
+   },
+   {
+    "label": "politics and government | international relations | diplomacy | summit meeting",
+    "value": "medtop:20000640"
+   },
+   {
+    "label": "politics and government | international relations | diplomacy | treaty",
+    "value": "medtop:20000641"
+   },
+   {
+    "label": "politics and government | international relations | economic sanction",
+    "value": "medtop:20000642"
+   },
+   {
+    "label": "politics and government | international relations | foreign aid",
+    "value": "medtop:20000643"
+   },
+   {
+    "label": "politics and government | international relations | international organisation",
+    "value": "medtop:20000644"
+   },
+   {
+    "label": "politics and government | international relations | refugees and internally displaced people",
+    "value": "medtop:20000645"
+   },
+   {
+    "label": "politics and government | non-governmental organisation (NGO)",
+    "value": "medtop:20000646"
+   },
+   {
+    "label": "politics and government | political prisoners and dissenters",
+    "value": "medtop:20000648"
+   },
+   {
+    "label": "religion",
+    "value": "medtop:12000000"
+   },
+   {
+    "label": "religion | belief systems",
+    "value": "medtop:20000657"
+   },
+   {
+    "label": "religion | belief systems | atheism and agnosticism",
+    "value": "medtop:20001349"
+   },
+   {
+    "label": "religion | belief systems | Buddhism",
+    "value": "medtop:20000658"
+   },
+   {
+    "label": "religion | belief systems | Christianity",
+    "value": "medtop:20000659"
+   },
+   {
+    "label": "religion | belief systems | Christianity | Catholicism",
+    "value": "medtop:20001344"
+   },
+   {
+    "label": "religion | belief systems | Christianity | Christian Orthodoxy",
+    "value": "medtop:20000663"
+   },
+   {
+    "label": "religion | belief systems | Christianity | Mormonism",
+    "value": "medtop:20000661"
+   },
+   {
+    "label": "religion | belief systems | Christianity | Protestantism",
+    "value": "medtop:20000664"
+   },
+   {
+    "label": "religion | belief systems | Confucianism",
+    "value": "medtop:20000673"
+   },
+   {
+    "label": "religion | belief systems | cult",
+    "value": "medtop:20000674"
+   },
+   {
+    "label": "religion | belief systems | Hinduism",
+    "value": "medtop:20000676"
+   },
+   {
+    "label": "religion | belief systems | Islam",
+    "value": "medtop:20000677"
+   },
+   {
+    "label": "religion | belief systems | Islam | Shia Islam",
+    "value": "medtop:20001347"
+   },
+   {
+    "label": "religion | belief systems | Islam | Sunni Islam",
+    "value": "medtop:20001348"
+   },
+   {
+    "label": "religion | belief systems | Jainism",
+    "value": "medtop:20000678"
+   },
+   {
+    "label": "religion | belief systems | Judaism",
+    "value": "medtop:20000679"
+   },
+   {
+    "label": "religion | belief systems | Judaism | Hasidism",
+    "value": "medtop:20001351"
+   },
+   {
+    "label": "religion | belief systems | nature religion",
+    "value": "medtop:20000680"
+   },
+   {
+    "label": "religion | belief systems | Scientology",
+    "value": "medtop:20000682"
+   },
+   {
+    "label": "religion | belief systems | Shintoism",
+    "value": "medtop:20000683"
+   },
+   {
+    "label": "religion | belief systems | Sikhism",
+    "value": "medtop:20000684"
+   },
+   {
+    "label": "religion | belief systems | Taoism",
+    "value": "medtop:20000685"
+   },
+   {
+    "label": "religion | belief systems | Unificationism",
+    "value": "medtop:20000686"
+   },
+   {
+    "label": "religion | belief systems | Zoroastrianism",
+    "value": "medtop:20000681"
+   },
+   {
+    "label": "religion | relations between religion and government",
+    "value": "medtop:20000702"
+   },
+   {
+    "label": "religion | religious conflict",
+    "value": "medtop:20000688"
+   },
+   {
+    "label": "religion | religious facility",
+    "value": "medtop:20000697"
+   },
+   {
+    "label": "religion | religious facility | church",
+    "value": "medtop:20000698"
+   },
+   {
+    "label": "religion | religious facility | mosque",
+    "value": "medtop:20000699"
+   },
+   {
+    "label": "religion | religious facility | synagogue",
+    "value": "medtop:20000700"
+   },
+   {
+    "label": "religion | religious festival and holiday",
+    "value": "medtop:20000690"
+   },
+   {
+    "label": "religion | religious festival and holiday | All Saints Day",
+    "value": "medtop:20001271"
+   },
+   {
+    "label": "religion | religious festival and holiday | Christmas",
+    "value": "medtop:20000691"
+   },
+   {
+    "label": "religion | religious festival and holiday | Easter",
+    "value": "medtop:20000692"
+   },
+   {
+    "label": "religion | religious festival and holiday | Eid al-Adha",
+    "value": "medtop:20001350"
+   },
+   {
+    "label": "religion | religious festival and holiday | Hanukkah",
+    "value": "medtop:20001352"
+   },
+   {
+    "label": "religion | religious festival and holiday | Pentecost",
+    "value": "medtop:20000693"
+   },
+   {
+    "label": "religion | religious festival and holiday | Ramadan",
+    "value": "medtop:20000694"
+   },
+   {
+    "label": "religion | religious festival and holiday | Walpurgis night",
+    "value": "medtop:20001272"
+   },
+   {
+    "label": "religion | religious festival and holiday | Yom Kippur",
+    "value": "medtop:20000695"
+   },
+   {
+    "label": "religion | religious leader",
+    "value": "medtop:20000703"
+   },
+   {
+    "label": "religion | religious leader | pope",
+    "value": "medtop:20000704"
+   },
+   {
+    "label": "religion | religious ritual",
+    "value": "medtop:20000696"
+   },
+   {
+    "label": "religion | religious ritual | baptism",
+    "value": "medtop:20001273"
+   },
+   {
+    "label": "religion | religious ritual | bar and bat mitzvah",
+    "value": "medtop:20001345"
+   },
+   {
+    "label": "religion | religious ritual | canonisation",
+    "value": "medtop:20001346"
+   },
+   {
+    "label": "religion | religious text",
+    "value": "medtop:20000705"
+   },
+   {
+    "label": "religion | religious text | Bible",
+    "value": "medtop:20000706"
+   },
+   {
+    "label": "religion | religious text | Qur'an",
+    "value": "medtop:20000707"
+   },
+   {
+    "label": "religion | religious text | Torah",
+    "value": "medtop:20000708"
+   },
+   {
+    "label": "science and technology",
+    "value": "medtop:13000000"
+   },
+   {
+    "label": "science and technology | biomedical science",
+    "value": "medtop:20000710"
+   },
+   {
+    "label": "science and technology | biomedical science | biotechnology",
+    "value": "medtop:20000711"
+   },
+   {
+    "label": "science and technology | mathematics",
+    "value": "medtop:20000715"
+   },
+   {
+    "label": "science and technology | natural science",
+    "value": "medtop:20000717"
+   },
+   {
+    "label": "science and technology | natural science | astronomy",
+    "value": "medtop:20000718"
+   },
+   {
+    "label": "science and technology | natural science | biology",
+    "value": "medtop:20000719"
+   },
+   {
+    "label": "science and technology | natural science | biology | botany",
+    "value": "medtop:20000720"
+   },
+   {
+    "label": "science and technology | natural science | biology | genetics",
+    "value": "medtop:20000721"
+   },
+   {
+    "label": "science and technology | natural science | biology | palaeontology",
+    "value": "medtop:20000722"
+   },
+   {
+    "label": "science and technology | natural science | biology | physiology",
+    "value": "medtop:20000723"
+   },
+   {
+    "label": "science and technology | natural science | biology | zoology",
+    "value": "medtop:20000724"
+   },
+   {
+    "label": "science and technology | natural science | chemistry",
+    "value": "medtop:20000725"
+   },
+   {
+    "label": "science and technology | natural science | cosmology",
+    "value": "medtop:20000726"
+   },
+   {
+    "label": "science and technology | natural science | geology",
+    "value": "medtop:20000727"
+   },
+   {
+    "label": "science and technology | natural science | horticulture",
+    "value": "medtop:20000728"
+   },
+   {
+    "label": "science and technology | natural science | marine science",
+    "value": "medtop:20000729"
+   },
+   {
+    "label": "science and technology | natural science | meteorology",
+    "value": "medtop:20000730"
+   },
+   {
+    "label": "science and technology | natural science | physics",
+    "value": "medtop:20000731"
+   },
+   {
+    "label": "science and technology | natural science | physics | electromagnetism",
+    "value": "medtop:20000732"
+   },
+   {
+    "label": "science and technology | natural science | physics | nuclear physics",
+    "value": "medtop:20000733"
+   },
+   {
+    "label": "science and technology | natural science | physics | nuclear physics | particle physics",
+    "value": "medtop:20000734"
+   },
+   {
+    "label": "science and technology | scientific institution",
+    "value": "medtop:20000741"
+   },
+   {
+    "label": "science and technology | scientific research",
+    "value": "medtop:20000735"
+   },
+   {
+    "label": "science and technology | scientific research | medical research",
+    "value": "medtop:20000737"
+   },
+   {
+    "label": "science and technology | scientific research | scientific exploration",
+    "value": "medtop:20000738"
+   },
+   {
+    "label": "science and technology | scientific research | scientific exploration | space exploration",
+    "value": "medtop:20000739"
+   },
+   {
+    "label": "science and technology | scientific research | scientific innovation",
+    "value": "medtop:20000736"
+   },
+   {
+    "label": "science and technology | scientific research | scientific publication",
+    "value": "medtop:20000740"
+   },
+   {
+    "label": "science and technology | scientific standards",
+    "value": "medtop:20000755"
+   },
+   {
+    "label": "science and technology | social sciences",
+    "value": "medtop:20000742"
+   },
+   {
+    "label": "science and technology | social sciences | anthropology",
+    "value": "medtop:20000743"
+   },
+   {
+    "label": "science and technology | social sciences | archaeology",
+    "value": "medtop:20000744"
+   },
+   {
+    "label": "science and technology | social sciences | economics",
+    "value": "medtop:20000745"
+   },
+   {
+    "label": "science and technology | social sciences | geography",
+    "value": "medtop:20000746"
+   },
+   {
+    "label": "science and technology | social sciences | history",
+    "value": "medtop:20000747"
+   },
+   {
+    "label": "science and technology | social sciences | information science",
+    "value": "medtop:20000748"
+   },
+   {
+    "label": "science and technology | social sciences | linguistics",
+    "value": "medtop:20000750"
+   },
+   {
+    "label": "science and technology | social sciences | philosophy",
+    "value": "medtop:20000751"
+   },
+   {
+    "label": "science and technology | social sciences | political science",
+    "value": "medtop:20000752"
+   },
+   {
+    "label": "science and technology | social sciences | psychology",
+    "value": "medtop:20000753"
+   },
+   {
+    "label": "science and technology | social sciences | sociology",
+    "value": "medtop:20000754"
+   },
+   {
+    "label": "science and technology | social sciences | study of law",
+    "value": "medtop:20000749"
+   },
+   {
+    "label": "science and technology | technology and engineering",
+    "value": "medtop:20000756"
+   },
+   {
+    "label": "science and technology | technology and engineering | aerospace engineering",
+    "value": "medtop:20000757"
+   },
+   {
+    "label": "science and technology | technology and engineering | aerospace engineering | rocketry",
+    "value": "medtop:20000758"
+   },
+   {
+    "label": "science and technology | technology and engineering | agricultural technology",
+    "value": "medtop:20000759"
+   },
+   {
+    "label": "science and technology | technology and engineering | civil engineering",
+    "value": "medtop:20000760"
+   },
+   {
+    "label": "science and technology | technology and engineering | electronic engineering",
+    "value": "medtop:20000761"
+   },
+   {
+    "label": "science and technology | technology and engineering | identification technology",
+    "value": "medtop:20000762"
+   },
+   {
+    "label": "science and technology | technology and engineering | information technology and computer science",
+    "value": "medtop:20000763"
+   },
+   {
+    "label": "science and technology | technology and engineering | information technology and computer science | artificial intelligence",
+    "value": "medtop:20001298"
+   },
+   {
+    "label": "science and technology | technology and engineering | materials science",
+    "value": "medtop:20000764"
+   },
+   {
+    "label": "science and technology | technology and engineering | mechanical engineering",
+    "value": "medtop:20000716"
+   },
+   {
+    "label": "science and technology | technology and engineering | micro science",
+    "value": "medtop:20000765"
+   },
+   {
+    "label": "science and technology | technology and engineering | micro science | nanotechnology",
+    "value": "medtop:20000766"
+   },
+   {
+    "label": "society",
+    "value": "medtop:14000000"
+   },
+   {
+    "label": "society | communities",
+    "value": "medtop:20000768"
+   },
+   {
+    "label": "society | communities | fraternal and community group",
+    "value": "medtop:20001360"
+   },
+   {
+    "label": "society | communities | social networking",
+    "value": "medtop:20000769"
+   },
+   {
+    "label": "society | demographic group",
+    "value": "medtop:20000788"
+   },
+   {
+    "label": "society | demographic group | adults",
+    "value": "medtop:20000789"
+   },
+   {
+    "label": "society | demographic group | children",
+    "value": "medtop:20000790"
+   },
+   {
+    "label": "society | demographic group | disabilities",
+    "value": "medtop:20000791"
+   },
+   {
+    "label": "society | demographic group | gender",
+    "value": "medtop:20000793"
+   },
+   {
+    "label": "society | demographic group | indigenous people",
+    "value": "medtop:20001288"
+   },
+   {
+    "label": "society | demographic group | infants",
+    "value": "medtop:20000794"
+   },
+   {
+    "label": "society | demographic group | LGBTQ",
+    "value": "medtop:20000792"
+   },
+   {
+    "label": "society | demographic group | men",
+    "value": "medtop:20001328"
+   },
+   {
+    "label": "society | demographic group | national or ethnic minority",
+    "value": "medtop:20000795"
+   },
+   {
+    "label": "society | demographic group | senior citizens",
+    "value": "medtop:20000797"
+   },
+   {
+    "label": "society | demographic group | teenagers",
+    "value": "medtop:20000798"
+   },
+   {
+    "label": "society | demographic group | women",
+    "value": "medtop:20001327"
+   },
+   {
+    "label": "society | demographics",
+    "value": "medtop:20000770"
+   },
+   {
+    "label": "society | demographics | population and census",
+    "value": "medtop:20000774"
+   },
+   {
+    "label": "society | discrimination",
+    "value": "medtop:20000775"
+   },
+   {
+    "label": "society | discrimination | ageism",
+    "value": "medtop:20000776"
+   },
+   {
+    "label": "society | discrimination | racism",
+    "value": "medtop:20000777"
+   },
+   {
+    "label": "society | discrimination | religious discrimination",
+    "value": "medtop:20000778"
+   },
+   {
+    "label": "society | discrimination | sexism",
+    "value": "medtop:20000779"
+   },
+   {
+    "label": "society | diversity, equity and inclusion",
+    "value": "medtop:20001373"
+   },
+   {
+    "label": "society | emigration",
+    "value": "medtop:20000772"
+   },
+   {
+    "label": "society | family",
+    "value": "medtop:20000780"
+   },
+   {
+    "label": "society | family | adoption",
+    "value": "medtop:20000781"
+   },
+   {
+    "label": "society | family | Dating and Relationships",
+    "value": "medtop:20000782"
+   },
+   {
+    "label": "society | family | divorce",
+    "value": "medtop:20000783"
+   },
+   {
+    "label": "society | family | family planning",
+    "value": "medtop:20000784"
+   },
+   {
+    "label": "society | family | family planning | abortion",
+    "value": "medtop:20000785"
+   },
+   {
+    "label": "society | family | family planning | contraception",
+    "value": "medtop:20001274"
+   },
+   {
+    "label": "society | family | marriage",
+    "value": "medtop:20000786"
+   },
+   {
+    "label": "society | family | parenting",
+    "value": "medtop:20000787"
+   },
+   {
+    "label": "society | family | pregnancy and childbirth",
+    "value": "medtop:20001359"
+   },
+   {
+    "label": "society | fundamental rights",
+    "value": "medtop:20000587"
+   },
+   {
+    "label": "society | fundamental rights | censorship and freedom of speech",
+    "value": "medtop:20000588"
+   },
+   {
+    "label": "society | fundamental rights | civil rights",
+    "value": "medtop:20000120"
+   },
+   {
+    "label": "society | fundamental rights | freedom of religion",
+    "value": "medtop:20000590"
+   },
+   {
+    "label": "society | fundamental rights | freedom of the press",
+    "value": "medtop:20000591"
+   },
+   {
+    "label": "society | fundamental rights | human rights",
+    "value": "medtop:20000592"
+   },
+   {
+    "label": "society | fundamental rights | privacy",
+    "value": "medtop:20001300"
+   },
+   {
+    "label": "society | fundamental rights | women's rights",
+    "value": "medtop:20001326"
+   },
+   {
+    "label": "society | immigration",
+    "value": "medtop:20000771"
+   },
+   {
+    "label": "society | immigration | illegal immigration",
+    "value": "medtop:20000773"
+   },
+   {
+    "label": "society | social condition",
+    "value": "medtop:20000799"
+   },
+   {
+    "label": "society | social condition | homelessness",
+    "value": "medtop:20000800"
+   },
+   {
+    "label": "society | social condition | poverty",
+    "value": "medtop:20000801"
+   },
+   {
+    "label": "society | social problem",
+    "value": "medtop:20000802"
+   },
+   {
+    "label": "society | social problem | abusive behaviour",
+    "value": "medtop:20000803"
+   },
+   {
+    "label": "society | social problem | addiction",
+    "value": "medtop:20000804"
+   },
+   {
+    "label": "society | social problem | bullying",
+    "value": "medtop:20001284"
+   },
+   {
+    "label": "society | social problem | juvenile delinquency",
+    "value": "medtop:20000805"
+   },
+   {
+    "label": "society | social problem | prostitution",
+    "value": "medtop:20000806"
+   },
+   {
+    "label": "society | social problem | sexual misconduct",
+    "value": "medtop:20001193"
+   },
+   {
+    "label": "society | social problem | slavery",
+    "value": "medtop:20000807"
+   },
+   {
+    "label": "society | values",
+    "value": "medtop:20000808"
+   },
+   {
+    "label": "society | values | death and dying",
+    "value": "medtop:20000810"
+   },
+   {
+    "label": "society | values | death and dying | euthanasia",
+    "value": "medtop:20000811"
+   },
+   {
+    "label": "society | values | death and dying | euthanasia | assisted suicide",
+    "value": "medtop:20000812"
+   },
+   {
+    "label": "society | values | death and dying | suicide",
+    "value": "medtop:20000813"
+   },
+   {
+    "label": "society | values | ethics",
+    "value": "medtop:20000814"
+   },
+   {
+    "label": "society | values | pornography",
+    "value": "medtop:20000815"
+   },
+   {
+    "label": "society | values | sexual behaviour",
+    "value": "medtop:20000816"
+   },
+   {
+    "label": "society | welfare",
+    "value": "medtop:20000817"
+   },
+   {
+    "label": "society | welfare | charity",
+    "value": "medtop:20000818"
+   },
+   {
+    "label": "society | welfare | child care",
+    "value": "medtop:20001317"
+   },
+   {
+    "label": "society | welfare | elderly care",
+    "value": "medtop:20001232"
+   },
+   {
+    "label": "society | welfare | long-term care",
+    "value": "medtop:20000819"
+   },
+   {
+    "label": "society | welfare | public housing",
+    "value": "medtop:20001290"
+   },
+   {
+    "label": "society | welfare | social services",
+    "value": "medtop:20000820"
+   },
+   {
+    "label": "sport",
+    "value": "medtop:15000000"
+   },
+   {
+    "label": "sport | competition discipline",
+    "value": "medtop:20000822"
+   },
+   {
+    "label": "sport | competition discipline | 3x3 basketball",
+    "value": "medtop:20001329"
+   },
+   {
+    "label": "sport | competition discipline | American football",
+    "value": "medtop:20000823"
+   },
+   {
+    "label": "sport | competition discipline | archery",
+    "value": "medtop:20000824"
+   },
+   {
+    "label": "sport | competition discipline | archery | crossbow shooting",
+    "value": "medtop:20000825"
+   },
+   {
+    "label": "sport | competition discipline | archery | longbow",
+    "value": "medtop:20000826"
+   },
+   {
+    "label": "sport | competition discipline | arm wrestling",
+    "value": "medtop:20001286"
+   },
+   {
+    "label": "sport | competition discipline | artistic swimming",
+    "value": "medtop:20001175"
+   },
+   {
+    "label": "sport | competition discipline | artistic swimming | synchronised free routine",
+    "value": "medtop:20001081"
+   },
+   {
+    "label": "sport | competition discipline | artistic swimming | synchronised technical routine",
+    "value": "medtop:20001082"
+   },
+   {
+    "label": "sport | competition discipline | athletics",
+    "value": "medtop:20000827"
+   },
+   {
+    "label": "sport | competition discipline | athletics | cross-country run",
+    "value": "medtop:20000828"
+   },
+   {
+    "label": "sport | competition discipline | athletics | decathlon",
+    "value": "medtop:20000829"
+   },
+   {
+    "label": "sport | competition discipline | athletics | discus throw",
+    "value": "medtop:20000830"
+   },
+   {
+    "label": "sport | competition discipline | athletics | hammer throw",
+    "value": "medtop:20000831"
+   },
+   {
+    "label": "sport | competition discipline | athletics | heptathlon",
+    "value": "medtop:20000832"
+   },
+   {
+    "label": "sport | competition discipline | athletics | high jump",
+    "value": "medtop:20000833"
+   },
+   {
+    "label": "sport | competition discipline | athletics | hurdles",
+    "value": "medtop:20000834"
+   },
+   {
+    "label": "sport | competition discipline | athletics | javelin throw",
+    "value": "medtop:20000835"
+   },
+   {
+    "label": "sport | competition discipline | athletics | long distance run",
+    "value": "medtop:20000836"
+   },
+   {
+    "label": "sport | competition discipline | athletics | long jump",
+    "value": "medtop:20000837"
+   },
+   {
+    "label": "sport | competition discipline | athletics | middle distance run",
+    "value": "medtop:20000838"
+   },
+   {
+    "label": "sport | competition discipline | athletics | pentathlon",
+    "value": "medtop:20000839"
+   },
+   {
+    "label": "sport | competition discipline | athletics | pole vault",
+    "value": "medtop:20000840"
+   },
+   {
+    "label": "sport | competition discipline | athletics | race walking",
+    "value": "medtop:20000841"
+   },
+   {
+    "label": "sport | competition discipline | athletics | relay run",
+    "value": "medtop:20000842"
+   },
+   {
+    "label": "sport | competition discipline | athletics | shot put",
+    "value": "medtop:20000843"
+   },
+   {
+    "label": "sport | competition discipline | athletics | sprint run",
+    "value": "medtop:20000844"
+   },
+   {
+    "label": "sport | competition discipline | athletics | steeplechase (athletics)",
+    "value": "medtop:20001242"
+   },
+   {
+    "label": "sport | competition discipline | athletics | triple jump",
+    "value": "medtop:20000845"
+   },
+   {
+    "label": "sport | competition discipline | Australian rules football",
+    "value": "medtop:20000846"
+   },
+   {
+    "label": "sport | competition discipline | badminton",
+    "value": "medtop:20000847"
+   },
+   {
+    "label": "sport | competition discipline | bandy",
+    "value": "medtop:20000848"
+   },
+   {
+    "label": "sport | competition discipline | baseball",
+    "value": "medtop:20000849"
+   },
+   {
+    "label": "sport | competition discipline | baseball | rubberball baseball",
+    "value": "medtop:20000850"
+   },
+   {
+    "label": "sport | competition discipline | basketball",
+    "value": "medtop:20000851"
+   },
+   {
+    "label": "sport | competition discipline | biathlon",
+    "value": "medtop:20000852"
+   },
+   {
+    "label": "sport | competition discipline | billiards",
+    "value": "medtop:20000853"
+   },
+   {
+    "label": "sport | competition discipline | bobsleigh",
+    "value": "medtop:20000854"
+   },
+   {
+    "label": "sport | competition discipline | bodybuilding",
+    "value": "medtop:20001240"
+   },
+   {
+    "label": "sport | competition discipline | boules",
+    "value": "medtop:20000855"
+   },
+   {
+    "label": "sport | competition discipline | boxing",
+    "value": "medtop:20000856"
+   },
+   {
+    "label": "sport | competition discipline | bullfighting",
+    "value": "medtop:20000875"
+   },
+   {
+    "label": "sport | competition discipline | Canadian football",
+    "value": "medtop:20000876"
+   },
+   {
+    "label": "sport | competition discipline | canoe slalom",
+    "value": "medtop:20001330"
+   },
+   {
+    "label": "sport | competition discipline | canoe sprint",
+    "value": "medtop:20001331"
+   },
+   {
+    "label": "sport | competition discipline | canoeing",
+    "value": "medtop:20000877"
+   },
+   {
+    "label": "sport | competition discipline | casting (fishing)",
+    "value": "medtop:20000883"
+   },
+   {
+    "label": "sport | competition discipline | cheerleading",
+    "value": "medtop:20001309"
+   },
+   {
+    "label": "sport | competition discipline | chess",
+    "value": "medtop:20001154"
+   },
+   {
+    "label": "sport | competition discipline | competitive dancing",
+    "value": "medtop:20000911"
+   },
+   {
+    "label": "sport | competition discipline | competitive dancing | breaking (breakdance)",
+    "value": "medtop:20001379"
+   },
+   {
+    "label": "sport | competition discipline | cricket",
+    "value": "medtop:20000888"
+   },
+   {
+    "label": "sport | competition discipline | croquet",
+    "value": "medtop:20000889"
+   },
+   {
+    "label": "sport | competition discipline | curling",
+    "value": "medtop:20000890"
+   },
+   {
+    "label": "sport | competition discipline | curling | icestock sport",
+    "value": "medtop:20000891"
+   },
+   {
+    "label": "sport | competition discipline | cycling",
+    "value": "medtop:20000892"
+   },
+   {
+    "label": "sport | competition discipline | cycling | artistic cycling",
+    "value": "medtop:20000893"
+   },
+   {
+    "label": "sport | competition discipline | cycling | bmx freestyle",
+    "value": "medtop:20001332"
+   },
+   {
+    "label": "sport | competition discipline | cycling | bmx racing",
+    "value": "medtop:20000895"
+   },
+   {
+    "label": "sport | competition discipline | cycling | cycle ball",
+    "value": "medtop:20000896"
+   },
+   {
+    "label": "sport | competition discipline | cycling | mountain biking",
+    "value": "medtop:20000903"
+   },
+   {
+    "label": "sport | competition discipline | darts",
+    "value": "medtop:20000912"
+   },
+   {
+    "label": "sport | competition discipline | diving",
+    "value": "medtop:20000913"
+   },
+   {
+    "label": "sport | competition discipline | diving | platform diving",
+    "value": "medtop:20000914"
+   },
+   {
+    "label": "sport | competition discipline | diving | springboard diving",
+    "value": "medtop:20000915"
+   },
+   {
+    "label": "sport | competition discipline | diving | synchronised diving",
+    "value": "medtop:20000916"
+   },
+   {
+    "label": "sport | competition discipline | dog racing",
+    "value": "medtop:20000919"
+   },
+   {
+    "label": "sport | competition discipline | duathlon",
+    "value": "medtop:20000922"
+   },
+   {
+    "label": "sport | competition discipline | equestrian",
+    "value": "medtop:20000923"
+   },
+   {
+    "label": "sport | competition discipline | eSports",
+    "value": "medtop:20001183"
+   },
+   {
+    "label": "sport | competition discipline | fencing",
+    "value": "medtop:20000929"
+   },
+   {
+    "label": "sport | competition discipline | field hockey",
+    "value": "medtop:20000933"
+   },
+   {
+    "label": "sport | competition discipline | figure skating",
+    "value": "medtop:20000934"
+   },
+   {
+    "label": "sport | competition discipline | fist ball",
+    "value": "medtop:20000936"
+   },
+   {
+    "label": "sport | competition discipline | floorball",
+    "value": "medtop:20000937"
+   },
+   {
+    "label": "sport | competition discipline | flying disc",
+    "value": "medtop:20000938"
+   },
+   {
+    "label": "sport | competition discipline | football",
+    "value": "medtop:20001065"
+   },
+   {
+    "label": "sport | competition discipline | football 5-a-side",
+    "value": "medtop:20001335"
+   },
+   {
+    "label": "sport | competition discipline | football | beach soccer",
+    "value": "medtop:20001394"
+   },
+   {
+    "label": "sport | competition discipline | football | futsal",
+    "value": "medtop:20001393"
+   },
+   {
+    "label": "sport | competition discipline | Gaelic football",
+    "value": "medtop:20000939"
+   },
+   {
+    "label": "sport | competition discipline | goalball",
+    "value": "medtop:20001336"
+   },
+   {
+    "label": "sport | competition discipline | golf",
+    "value": "medtop:20000940"
+   },
+   {
+    "label": "sport | competition discipline | golf | mini golf",
+    "value": "medtop:20000941"
+   },
+   {
+    "label": "sport | competition discipline | gymnastics",
+    "value": "medtop:20000942"
+   },
+   {
+    "label": "sport | competition discipline | gymnastics | artistic gymnastics",
+    "value": "medtop:20001152"
+   },
+   {
+    "label": "sport | competition discipline | gymnastics | rhythmic gymnastics",
+    "value": "medtop:20000951"
+   },
+   {
+    "label": "sport | competition discipline | gymnastics | trampoline",
+    "value": "medtop:20000955"
+   },
+   {
+    "label": "sport | competition discipline | handball (team)",
+    "value": "medtop:20000958"
+   },
+   {
+    "label": "sport | competition discipline | hornuss",
+    "value": "medtop:20000959"
+   },
+   {
+    "label": "sport | competition discipline | horse racing",
+    "value": "medtop:20000960"
+   },
+   {
+    "label": "sport | competition discipline | hurling",
+    "value": "medtop:20000964"
+   },
+   {
+    "label": "sport | competition discipline | ice hockey",
+    "value": "medtop:20000965"
+   },
+   {
+    "label": "sport | competition discipline | ice hockey | sledge hockey",
+    "value": "medtop:20000966"
+   },
+   {
+    "label": "sport | competition discipline | Jai Alai (Pelota)",
+    "value": "medtop:20000968"
+   },
+   {
+    "label": "sport | competition discipline | kabaddi",
+    "value": "medtop:20000978"
+   },
+   {
+    "label": "sport | competition discipline | kayaking",
+    "value": "medtop:20000979"
+   },
+   {
+    "label": "sport | competition discipline | kiting",
+    "value": "medtop:20001306"
+   },
+   {
+    "label": "sport | competition discipline | lacrosse",
+    "value": "medtop:20000986"
+   },
+   {
+    "label": "sport | competition discipline | luge",
+    "value": "medtop:20000987"
+   },
+   {
+    "label": "sport | competition discipline | marathon",
+    "value": "medtop:20000988"
+   },
+   {
+    "label": "sport | competition discipline | martial arts",
+    "value": "medtop:20001157"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | judo",
+    "value": "medtop:20000969"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | jukendo",
+    "value": "medtop:20000977"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | karate",
+    "value": "medtop:20000983"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | kendo",
+    "value": "medtop:20000984"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | kickboxing",
+    "value": "medtop:20001310"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | krav maga",
+    "value": "medtop:20001308"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | kyudo",
+    "value": "medtop:20000985"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | mixed martial arts",
+    "value": "medtop:20001231"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | naginata",
+    "value": "medtop:20001009"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | sambo (martial art)",
+    "value": "medtop:20001311"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | Taekwon-Do",
+    "value": "medtop:20001084"
+   },
+   {
+    "label": "sport | competition discipline | martial arts | wushu",
+    "value": "medtop:20001102"
+   },
+   {
+    "label": "sport | competition discipline | modern pentathlon",
+    "value": "medtop:20000989"
+   },
+   {
+    "label": "sport | competition discipline | motor car racing",
+    "value": "medtop:20000991"
+   },
+   {
+    "label": "sport | competition discipline | motorboat racing",
+    "value": "medtop:20000990"
+   },
+   {
+    "label": "sport | competition discipline | motorcycling",
+    "value": "medtop:20000998"
+   },
+   {
+    "label": "sport | competition discipline | mountain climbing",
+    "value": "medtop:20000884"
+   },
+   {
+    "label": "sport | competition discipline | mountain climbing | ice climbing",
+    "value": "medtop:20000885"
+   },
+   {
+    "label": "sport | competition discipline | mountain climbing | mountaineering",
+    "value": "medtop:20000886"
+   },
+   {
+    "label": "sport | competition discipline | netball",
+    "value": "medtop:20001010"
+   },
+   {
+    "label": "sport | competition discipline | orienteering",
+    "value": "medtop:20001011"
+   },
+   {
+    "label": "sport | competition discipline | orienteering | ski orienteering",
+    "value": "medtop:20001012"
+   },
+   {
+    "label": "sport | competition discipline | padel",
+    "value": "medtop:20001305"
+   },
+   {
+    "label": "sport | competition discipline | parachuting",
+    "value": "medtop:20001013"
+   },
+   {
+    "label": "sport | competition discipline | polo",
+    "value": "medtop:20001014"
+   },
+   {
+    "label": "sport | competition discipline | pool",
+    "value": "medtop:20001015"
+   },
+   {
+    "label": "sport | competition discipline | power boating",
+    "value": "medtop:20001016"
+   },
+   {
+    "label": "sport | competition discipline | racquetball",
+    "value": "medtop:20001281"
+   },
+   {
+    "label": "sport | competition discipline | ringette",
+    "value": "medtop:20001282"
+   },
+   {
+    "label": "sport | competition discipline | road cycling",
+    "value": "medtop:20001333"
+   },
+   {
+    "label": "sport | competition discipline | rodeo",
+    "value": "medtop:20001017"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | bareback bronc",
+    "value": "medtop:20001018"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | barrel racing",
+    "value": "medtop:20001019"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | bull riding",
+    "value": "medtop:20001020"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | bulldogging",
+    "value": "medtop:20001021"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | calf roping",
+    "value": "medtop:20001022"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | goat roping",
+    "value": "medtop:20001023"
+   },
+   {
+    "label": "sport | competition discipline | rodeo | saddle bronc",
+    "value": "medtop:20001024"
+   },
+   {
+    "label": "sport | competition discipline | roller sports",
+    "value": "medtop:20001155"
+   },
+   {
+    "label": "sport | competition discipline | roller sports | roller hockey",
+    "value": "medtop:20001025"
+   },
+   {
+    "label": "sport | competition discipline | roller sports | skateboarding",
+    "value": "medtop:20001156"
+   },
+   {
+    "label": "sport | competition discipline | rowing",
+    "value": "medtop:20001026"
+   },
+   {
+    "label": "sport | competition discipline | rugby",
+    "value": "medtop:20001176"
+   },
+   {
+    "label": "sport | competition discipline | rugby | rugby league",
+    "value": "medtop:20001035"
+   },
+   {
+    "label": "sport | competition discipline | rugby | rugby sevens",
+    "value": "medtop:20001037"
+   },
+   {
+    "label": "sport | competition discipline | rugby | rugby union",
+    "value": "medtop:20001036"
+   },
+   {
+    "label": "sport | competition discipline | sailing",
+    "value": "medtop:20001038"
+   },
+   {
+    "label": "sport | competition discipline | sepak takraw",
+    "value": "medtop:20001047"
+   },
+   {
+    "label": "sport | competition discipline | shinty",
+    "value": "medtop:20001048"
+   },
+   {
+    "label": "sport | competition discipline | short track speed skating",
+    "value": "medtop:20001151"
+   },
+   {
+    "label": "sport | competition discipline | skeleton",
+    "value": "medtop:20001055"
+   },
+   {
+    "label": "sport | competition discipline | skiing",
+    "value": "medtop:20001056"
+   },
+   {
+    "label": "sport | competition discipline | skiing | alpine skiing",
+    "value": "medtop:20001057"
+   },
+   {
+    "label": "sport | competition discipline | skiing | cross-country skiing",
+    "value": "medtop:20001149"
+   },
+   {
+    "label": "sport | competition discipline | skiing | freestyle skiing",
+    "value": "medtop:20001058"
+   },
+   {
+    "label": "sport | competition discipline | skiing | grass skiing",
+    "value": "medtop:20001059"
+   },
+   {
+    "label": "sport | competition discipline | skiing | Nordic combined",
+    "value": "medtop:20001150"
+   },
+   {
+    "label": "sport | competition discipline | skiing | ski jumping",
+    "value": "medtop:20001061"
+   },
+   {
+    "label": "sport | competition discipline | skiing | ski mountaineering",
+    "value": "medtop:20001390"
+   },
+   {
+    "label": "sport | competition discipline | skiing | Telemark skiing",
+    "value": "medtop:20001153"
+   },
+   {
+    "label": "sport | competition discipline | sky diving",
+    "value": "medtop:20001062"
+   },
+   {
+    "label": "sport | competition discipline | snooker",
+    "value": "medtop:20001063"
+   },
+   {
+    "label": "sport | competition discipline | snowboarding",
+    "value": "medtop:20001064"
+   },
+   {
+    "label": "sport | competition discipline | softball",
+    "value": "medtop:20001066"
+   },
+   {
+    "label": "sport | competition discipline | speed skating",
+    "value": "medtop:20001067"
+   },
+   {
+    "label": "sport | competition discipline | sport climbing",
+    "value": "medtop:20000887"
+   },
+   {
+    "label": "sport | competition discipline | sport shooting",
+    "value": "medtop:20001049"
+   },
+   {
+    "label": "sport | competition discipline | squash",
+    "value": "medtop:20001068"
+   },
+   {
+    "label": "sport | competition discipline | stand up paddleboarding (SUP)",
+    "value": "medtop:20001307"
+   },
+   {
+    "label": "sport | competition discipline | sumo wrestling",
+    "value": "medtop:20001069"
+   },
+   {
+    "label": "sport | competition discipline | surfing",
+    "value": "medtop:20001070"
+   },
+   {
+    "label": "sport | competition discipline | swimming",
+    "value": "medtop:20001071"
+   },
+   {
+    "label": "sport | competition discipline | swimming | marathon swimming",
+    "value": "medtop:20001077"
+   },
+   {
+    "label": "sport | competition discipline | table tennis",
+    "value": "medtop:20001083"
+   },
+   {
+    "label": "sport | competition discipline | ten pin bowling",
+    "value": "medtop:20001086"
+   },
+   {
+    "label": "sport | competition discipline | tennis",
+    "value": "medtop:20001085"
+   },
+   {
+    "label": "sport | competition discipline | track cycling",
+    "value": "medtop:20001334"
+   },
+   {
+    "label": "sport | competition discipline | triathlon",
+    "value": "medtop:20001087"
+   },
+   {
+    "label": "sport | competition discipline | tug-of-war",
+    "value": "medtop:20001088"
+   },
+   {
+    "label": "sport | competition discipline | underwater sports",
+    "value": "medtop:20000918"
+   },
+   {
+    "label": "sport | competition discipline | volleyball",
+    "value": "medtop:20001089"
+   },
+   {
+    "label": "sport | competition discipline | volleyball | beach volleyball",
+    "value": "medtop:20001090"
+   },
+   {
+    "label": "sport | competition discipline | water polo",
+    "value": "medtop:20001091"
+   },
+   {
+    "label": "sport | competition discipline | water skiing",
+    "value": "medtop:20001092"
+   },
+   {
+    "label": "sport | competition discipline | weightlifting and powerlifting",
+    "value": "medtop:20001093"
+   },
+   {
+    "label": "sport | competition discipline | windsurfing",
+    "value": "medtop:20001097"
+   },
+   {
+    "label": "sport | competition discipline | wrestling",
+    "value": "medtop:20001098"
+   },
+   {
+    "label": "sport | competition discipline | wrestling | freestyle wrestling",
+    "value": "medtop:20001099"
+   },
+   {
+    "label": "sport | competition discipline | wrestling | greco-roman",
+    "value": "medtop:20001100"
+   },
+   {
+    "label": "sport | competition discipline | wrestling | Swiss wrestling",
+    "value": "medtop:20001101"
+   },
+   {
+    "label": "sport | disciplinary action in sport",
+    "value": "medtop:20001103"
+   },
+   {
+    "label": "sport | drug use in sport",
+    "value": "medtop:20001104"
+   },
+   {
+    "label": "sport | sport achievement",
+    "value": "medtop:20001301"
+   },
+   {
+    "label": "sport | sport achievement | sports honour",
+    "value": "medtop:20001304"
+   },
+   {
+    "label": "sport | sport achievement | sports medal and trophy",
+    "value": "medtop:20001303"
+   },
+   {
+    "label": "sport | sport achievement | sports record",
+    "value": "medtop:20001302"
+   },
+   {
+    "label": "sport | sport event",
+    "value": "medtop:20001108"
+   },
+   {
+    "label": "sport | sport event | final game",
+    "value": "medtop:20001343"
+   },
+   {
+    "label": "sport | sport event | Olympic Games",
+    "value": "medtop:20001177"
+   },
+   {
+    "label": "sport | sport event | Paralympic Games",
+    "value": "medtop:20001178"
+   },
+   {
+    "label": "sport | sport event | playoff championship",
+    "value": "medtop:20001342"
+   },
+   {
+    "label": "sport | sport event | regular competition",
+    "value": "medtop:20001341"
+   },
+   {
+    "label": "sport | sport industry",
+    "value": "medtop:20001124"
+   },
+   {
+    "label": "sport | sport organisation",
+    "value": "medtop:20001125"
+   },
+   {
+    "label": "sport | sport venue",
+    "value": "medtop:20001126"
+   },
+   {
+    "label": "sport | sports coaching",
+    "value": "medtop:20001323"
+   },
+   {
+    "label": "sport | sports management and ownership",
+    "value": "medtop:20001324"
+   },
+   {
+    "label": "sport | sports officiating",
+    "value": "medtop:20001325"
+   },
+   {
+    "label": "sport | sports transaction",
+    "value": "medtop:20001148"
+   },
+   {
+    "label": "weather",
+    "value": "medtop:17000000"
+   },
+   {
+    "label": "weather | weather forecast",
+    "value": "medtop:20001128"
+   },
+   {
+    "label": "weather | weather phenomena",
+    "value": "medtop:20001129"
+   },
+   {
+    "label": "weather | weather statistic",
+    "value": "medtop:20001130"
+   },
+   {
+    "label": "weather | weather warning",
+    "value": "medtop:20001131"
+   }
+  ],
+  "disabled": false
+ }
+]

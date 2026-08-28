@@ -1,0 +1,234 @@
+[
+  {
+    "id": "divider_camera_technical",
+    "displayName": "Camera & Technical",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "camera_rating",
+    "displayName": "Rating",
+    "customToolTip": "User-assigned rating (0-100 scale). Syncs with xmp:Rating XMP property (0-5 scale, automatically converted).",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "urat",
+    "displayAsStars": true,
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "camera_manufacturer",
+    "displayName": "Manufacturer",
+    "customToolTip": "Camera manufacturer name (e.g., Canon, Sony). Syncs with tiff:Make XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "manu",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "camera_model",
+    "displayName": "Camera Model",
+    "customToolTip": "Camera model name (e.g., EOS R5, A7 IV). Syncs with tiff:Model XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "modl",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "encoding_tool",
+    "displayName": "Encoding Tool",
+    "customToolTip": "Software or tool used to encode the video",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©too",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "divider_production",
+    "displayName": "Production Credits",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "director",
+    "displayName": "Director",
+    "customToolTip": "Video director name",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©dir",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "producer",
+    "displayName": "Producer",
+    "customToolTip": "Video producer name",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©prd",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "writer",
+    "displayName": "Writer",
+    "customToolTip": "Screenplay writer or composer",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©wrt",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "artist",
+    "displayName": "Artist/Creator",
+    "customToolTip": "Artist or content creator name",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©art",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "divider_content",
+    "displayName": "Content & Description",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "video_title",
+    "displayName": "Title",
+    "customToolTip": "Video title or name. Syncs with dc:title XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©nam",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "description",
+    "displayName": "Description",
+    "customToolTip": "Detailed video description. Syncs with dc:description XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©des",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "comment",
+    "displayName": "Comment",
+    "customToolTip": "Video comment or short description. Syncs with exif:UserComment XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©cmt",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "keywords",
+    "displayName": "Keywords",
+    "customToolTip": "Searchable keywords or tags (comma-separated). Syncs with dc:subject XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "keyw",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "copyright",
+    "displayName": "Copyright",
+    "customToolTip": "Copyright information. Syncs with dc:rights XMP property.",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©cpy",
+    "syncToXMP": true,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "divider_media_library",
+    "displayName": "Media Library (iTunes-style)",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "album",
+    "displayName": "Album",
+    "customToolTip": "Album name (music/collection-oriented)",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©alb",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "genre",
+    "displayName": "Genre",
+    "customToolTip": "Content genre or category",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©gen",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "year",
+    "displayName": "Year",
+    "customToolTip": "Release year or date",
+    "type": "CameraMetadata",
+    "readOnly": false,
+    "quickTimeAtom": "©day",
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "divider_calculations",
+    "displayName": "Calculations Using Quicktime Data",
+    "type": "Divider",
+    "dependencies": [],
+    "disabled": false
+  },
+  {
+    "id": "camera_info_summary",
+    "displayName": "Camera Summary",
+    "customToolTip": "Combines manufacturer and model into a single field",
+    "type": "Calc",
+    "readOnly": true,
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "prefix": "dc",
+    "propertyName": "creator",
+    "calcValue": "{QT:manu} {QT:modl}",
+    "mathCalc": false,
+    "disabled": false,
+    "dependencies": []
+  },
+  {
+    "id": "rating_percentage",
+    "displayName": "Rating as Percentage",
+    "customToolTip": "Converts the 0-100 rating to a percentage string",
+    "type": "Calc",
+    "readOnly": true,
+    "namespace": "http://example.com/custom/",
+    "prefix": "custom",
+    "propertyName": "ratingPercent",
+    "calcValue": "{QT:urat}%",
+    "mathCalc": false,
+    "disabled": false,
+    "dependencies": []
+  }
+]
