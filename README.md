@@ -21,13 +21,20 @@ Form fields include:
 * Tables
 * Calculation Fields
 * Hidden fields
-* AEM Tags (special case just for Adobe Experience Manager)
-* _NEW IN 2.0.21_ Maps
-* _NEW IN 2.0.21_ Links
-* _NEW IN 2.0.21_ Swatches
-* _NEW IN 2.0.21_ Plates (inks)
-* _NEW IN 2.0.21_ Fonts
-* _NEW IN 2.0.21_ **Filter mode** lets you quickly filter your files in Bridge by any property in your Views!
+* AEM-specific Fields
+  * AEM Tags
+  * AEM Smart Tags (read-only with optional push to XMP Keywords)
+  * AEM AI Title (read-only with optional push to XMP Title)
+  * AEM AI Description (read-only with optional push to XMP Description)
+  * AEM AI Keywords (read-only with optional push to XMP Keywords)
+* Read-only fields
+  * Maps
+  * Links
+  * Swatches
+  * Plates (inks)
+  * Fonts
+
+**Filter mode** lets you quickly filter your files in Bridge by any property in your Views!
 
 Other features include a read-only entries, synced field values, section dividers, a built-in form editor, form definition file import and export, metadata Preset import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest. For full docuentation, please see our [user guide](https://github.com/adobe-dmeservices/custom-metadata/wiki).
 
@@ -45,45 +52,231 @@ Special thanks to the following, who graciously created example Views that you c
 - David Riecks, Michael Steidl and Brendan Quinn from [IPTC](https://iptc.org) for their collaboration and amazingly helpful feedback. 
 - Martin Gersbach for creating a [repository of useful config files for common metadata namespaces and properties](https://github.com/MuseosAbiertos/Adobe-Bridge-Custom-Metadata-JSON-Presets).
 
-## Changes for 2.0.21
-## New Field Types (read-only, Bridge/InDesign/Photoshop/Illustrator/Premiere Pro only)
+## Changes for 2.0.27
 
-### Map
+### New: Cultural Heritage Imaging metadata example
+
+- Added a new example View based on the Digital Object Architecture Working Group's (DOAWG) proposed minimum metadata schema for cultural heritage imaging and scanning software.
+- The example is available from the examples menu when creating a new tab.
+- It provides a ready-to-use starting point for capturing technical metadata used in cultural heritage digitization workflows.
+
+### New: Paste spreadsheet data into option tables
+
+- You can now copy a range of cells from Excel or another spreadsheet and paste it directly into an options table in the Configurator.
+- Select the starting cell before pasting; tab-separated values fill columns and line breaks create rows.
+- Existing rows are updated and additional rows are created automatically when the pasted range is larger than the current table.
+- Quoted cells can contain tabs, line breaks, and double quotes. Comma-separated values pasted into array columns are converted into multiple values.
+- Regular single-cell paste behavior is unchanged.
+
+### Improved: Configurator and Tab Manager performance
+
+- Dragging and reordering rows in the Configurator and Tab Manager is now smoother and more predictable.
+- Corrected row placement when moving an item above or below another row, including moves to the end of a list.
+- Reduced redundant updates during drag-and-drop and added a compact drag preview, improving responsiveness for larger Views.
+- Option details are now prepared only when their dialog is opened, reducing work when displaying Views with large option lists.
+
+### Improved: Remote View error reporting
+
+- Remote View errors now identify whether the server returned an HTTP error, the response contained invalid JSON, or the remote location could not be reached.
+- Error messages identify the affected View and include a **Copy Details** action for collecting the URL, status, response, or technical error information needed for troubleshooting.
+- When one or more Views fail during startup, the panel now provides a clearer message and lets you copy the underlying error details.
+
+### Fixed
+
+- Fixed incorrect or inconsistent row ordering when dragging items in the Configurator and Tab Manager.
+- Fixed unnecessary drag-state updates that could make large tables feel sluggish.
+- Fixed lingering CEP context-menu and drag-preview state after an editor table is closed.
+
+## Changes for 2.0.26
+
+### New: Multi-select merging for Language Alternative fields
+
+- Selecting multiple assets with different values in a Language Alternative field (such as a translated title or description) now offers a **Merge All** option that combines each language's values across the selection, in addition to the existing option to replace with a single file's value.
+- Languages used by any asset in the selection are offered as editable alternates, even if they aren't part of the View's configured language list.
+
+### New: AEM scheduled publishing dates (On Time / Off Time)
+
+- The panel can now read and edit an AEM asset's **On Time** and **Off Time** properties — the scheduled publish and unpublish dates set in Experience Manager Assets — when a view includes them.
+- These are the first Experience Manager Assets properties (beyond standard metadata) supported for editing; other advanced asset properties surfaced in a view remain read-only for now.
+- Reminder: for a scheduled date to actually take effect, your AEM environment's publish and dispatcher-flush agents need scheduled publishing enabled — this is an AEM administration setting, not something the panel controls.
+
+### New: PRISM metadata examples
+
+Four new example views based on the W3C PRISM (Publishing Requirements for Industry Standard Metadata) specification are available from the examples menu when creating a new tab:
+
+- PRISM Basic Metadata
+- PRISM Image Metadata
+- PRISM Usage Rights Metadata
+- PRISM Rights Summary Metadata
+
+### Improved: AEM checkout workflow in the Links panel
+
+- Linked AEM assets now keep their AEM indicator (the red cloud badge) even after being checked out and synced locally, so it's always clear which linked assets live in AEM.
+- Added a working **Cancel Checkout** button for AEM assets you've checked out. Since canceling discards any local changes and does not create a new version in AEM, a confirmation prompt now appears first — if you want to keep your changes as a new AEM version instead, use Check In in Adobe Asset Link.
+- You can now click a linked AEM asset's name to select it in the InDesign document even if it hasn't been checked out yet, matching the existing behavior for other links.
+
+### Improved: Quicker access to AEM asset details
+
+- Added a button next to a selected AEM asset's file name that opens its properties page directly in Experience Manager Assets, in your default browser.
+- The AEM sync button is now smaller and sits closer to the file name, matching other desktop-sized controls in the panel.
+
+### Improved: Smoother scrolling in InDesign
+
+- Removed a background check that ran continuously while the panel was open in InDesign, which could cause visible stutter when scrolling. InDesign's own selection-change notifications now handle this instead, so the panel stays just as responsive with less background work.
+
+### Fixed
+
+- A Language Alternative field with both a generic default value and a matching named-language value (for example, a description with both a default and an English translation) now displays and saves correctly as a single field, instead of appearing blank or losing the default value on save.
+- Fixed a crash that could occur when editing certain Language Alternative fields, depending on the order languages appeared in the asset's data.
+- Fixed a confusing tooltip that could read "Value inherited from" a language when it was actually the same language being displayed.
+- Fixed a bug that prevented the multi-select merge menu from appearing on Language Alternative fields that have a configured list of languages (such as "Alt Text (Accessibility)").
+- Fixed a bug where merging Language Alternative values across assets that each used a different language as their own default could produce a bogus extra entry instead of merging correctly.
+- Fixed an issue where new example views (including the PRISM examples above) could fail to appear in the examples menu after a standard install.
+
+## Changes for 2.0.25
+
+## More reliable document detection
+
+- The panel now more consistently recognizes the active document in Illustrator, InDesign, and Photoshop.
+- Documents that were already open before the panel launched are detected correctly.
+- Saving a new, previously unsaved document refreshes the panel automatically.
+- Switching rapidly between documents is less likely to display metadata from the previous document.
+- InDesign detection remains available for linked graphics, grouped content, placed documents, story links, AEM assets, cloud documents, and the active InDesign document.
+
+## Safer AEM error handling
+
+When metadata cannot be read from an AEM asset—for example, because the AEM instance is hibernating, the asset was moved, the user is signed out, or access is denied—the panel now:
+
+- Displays a concise explanation of the general problem.
+- Makes all metadata fields read-only to prevent changes based on incomplete data.
+- Disables saving, presets, revert, and reapply actions until AEM metadata is available again.
+- Provides a **Copy Error** button with detailed diagnostic information for support.
+- Restores editing automatically after a successful AEM read or when a non-AEM asset is selected.
+
+## Faster linked AEM assets in InDesign
+
+- Fixed a regression that could repeatedly reload the same linked asset.
+- Metadata requests are now shared across panel tabs instead of being repeated for each tab.
+- Unnecessary metadata requests from the Preferences tab have been removed.
+- AEM authentication and metadata requests are coordinated more efficiently.
+
+## Improved startup reliability
+
+- Required host scripts now finish loading before the panel begins reading metadata.
+- Startup failures display a clear message instead of leaving the panel partially functional.
+- Selection handling is more reliable after reopening the panel or restarting a host application.
+- Bridge selection handling no longer interferes with event handlers installed by other Bridge scripts or extensions.
+
+## Better support diagnostics
+
+- The About screen now displays the version of the startup script currently loaded by the host application.
+- This makes it easier to identify an outdated or missing startup script when troubleshooting document-selection problems.
+- Error reports retain detailed file, location, and stack information when available, while normal notifications remain concise.
+
+
+
+## Changes for 2.0.24
+
+### AEM metadata is available regardless of checkout location
+
+- A configured AEM instance is now always the metadata source for linked AEM assets.
+- Metadata can be read from and written to AEM when an asset is checked out in another environment and no local copy exists.
+- Checkout state now controls only whether metadata can also be synchronized to a local WIP copy.
+- The experimental **Use AEM as the source of truth** preference was removed because this behavior is now the default.
+- The **AEM Asset metadata unavailable** screen is shown only when the panel cannot access AEM and no usable local copy exists.
+- The unavailable-state guidance now directs users to check their Asset Link connection or create a local copy by checking out the asset.
+- The Links component now shows asset previews for linked AEM Assets.
+- The Links report now shows the URL for linked AEM Assets.
+
+### Windows AEM path handling
+
+- Windows placeholder paths are normalized from backslashes to canonical AEM DAM paths.
+- A valid `aems://` URI is used when an InDesign local path does not contain `/content/dam`.
+- Local WIP paths are joined using the separator style of the configured checkout directory.
+- Canonical DAM paths are used consistently for AEM requests, checkout lookup, caching, and local-copy discovery.
+
+### InDesign selection handling
+
+- Selecting a normal page object no longer causes the panel to treat every link on the page or spread as selected.
+- Parent graphic lookup is limited to actual InDesign graphic-frame types: Rectangle, Oval, and Polygon.
+- Direct links, linked graphics, grouped content, placed documents, and story links continue to be supported.
+
+### Detailed error reporting
+
+- Added a shared CEP error formatter that retains the error name, message, file, line, column, code, and stack when available.
+- Added matching ExtendScript formatting for InDesign selection events and host-side XMP operations.
+- Replaced raw string and numeric throws in affected production paths with `Error` objects so caller locations are retained.
+- Clipboard error actions now format native `Error` objects instead of producing empty objects, `null`, or incomplete messages.
+- AEM read failures now display an **Unable to read AEM metadata** notification with a **Copy error** action.
+- ExtendScript's `.source` property is intentionally omitted so diagnostic reports do not include source-file contents.
+
+### First-run stability
+
+- Removed proof-of-concept Views from the default configuration when their template files are not guaranteed to be present.
+- Existing settings created by version 2.0.22 are repaired on load by removing the three obsolete POC tabs and persisting the cleaned configuration.
+- Only the exact legacy `{default}` View paths are removed; similarly named user-created Views remain untouched.
+- New users no longer receive a missing-View error when the panel creates its initial settings file.
+
+## Changes for 2.0.22
+
+### AEM Assets & AEM Tags
+- **AEM is now the source of truth** for linked AEM Asset metadata, regardless of local check-out status — with a "Fetch from AEM" refresh across InDesign links and Photoshop/Illustrator/InDesign active docs.
+- **New AEM Tags configurator** connects directly to your AEM instance (via Adobe Asset Link) to browse and select tag namespaces, with a manual-JSON fallback for users without Asset Link.
+- **View and promote AI-generated metadata** — new fields display AEM's AI/CV-generated Smart Tags, title, and description, and let you promote them into standard XMP properties (`dc:subject`, `dc:title`, `dc:description`).
+- Supported in InDesign, Photoshop (Intel), Illustrator, and Bridge.
+
+### New Hierarchical Tags Field
+- Constrained-vocabulary tag field with a tree-browser UI, for multi-value hierarchical taxonomies (e.g. IPTC Media Topics).
+- New example Views included: IPTC Media Topics (flat and hierarchical) and IPTC Genre.
+
+### Language Alternative Support
+- New **"Store as Lang-Alt (default only)"** option lets Dropdown, Number, Date, Checkbox, Switch, Radio Group, and URL fields correctly read/write XMP properties that are defined as Language Alternatives, without exposing per-language editing.
+
+### Fixes
+- Filter Options and Dependencies now work correctly for fields nested inside a Structure.
+- Copying a property into another View (or duplicating one within the same View) no longer breaks its Dependencies or Filter Options relationships.
+- Fixed a bug that could display unsupported properties incorrectly in Lightroom Classic.
+
+
+## Changes for 2.0.21
+### New Field Types (read-only, Bridge/InDesign/Photoshop/Illustrator/Premiere Pro only)
+
+#### Map
 Read Only. Displays an interactive map using the file's EXIF GPS coordinates (`exif:GPSLatitude`, `exif:GPSLongitude`, `exif:GPSAltitude`). The map is rendered via Leaflet/OpenStreetMap and shows a pin at the captured location. Configurable map height.
 
-### Swatches & Plates
+#### Swatches & Plates
 Read Only. Reads the color swatches and ink plates embedded in the file (InDesign, Illustrator). Swatches are displayed as color chips with their names. Selected swatches can be exported to an `.ase` file. Plates shows the underlying ink separations.
 
-### History
+#### History
 Read Only. Displays the modification history of the file from XMP history metadata (`xmpMM:History`). Shows each history entry with its action, timestamp, and software agent.
 
-### Links
+#### Links
 Read Only. Displays the linked items embedded in the file (InDesign, Illustrator). Each link shows its path, status, and modification date. Links can be opened in the file system and a links report can be exported.
 
-### Fonts
+#### Fonts
 Read Only. Displays the fonts used in the file. Each font entry shows the font name, type, and whether it is embedded. A fonts report can be exported.
 
 ---
 
-## New Feature: Filter Mode
+### New Feature: Filter Mode
 
 Views can now include a Search field that filters all visible fields by their current values. This allows users to quickly find properties by value within a large View.
 
 ---
 
-## New Number Field Options
+### New Number Field Options
 
-### EXIF Rational Format (`rational`)
+#### EXIF Rational Format (`rational`)
 Number and MultiNumber fields can be configured with `rational: true`. When enabled:
 - XMP stores values as EXIF rational strings (e.g. `169/1`, `12/5`)
 - The field displays the equivalent decimal (e.g. `169`, `2.4`)
 - On write, decimal input is converted back to a rational string using GCD simplification
 - Useful for `exif:GPSAltitude`, `exif:FNumber`, `exif:FocalLength`, and similar EXIF properties
 
-### Rational Decimal Precision (`rationalPrecision`)
+#### Rational Decimal Precision (`rationalPrecision`)
 Optional companion to `rational`. When set (0–10), limits the decimal display to that many places (e.g. `168.1234` → `168.12` with precision 2). Leave blank to show all digits.
 
-### Display Unit (`unit`)
+#### Display Unit (`unit`)
 All Number, MultiNumber, and Table Number columns can have an optional unit label (e.g. `m`, `°`, `fps`):
 - Appears inline with the value when the field is idle (`168 m`)
 - Hides when the field is focused for editing (only the number is shown)
@@ -91,7 +284,7 @@ All Number, MultiNumber, and Table Number columns can have an optional unit labe
 
 ---
 
-## What's New Panel
+### What's New Panel
 
 - **Layout**: Heading, carousel, and pip navigation now use a proper flex column layout filling `100vh`. The page no longer scrolls vertically.
 - **Scrollable description**: Only the text description area scrolls; the screenshot image stays fixed above it.
