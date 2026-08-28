@@ -8,7 +8,8 @@ Form fields include:
 * Text and Multiple Text
 * Language Alternatives for Text Fields
 * Numbers and Multiple Numbers
-* Tags (like Keywords)
+* Tags (like Keywords) but with controlled vocabulary
+* Hierarchical Tags
 * Dropdown
 * Multi-select Dropdown
 * Date and Multi-Date
@@ -16,11 +17,12 @@ Form fields include:
 * Switch and Switch Group
 * Radio Buttons
 * URL and Multiple URL fields that link to external web sites
-* Quicktime metadata properties
 * Complex structures
 * Tables
 * Calculation Fields
 * Hidden fields
+* Quicktime metadata properties for documents that support them
+* Office Document metadata properties
 * AEM-specific Fields
   * AEM Tags
   * AEM Smart Tags (read-only with optional push to XMP Keywords)
@@ -28,13 +30,15 @@ Form fields include:
   * AEM AI Description (read-only with optional push to XMP Description)
   * AEM AI Keywords (read-only with optional push to XMP Keywords)
 * Read-only fields
-  * Maps
-  * Links
+  * Maps (uses XMP GPS fields)
+  * Links (for compound documents like InDesign and Illustrator)
   * Swatches
   * Plates (inks)
   * Fonts
 
 **Filter mode** lets you quickly filter your files in Bridge by any property in your Views!
+
+**AEM Asset Link integration** When using Adobe Asset Link, you can view and modify asset metadata that is stored in AEM without affecting the local binary. You can also check-out linked assets from InDesign. 
 
 Other features include a read-only entries, synced field values, section dividers, a built-in form editor, form definition file import and export, metadata Preset import and export, and the ability to use a URL as the location for the form. This last feature is ideal for Enterprise or group applications, where a DAM Manager posts the form to a common location and all users get the latest and greatest. For full docuentation, please see our [user guide](https://github.com/adobe-dmeservices/custom-metadata/wiki).
 
